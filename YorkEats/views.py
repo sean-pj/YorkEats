@@ -1,0 +1,49 @@
+from django.shortcuts import render
+from YorkEats.models import *
+from django.http import HttpResponse
+from datetime import datetime
+
+# Create your views here.
+
+def index(request):
+    opening_days = Place.objects.first().opening_days
+
+    for day in opening_days:
+        opening_days.get(day).replace(" ", "").split("-")
+
+    for place in Place.objects.all():
+        open_period = []
+        #Many replacements because the dining dir doesnt make their entries consistent please help me
+        #https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
+        #https://www.datacamp.com/tutorial/converting-strings-datetime-objects
+        for time in place.opening_days.get(datetime.now().strftime('%A')).replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").split("-"):
+            if time == "AllDay":
+                place.is_open = True
+                place.save()
+            elif time == "Closed":
+                place.is_open = False
+                place.save()
+            else:
+                try:
+                    date_format1 = '%I:%M%p'
+                    open_period.append(datetime.strptime(time, date_format1).time())
+                except ValueError:
+                    date_format1 = '%I%p'
+                    open_period.append(datetime.strptime(time, date_format1).time())
+        
+        #I promise i'll get rid of the repeated code I swear leave me alone
+        if len(open_period) == 2:
+            if open_period[0] <= datetime.now().time() <= open_period[1]:
+                place.is_open = True
+                place.save()
+            else:
+                place.is_open = False
+                place.save()
+        elif len(open_period) > 2:
+            if open_period[0] <= datetime.now().time() <= open_period[1] or open_period[2] <= datetime.now().time() <= open_period[3] :
+                place.is_open = True
+                place.save()
+            else:
+                place.is_open = False
+                place.save()
+    return render(request, "yorkeats/index.html")

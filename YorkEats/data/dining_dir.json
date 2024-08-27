@@ -1,0 +1,1462 @@
+{
+    "416 Burger Co.": {
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "416 Burger Co. Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8:00 a.m. - 8:00 p.m.",
+            "Tuesday": "8:00 a.m. - 8:00 p.m.",
+            "Wednesday": "8:00 a.m. - 8:00 p.m.",
+            "Thursday": "8:00 a.m. - 8:00 p.m.",
+            "Friday": "8:00 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Al Dente": {
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pasta-Pop-Up-.pdf",
+        "menu_offering": "Italian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Al Dente Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pasta-Pop-Up-.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "10:00 a.m. - 8:00 p.m.",
+            "Tuesday": "10:00 a.m. - 8:00 p.m.",
+            "Wednesday": "10:00 a.m. - 8:00 p.m.",
+            "Thursday": "10:00 a.m. - 8:00 p.m.",
+            "Friday": "10:00 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Amaya Express": {
+        "location": "The Quad",
+        "location_link": "https://www.amayaexpress.com/menus/",
+        "menu_offering": "Indian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "12 pm - 9:45 pm",
+            "Monday": "12 pm - 9:45 pm",
+            "Tuesday": "12 pm - 9:45 pm",
+            "Wednesday": "12 pm - 9:45 pm",
+            "Thursday": "12 pm - 9:45 pm",
+            "Friday": "12 pm - 9:45 pm",
+            "Saturday": "12 pm - 9:45 pm"
+        }
+    },
+    "Aroma Espresso Bar": {
+        "location": "The Quad",
+        "location_link": "https://www.aromacafe.ca/",
+        "menu_offering": "Mediterranean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "7:30 am - 10 pm",
+            "Monday": "7:30 am - 10 pm",
+            "Tuesday": "7:30 am - 10 pm",
+            "Wednesday": "7:30 am - 10 pm",
+            "Thursday": "7:30 am - 10 pm",
+            "Friday": "7:30 am - 10 pm",
+            "Saturday": "7:30 am - 10 pm"
+        }
+    },
+    "Basil Box": {
+        "location": "The Quad",
+        "location_link": "https://thebasilbox.com/",
+        "menu_offering": "Thai",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "12pm - 7 pm",
+            "Monday": "11 am - 8 pm",
+            "Tuesday": "11 am - 8 pm",
+            "Wednesday": "11 am - 8 pm",
+            "Thursday": "11 am - 8 pm",
+            "Friday": "11 am - 8 pm",
+            "Saturday": "12pm - 7 pm"
+        }
+    },
+    "Booster Juice": {
+        "location": "The Quad",
+        "location_link": "https://www.boosterjuice.com/menu/smoothies/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10 am - 6 pm",
+            "Monday": "7 am - 9 pm",
+            "Tuesday": "7 am - 9 pm",
+            "Wednesday": "7 am - 9 pm",
+            "Thursday": "7 am - 9 pm",
+            "Friday": "7 am - 9 pm",
+            "Saturday": "8 am - 9 pm"
+        }
+    },
+    "Burger King": {
+        "location": "The Quad",
+        "location_link": "https://www.burgerking.ca/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "7 am - 12 am",
+            "Monday": "7 am - 12 am",
+            "Tuesday": "7 am - 12 am",
+            "Wednesday": "7 am - 12 am",
+            "Thursday": "7 am - 12 am",
+            "Friday": "7 am - 12 am",
+            "Saturday": "7 am - 12 am"
+        }
+    },
+    "Chaska Indian Street Food": {
+        "location": "York Lanes Mall",
+        "location_link": "https://chaska.com/menu/",
+        "menu_offering": "Indian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 9 pm",
+            "Monday": "11 am - 9 pm",
+            "Tuesday": "11 am - 9 pm",
+            "Wednesday": "11 am - 9 pm",
+            "Thursday": "11 am - 9 pm",
+            "Friday": "11 am - 9 pm",
+            "Saturday": "11 am - 9 pm"
+        }
+    },
+    "Chef\u2019s Table": {
+        "location": "Stong College (SC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Stong-March.pdf",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Chef\u2019s Table Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Stong-March.pdf"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Monday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Tuesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Wednesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
+        }
+    },
+    "Chipotle Mexican Grill": {
+        "location": "The Quad",
+        "location_link": "https://www.chipotle.ca/",
+        "menu_offering": "Mexican",
+        "payment_options": "Cash, Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:45 am - 10 pm",
+            "Monday": "10:45 am - 10 pm",
+            "Tuesday": "10:45 am - 10 pm",
+            "Wednesday": "10:45 am - 10 pm",
+            "Thursday": "10:45 am - 10 pm",
+            "Friday": "10:45 am - 10 pm",
+            "Saturday": "10:45 am - 10 pm"
+        }
+    },
+    "Chop\u2019d & Wrap\u2019d": {
+        "location": "Dahdaleh Building (DB)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+)",
+        "menu": {
+            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11 am - 7 pm",
+            "Tuesday": "11 am - 7 pm",
+            "Wednesday": "11 am - 7 pm",
+            "Thursday": "11 am - 7 pm",
+            "Friday": "10 am - 5 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Chungchun Rice Hot Dog": {
+        "location": "The Quad",
+        "location_link": "https://chungchunricedog.ca/menu/",
+        "menu_offering": "Korean",
+        "payment_options": "Cash, Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 11 pm",
+            "Monday": "11 am - 11 pm",
+            "Tuesday": "11 am - 11 pm",
+            "Wednesday": "11 am - 11 pm",
+            "Thursday": "11 am - 11 pm",
+            "Friday": "11 am - 11 pm",
+            "Saturday": "11 am - 11 pm"
+        }
+    },
+    "Country Style (Kosher Deli)": {
+        "location": "Winters College (WC)",
+        "location_link": "#",
+        "menu_offering": "Mediterranean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Kosher (K), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "7:00 a.m. \u2013 7:00 p.m.",
+            "Tuesday": "7:00 a.m. \u2013 7:00 p.m.",
+            "Wednesday": "7:00 a.m. \u2013 7:00 p.m.",
+            "Thursday": "7:00 a.m. \u2013 7:00 p.m.",
+            "Friday": "7:00 a.m. \u2013 7:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Create": {
+        "location": "Osgoode Hall Law School (OSG)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf",
+        "menu_offering": "Italian, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Create Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "7:30 a.m. - 7:00 p.m.",
+            "Tuesday": "7:30 a.m. - 7:00 p.m.",
+            "Wednesday": "7:30 a.m. - 7:00 p.m.",
+            "Thursday": "7:30 a.m. - 7:00 p.m.",
+            "Friday": "7:30 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Create Stir Fry": {
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
+        "menu_offering": "Italian, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Create Stir Fry Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "10:00 a.m. - 8:00 p.m.",
+            "Tuesday": "10:00 a.m. - 8:00 p.m.",
+            "Wednesday": "10:00 a.m. - 8:00 p.m.",
+            "Thursday": "10:00 a.m. - 8:00 p.m.",
+            "Friday": "10:00 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Crepe Delicious": {
+        "location": "The Quad",
+        "location_link": "https://www.crepedelicious.com/our-menu/",
+        "menu_offering": "French",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 11 pm",
+            "Monday": "11 am - 11 pm",
+            "Tuesday": "11 am - 11 pm",
+            "Wednesday": "11 am - 11 pm",
+            "Thursday": "11 am - 11 pm",
+            "Friday": "11 am - 11 pm",
+            "Saturday": "11 am - 11 pm"
+        }
+    },
+    "Cucina Italian Cafe": {
+        "location": "York Lanes Mall",
+        "location_link": "#",
+        "menu_offering": "Italian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "3 pm - 11 pm",
+            "Monday": "8 am - 11 pm",
+            "Tuesday": "8 am - 11 pm",
+            "Wednesday": "8 am - 11 pm",
+            "Thursday": "8 am - 11 pm",
+            "Friday": "8 am - 11 pm",
+            "Saturday": "3 pm - 11 pm"
+        }
+    },
+    "Executive Dining Room": {
+        "location": "Schulich Dining",
+        "location_link": "#",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "7 am - 10 am",
+            "Monday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
+            "Tuesday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
+            "Wednesday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
+            "Thursday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
+            "Friday": "7 am - 2:00 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Fat Bastard Burrito": {
+        "location": "The Quad",
+        "location_link": "https://www.fatbastardburrito.ca/",
+        "menu_offering": "Mexican",
+        "payment_options": "Cash, Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 12 am",
+            "Monday": "11 am - 11 pm",
+            "Tuesday": "11 am - 11 pm",
+            "Wednesday": "11 am - 11 pm",
+            "Thursday": "11 am - 12 pm",
+            "Friday": "11 am - 12 am",
+            "Saturday": "11 am - 12 am"
+        }
+    },
+    "Galito\u2019s Flamed Grilled Chicken": {
+        "location": "The Quad",
+        "location_link": "https://galitoschicken.com/menu",
+        "menu_offering": "South African",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V)",
+        "opening_days": {
+            "Sunday": "11 am - 11 pm",
+            "Monday": "11 am - 11 pm",
+            "Tuesday": "11 am - 11 pm",
+            "Wednesday": "11 am - 11 pm",
+            "Thursday": "11 am - 11 pm11 am - 11 pm",
+            "Friday": "11 am - 11 pm",
+            "Saturday": "11 am - 11 pm"
+        }
+    },
+    "Gateway": {
+        "location": "First Student Centre",
+        "location_link": "#",
+        "menu_offering": "No genre of cuisine provided",
+        "payment_options": "No payment options provided",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "9 am - 9 pm",
+            "Tuesday": "9 am - 9 pm",
+            "Wednesday": "9 am - 9 pm",
+            "Thursday": "9 am - 9 pm",
+            "Friday": "9 am - 9 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Gino\u2019s Pizza": {
+        "location": "First Student Centre",
+        "location_link": "https://ginospizza.ca/",
+        "menu_offering": "Italian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "11 am - 9:30 pm",
+            "Monday": "10 am - 9:30 pm",
+            "Tuesday": "10 am - 9:30 pm",
+            "Wednesday": "10 am - 9:30 pm",
+            "Thursday": "10 am - 9:30 pm",
+            "Friday": "10 am - 9:30 pm",
+            "Saturday": "11 am - 9:30 pm"
+        }
+    },
+    "Gong cha": {
+        "location": "The Quad",
+        "location_link": "https://gong-cha.ca/",
+        "menu_offering": "Thai",
+        "payment_options": "Cash, Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V)",
+        "opening_days": {
+            "Sunday": "12 pm - 8 pm",
+            "Monday": "11 am -11 pm",
+            "Tuesday": "11 am -11 pm",
+            "Wednesday": "11 am -11 pm",
+            "Thursday": "11 am -11 pm",
+            "Friday": "11 am -11 pm",
+            "Saturday": "12 pm - 8 pm"
+        }
+    },
+    "Grill House": {
+        "location": "Winters College (WC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Grill House Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "8:00 a.m. - 10:00 p.m.",
+            "Monday": "7:30 a.m. - 11:00 p.m.",
+            "Tuesday": "7:30 a.m. - 11:00 p.m.",
+            "Wednesday": "7:30 a.m. - 11:00 p.m.",
+            "Thursday": "7:30 a.m. - 11:00 p.m.",
+            "Friday": "8:00 a.m. - 10:00 p.m.",
+            "Saturday": "8:00 a.m. - 10:00 p.m."
+        }
+    },
+    "Hero Certified Burgers": {
+        "location": "York Lanes Mall",
+        "location_link": "https://heroburgers.com/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 9 pm",
+            "Monday": "11 am - 9 pm",
+            "Tuesday": "11 am - 9 pm",
+            "Wednesday": "11 am - 9 pm",
+            "Thursday": "11 am - 9 pm",
+            "Friday": "11 am - 9 pm",
+            "Saturday": "11 am - 9 pm"
+        }
+    },
+    "Insomnia Cookies": {
+        "location": "The Quad",
+        "location_link": "https://insomniacookies.com/",
+        "menu_offering": "Dessert, North American",
+        "payment_options": "Cash, Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V)",
+        "opening_days": {
+            "Sunday": "12 pm - 3 am",
+            "Monday": "11 am - 1 am",
+            "Tuesday": "11 am - 1 am",
+            "Wednesday": "11 am - 1 am",
+            "Thursday": "12 pm - 3 am",
+            "Friday": "12 pm - 3 am",
+            "Saturday": "12 pm - 3 am"
+        }
+    },
+    "Jimmy The Greek": {
+        "location": "First Student Centre",
+        "location_link": "https://www.jimmythegreek.com/menu/",
+        "menu_offering": "Greek",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "9 am - 9 pm",
+            "Tuesday": "9 am - 9 pm",
+            "Wednesday": "9 am - 9 pm",
+            "Thursday": "9 am - 9 pm",
+            "Friday": "9 am - 9 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "K-Bowl & K-Roll": {
+        "location": "",
+        "location_link": "#",
+        "menu_offering": "No genre of cuisine provided",
+        "payment_options": "No payment options provided",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11:00 a.m. - 7:00 p.m.",
+            "Tuesday": "11:00 a.m. - 7:00 p.m.",
+            "Wednesday": "11:00 a.m. - 7:00 p.m.",
+            "Thursday": "11:00 a.m. - 7:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "KitchenMate": {
+        "location": "School of Continuing Studies (SCS)",
+        "location_link": "https://www.kitchenmate.com/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Kosher (K), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "All Day",
+            "Monday": "All Day",
+            "Tuesday": "All Day",
+            "Wednesday": "All Day",
+            "Thursday": "All Day",
+            "Friday": "All Day",
+            "Saturday": "All Day"
+        }
+    },
+    "La Prep": {
+        "location": "York Lanes Mall",
+        "location_link": "https://laprep.com/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "7:30 am - 9 pm",
+            "Tuesday": "7:30 am - 9 pm",
+            "Wednesday": "7:30 am - 9 pm",
+            "Thursday": "7:30 am - 9 pm",
+            "Friday": "11 am - 6 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Mac\u2019s Sushi": {
+        "location": "First Student Centre",
+        "location_link": "https://macssushi.com/",
+        "menu_offering": "Japanese",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "9 am - 7 pm",
+            "Tuesday": "9 am - 7 pm",
+            "Wednesday": "9 am - 7 pm",
+            "Thursday": "9 am - 7 pm",
+            "Friday": "9 am - 7 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Mandarin 2 Go": {
+        "location": "The Quad",
+        "location_link": "http://m2gobymandarin.com/menu/",
+        "menu_offering": "Chinese",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V)",
+        "opening_days": {
+            "Sunday": "11:30 am - 9 pm",
+            "Monday": "11 am - 9 pm",
+            "Tuesday": "11 am - 9 pm",
+            "Wednesday": "11 am - 9 pm",
+            "Thursday": "11 am - 9 pm",
+            "Friday": "11 am - 9 pm",
+            "Saturday": "11:30 am - 9 pm"
+        }
+    },
+    "March\u00e9 \u2013 BokChoy": {
+        "location": "Glendon Campus",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Bok-Choy-Menu.pdf",
+        "menu_offering": "Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "March\u00e9 \u2013 BokChoy Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Bok-Choy-Menu.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:00 a.m. - 8:00 p.m.",
+            "Monday": "10:00 a.m. - 9:00 p.m.",
+            "Tuesday": "10:00 a.m. - 9:00 p.m.",
+            "Wednesday": "10:00 a.m. - 9:00 p.m.",
+            "Thursday": "10:00 a.m. - 9:00 p.m.",
+            "Friday": "10:00 a.m. - 8:00 p.m.",
+            "Saturday": "10:00 a.m. - 8:00 p.m."
+        }
+    },
+    "March\u00e9 \u2013 Chef\u2019s Table": {
+        "location": "Glendon Campus",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Glendon-March.pdf",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "March\u00e9 \u2013 Chef\u2019s Table Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Glendon-March.pdf"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Monday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Tuesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Wednesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
+        }
+    },
+    "March\u00e9 \u2013 Grill House": {
+        "location": "Glendon Campus",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "March\u00e9 \u2013 Grill House Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "8:00 a.m. - 10:00 p.m.",
+            "Monday": "7:30 a.m. - 11:00 p.m.",
+            "Tuesday": "7:30 a.m. - 11:00 p.m.",
+            "Wednesday": "7:30 a.m. - 11:00 p.m.",
+            "Thursday": "7:30 a.m. - 11:00 p.m.",
+            "Friday": "8:00 a.m. - 10:00 p.m.",
+            "Saturday": "8:00 a.m. - 10:00 p.m."
+        }
+    },
+    "March\u00e9 \u2013 Pizza Pizza": {
+        "location": "Glendon Campus",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "March\u00e9 \u2013 Pizza Pizza Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:00 a.m. - 9:00 p.m.",
+            "Monday": "10:00 a.m. - 10:00 p.m.",
+            "Tuesday": "10:00 a.m. - 10:00 p.m.",
+            "Wednesday": "10:00 a.m. - 10:00 p.m.",
+            "Thursday": "10:00 a.m. - 10:00 p.m.",
+            "Friday": "10:00 a.m. - 9:00 p.m.",
+            "Saturday": "10:00 a.m. - 9:00 p.m."
+        }
+    },
+    "March\u00e9 \u2013 Pop Up Kitchen": {
+        "location": "Glendon Campus",
+        "location_link": "#",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:00 a.m. - 8:00 p.m.",
+            "Monday": "11:00 a.m. - 8:00 p.m.",
+            "Tuesday": "11:00 a.m. - 8:00 p.m.",
+            "Wednesday": "11:00 a.m. - 8:00 p.m.",
+            "Thursday": "11:00 a.m. - 8:00 p.m.",
+            "Friday": "11:00 a.m. - 8:00 p.m.",
+            "Saturday": "11:00 a.m. - 8:00 p.m."
+        }
+    },
+    "March\u00e9 \u2013 Stacks": {
+        "location": "Glendon Campus",
+        "location_link": "#",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:00 a.m. - 7:00 p.m.",
+            "Monday": "11:00 a.m. - 7:00 p.m.",
+            "Tuesday": "11:00 a.m. - 7:00 p.m.",
+            "Wednesday": "11:00 a.m. - 7:00 p.m.",
+            "Thursday": "11:00 a.m. - 7:00 p.m.",
+            "Friday": "11:00 a.m. - 7:00 p.m.",
+            "Saturday": "11:00 a.m. - 7:00 p.m."
+        }
+    },
+    "Market (Certified Gluten Free Facility)": {
+        "location": "Bergeron Centre (BRG)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/bergeron-market.pdf",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Market (Certified Gluten Free Facility) Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/bergeron-market.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8:00 a.m. - 5:00 p.m.",
+            "Tuesday": "8:00 a.m. - 5:00 p.m.",
+            "Wednesday": "8:00 a.m. - 5:00 p.m.",
+            "Thursday": "8:00 a.m. - 5:00 p.m.",
+            "Friday": "8:00 a.m. - 4:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Meltwich Food Co.": {
+        "location": "The Quad",
+        "location_link": "https://meltwich.com/menu/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "12 pm - 2 am",
+            "Monday": "11 am - 2 am",
+            "Tuesday": "11 am - 2 am",
+            "Wednesday": "11 am - 2 am",
+            "Thursday": "11 am - 2 am",
+            "Friday": "11 am - 2 am",
+            "Saturday": "12 pm - 2 am"
+        }
+    },
+    "Omni Noodle": {
+        "location": "The Quad",
+        "location_link": "https://omninoodle.ca/",
+        "menu_offering": "Chinese",
+        "payment_options": "Cash, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 10 pm",
+            "Monday": "11 am - 10 pm",
+            "Tuesday": "11 am - 10 pm",
+            "Wednesday": "11 am - 10 pm",
+            "Thursday": "11 am - 10 pm",
+            "Friday": "11 am - 10 pm",
+            "Saturday": "11 am - 10 pm"
+        }
+    },
+    "Osmow\u2019s Shawarma": {
+        "location": "The Quad",
+        "location_link": "https://osmows.com/shawarma-north-york-quad-york-university/",
+        "menu_offering": "Middle Eastern",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10 am - 5 am",
+            "Monday": "10 am - 5 am",
+            "Tuesday": "10 am - 5 am",
+            "Wednesday": "10 am - 5 am",
+            "Thursday": "10 am - 5 am",
+            "Friday": "10 am - 5 am",
+            "Saturday": "10 am - 5 am"
+        }
+    },
+    "Pagoda Tree": {
+        "location": "First Student Centre",
+        "location_link": "#",
+        "menu_offering": "Korean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "10:30 am - 9 pm",
+            "Tuesday": "10:30 am - 9 pm",
+            "Wednesday": "10:30 am - 9 pm",
+            "Thursday": "10:30 am - 9 pm",
+            "Friday": "10:30 am - 9 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Palgong Tea": {
+        "location": "Lassonde Building (LAS)",
+        "location_link": "https://palgongtea.ca/",
+        "menu_offering": "Korean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Palgong Tea Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Palgong.pdf"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8 am - 7 pm",
+            "Tuesday": "8 am - 7 pm",
+            "Wednesday": "8 am - 7 pm",
+            "Thursday": "8 am - 7 pm",
+            "Friday": "8 am - 4 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Pita Land": {
+        "location": "York Lanes Mall",
+        "location_link": "https://pitaland.ca/",
+        "menu_offering": "Middle Eastern",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "9:00 am - 12 am",
+            "Monday": "7:30 am - 2 am",
+            "Tuesday": "7:30 am - 2 am",
+            "Wednesday": "7:30 am - 2 am",
+            "Thursday": "7:30 am - 2 am",
+            "Friday": "7:30 am - 2 am",
+            "Saturday": "9:00 am - 2 am"
+        }
+    },
+    "Pizza Pizza": {
+        "location": "Stong College (SC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Pizza Pizza Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:00 a.m. - 9:00 p.m.",
+            "Monday": "10:00 a.m. - 10:00 p.m.",
+            "Tuesday": "10:00 a.m. - 10:00 p.m.",
+            "Wednesday": "10:00 a.m. - 10:00 p.m.",
+            "Thursday": "10:00 a.m. - 10:00 p.m.",
+            "Friday": "10:00 a.m. - 9:00 p.m.",
+            "Saturday": "10:00 a.m. - 9:00 p.m."
+        }
+    },
+    "Pizza Studio": {
+        "location": "The Quad",
+        "location_link": "http://pizzastudiocanada.com/home.html#menu",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:30 am - 3 am",
+            "Monday": "11: 30 am - 12 am",
+            "Tuesday": "11: 30 am - 12 am",
+            "Wednesday": "11: 30 am - 12 am",
+            "Thursday": "11: 30 am - 2 am",
+            "Friday": "11:30 am - 3 am",
+            "Saturday": "11:30 am - 3 am"
+        }
+    },
+    "Popeyes": {
+        "location": "York Lanes Mall",
+        "location_link": "https://popeyeschicken.ca/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H)",
+        "opening_days": {
+            "Sunday": "11:00 am - 10 pm",
+            "Monday": "10 am - 11 pm",
+            "Tuesday": "10 am - 11 pm",
+            "Wednesday": "10 am - 11 pm",
+            "Thursday": "10 am - 11 pm",
+            "Friday": "10 am - 11 pm",
+            "Saturday": "11:00 am - 10 pm"
+        }
+    },
+    "Qoola FRESH": {
+        "location": "York Lanes Mall",
+        "location_link": "https://www.instagram.com/qoola_yorklanes/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:30 am - 8:00 pm",
+            "Monday": "8:00 am - 9:00 pm",
+            "Tuesday": "8:00 am - 9:00 pm",
+            "Wednesday": "8:00 am - 9:00 pm",
+            "Thursday": "8:00 am - 9:00 pm",
+            "Friday": "8:00 am - 9:00 pm",
+            "Saturday": "10:30 am - 8:00 pm"
+        }
+    },
+    "Rasoi": {
+        "location": "Central Square (CSQ)",
+        "location_link": "#",
+        "menu_offering": "Indian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11:00 a.m. - 7:00 p.m.",
+            "Tuesday": "11:00 a.m. - 7:00 p.m.",
+            "Wednesday": "11:00 a.m. - 7:00 p.m.",
+            "Thursday": "11:00 a.m. - 7:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Revolution Noodles": {
+        "location": "Dahdaleh Building (DB)",
+        "location_link": "#",
+        "menu_offering": "North American, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "10 am - 8 pm",
+            "Tuesday": "10 am - 8 pm",
+            "Wednesday": "10 am - 8 pm",
+            "Thursday": "10 am - 8 pm",
+            "Friday": "10 am - 5 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Sakura": {
+        "location": "York Lanes Mall",
+        "location_link": "#",
+        "menu_offering": "Japanese, Korean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 9 pm",
+            "Monday": "10:30 am - 11pm",
+            "Tuesday": "10:30 am - 11pm",
+            "Wednesday": "10:30 am - 11pm",
+            "Thursday": "10:30 am - 11pm",
+            "Friday": "10:30 am - 11pm",
+            "Saturday": "10:30 am - 10 pm"
+        }
+    },
+    "Salus Fresh Food": {
+        "location": "The Quad",
+        "location_link": "https://salusfreshfoods.com/our-menu/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "12 pm - 7 pm",
+            "Monday": "11 am - 8 pm",
+            "Tuesday": "11 am - 8 pm",
+            "Wednesday": "11 am - 8 pm",
+            "Thursday": "11 am - 8 pm",
+            "Friday": "11 am - 8 pm",
+            "Saturday": "12 pm - 7 pm"
+        }
+    },
+    "Schulich Market Caf\u00e9": {
+        "location": "Schulich Dining",
+        "location_link": "#",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "7 am - 9 pm",
+            "Tuesday": "7 am - 9 pm",
+            "Wednesday": "7 am - 9 pm",
+            "Thursday": "7 am - 9 pm",
+            "Friday": "7 am - 3 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Smoke\u2019s Poutinerie": {
+        "location": "Dahdaleh Building (DB)",
+        "location_link": "https://smokespoutinerie.com/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Smoke\u2019s Poutinerie Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Smokes.jpg"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8 am - 8 pm",
+            "Tuesday": "8 am - 8 pm",
+            "Wednesday": "8 am - 8 pm",
+            "Thursday": "8 am - 8 pm",
+            "Friday": "8 am - 5 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Starbucks": {
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.starbucks.ca/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "8 am - 10 pm",
+            "Monday": "7 am - 11 pm",
+            "Tuesday": "7 am - 11 pm",
+            "Wednesday": "7 am - 11 pm",
+            "Thursday": "7 am - 11 pm",
+            "Friday": "7 am - 11 pm",
+            "Saturday": "8 am - 10 pm"
+        }
+    },
+    "Subway": {
+        "location": "The Quad",
+        "location_link": "https://www.subway.com/en-ca/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10 am - 10 pm",
+            "Monday": "8 am - 12 am",
+            "Tuesday": "8 am - 12 am",
+            "Wednesday": "8 am - 12 am",
+            "Thursday": "8 am - 12 am",
+            "Friday": "8 am - 12 am",
+            "Saturday": "9 am - 1 am"
+        }
+    },
+    "Sushi Shop": {
+        "location": "York Lanes Mall",
+        "location_link": "https://sushishop.com/",
+        "menu_offering": "Japanese",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:30 am - 9 pm",
+            "Monday": "11 am - 10:30 pm",
+            "Tuesday": "11 am - 10:30 pm",
+            "Wednesday": "11 am - 10:30 pm",
+            "Thursday": "11 am - 10:30 pm",
+            "Friday": "11 am - 10:30 pm",
+            "Saturday": "11:30 am - 9 pm"
+        }
+    },
+    "Sushi-Q": {
+        "location": "The Quad",
+        "location_link": "https://www.sushiq.com/menu",
+        "menu_offering": "Japanese, Korean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:30 am - 9 pm",
+            "Monday": "10:30 am - 9 pm",
+            "Tuesday": "10:30 am - 9 pm",
+            "Wednesday": "10:30 am - 9 pm",
+            "Thursday": "10:30 am - 9 pm",
+            "Friday": "10:30 am - 9 pm",
+            "Saturday": "10:30 am - 9 pm"
+        }
+    },
+    "Thai Express": {
+        "location": "York Lanes Mall",
+        "location_link": "https://thaiexpress.ca/",
+        "menu_offering": "Thai",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:00 am - 10 pm",
+            "Monday": "10 am - 11 pm",
+            "Tuesday": "10 am - 11 pm",
+            "Wednesday": "10 am - 11 pm",
+            "Thursday": "10 am - 11 pm",
+            "Friday": "10 am - 11 pm",
+            "Saturday": "11:00 am - 10 pm"
+        }
+    },
+    "The Break Caf\u00e9": {
+        "location": "Second Student Centre",
+        "location_link": "https://mybreakroom.ca/break-cafe",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8 am - 8 pm",
+            "Tuesday": "8 am - 8 pm",
+            "Wednesday": "8 am - 8 pm",
+            "Thursday": "8 am - 8 pm",
+            "Friday": "8 am - 8 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "The Break Room": {
+        "location": "First Student Centre",
+        "location_link": "https://mybreakroom.ca/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "10 am - 11 pm",
+            "Tuesday": "10 am - 11 pm",
+            "Wednesday": "10 am - 11 pm",
+            "Thursday": "10 am - 11 pm",
+            "Friday": "10 am - 12 am",
+            "Saturday": "Closed"
+        }
+    },
+    "The Campus Bubble Tea": {
+        "location": "York Lanes Mall",
+        "location_link": "https://www.instagram.com/campusbubbletea/?hl=en",
+        "menu_offering": "Chinese",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "1 pm - 8:30 pm",
+            "Monday": "10:30 am - 10:30 pm",
+            "Tuesday": "10:30 am - 10:30 pm",
+            "Wednesday": "10:30 am - 10:30 pm",
+            "Thursday": "10:30 am - 10:30 pm",
+            "Friday": "10:30 am - 10:30 pm",
+            "Saturday": "1 pm - 8:30 pm"
+        }
+    },
+    "The Great Canadian Bagel": {
+        "location": "York Lanes Mall",
+        "location_link": "https://greatcanadianbagel.com/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10 am - 3 pm",
+            "Monday": "8 am - 7 pm",
+            "Tuesday": "8 am - 7 pm",
+            "Wednesday": "8 am - 7 pm",
+            "Thursday": "8 am - 7 pm",
+            "Friday": "8 am - 7 pm",
+            "Saturday": "10 am - 3 pm"
+        }
+    },
+    "The Islands Caribbean Cookshop": {
+        "location": "First Student Centre",
+        "location_link": "https://www.theislandscaribbean.com/pages/menu",
+        "menu_offering": "Caribbean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "12 pm - 8 pm",
+            "Monday": "11 am to 9 pm",
+            "Tuesday": "11 am to 9 pm",
+            "Wednesday": "11 am to 9 pm",
+            "Thursday": "11 am to 9 pm",
+            "Friday": "11 am to 9 pm",
+            "Saturday": "12 pm - 8 pm"
+        }
+    },
+    "The Orange Snail": {
+        "location": "Stong College (SC)",
+        "location_link": "#",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11:30 am - 9:30 pm",
+            "Tuesday": "11:30 am - 9:30 pm",
+            "Wednesday": "11:30 am - 9:30 pm",
+            "Thursday": "11:30 am - 9:30 pm",
+            "Friday": "11:30 am - 9:30 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "Tim Hortons": {
+        "location": "Dahdaleh Building (DB)",
+        "location_link": "#",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "9 am - 4 pm",
+            "Monday": "7 am - 10 pm",
+            "Tuesday": "7 am - 10 pm",
+            "Wednesday": "7 am - 10 pm",
+            "Thursday": "7 am - 10 pm",
+            "Friday": "7 am - 6 pm",
+            "Saturday": "9 am - 4 pm"
+        }
+    },
+    "Timbers Lodge": {
+        "location": "York Lanes Mall",
+        "location_link": "https://www.timberslodge.ca/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11 am - 2 am",
+            "Monday": "11 am - 2 am",
+            "Tuesday": "11 am - 2 am",
+            "Wednesday": "11 am - 2 am",
+            "Thursday": "11 am - 2 am",
+            "Friday": "11 am - 2 am",
+            "Saturday": "11 am - 2 am"
+        }
+    },
+    "Treats": {
+        "location": "First Student Centre",
+        "location_link": "#",
+        "menu_offering": "No genre of cuisine provided",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "10 am - 5 pm",
+            "Monday": "7 am - 10 pm",
+            "Tuesday": "7 am - 10 pm",
+            "Wednesday": "7 am - 10 pm",
+            "Thursday": "7 am - 10 pm",
+            "Friday": "7 am - 10 pm",
+            "Saturday": "10 am - 5 pm"
+        }
+    },
+    "Tuchner\u2019s Pub": {
+        "location": "Schulich Dining",
+        "location_link": "#",
+        "menu_offering": "No genre of cuisine provided",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+)",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "Closed"
+        }
+    },
+    "Wendy\u2019s": {
+        "location": "First Student Centre",
+        "location_link": "https://www.wendys.com/en-ca",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No dietary options provided",
+        "opening_days": {
+            "Sunday": "7 am - 12 am",
+            "Monday": "7 am - 12 am",
+            "Tuesday": "7 am - 12 am",
+            "Wednesday": "7 am - 12 am",
+            "Thursday": "7 am - 12 am",
+            "Friday": "7 am - 12 am",
+            "Saturday": "7 am - 12 am"
+        }
+    },
+    "World Kitchen": {
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/World-Kitchen-CSQ.pdf",
+        "menu_offering": "Global Cuisines, Indian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "World Kitchen Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/World-Kitchen-CSQ.pdf"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11:00 a.m. - 7:00 p.m.",
+            "Tuesday": "11:00 a.m. - 7:00 p.m.",
+            "Wednesday": "11:00 a.m. - 7:00 p.m.",
+            "Thursday": "11:00 a.m. - 7:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "Yogen Fruz": {
+        "location": "First Student Centre",
+        "location_link": "https://yogenfruz.com/",
+        "menu_offering": "Dessert",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "10 am - 6 pm",
+            "Tuesday": "10 am - 6 pm",
+            "Wednesday": "10 am - 6 pm",
+            "Thursday": "10 am - 6 pm",
+            "Friday": "10 am - 6 pm",
+            "Saturday": "Closed"
+        }
+    }
+}
