@@ -40,17 +40,7 @@ def index(request):
                 place.is_open = True
                 place.save()
 
-        # if len(open_period) == 2:
-        #     if open_period[0] <= datetime.now().time() <= open_period[1]:
-        #         place.is_open = True
-        #         place.save()
-        # elif len(open_period) > 2:
-        #     if open_period[0] <= datetime.now().time() <= open_period[1] or open_period[2] <= datetime.now().time() <= open_period[3] :
-        #         place.is_open = True
-        #         place.save()
-        # else:
-        #     place.is_open = False
-        #     place.save()
     return render(request, "yorkeats/index.html", {
-        "Places" : Place.objects.all().filter(is_open=True)
+        "Places" : Place.objects.all().filter(is_open=True),
+        "day_of_week" : datetime.now().strftime('%A')
     })
