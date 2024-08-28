@@ -2,7 +2,9 @@
 
 {% block body %}
     <h4>Currently Open</h4>
+
     <div id="table" class="row row-cols-lg-3 justify-content-center">
+        {% for Place in Places %}
         <div class="card mb-3 col" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
@@ -10,12 +12,31 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">{{Place.name}}</h5>
+                  <p class="card-text">{{Place.location}}</p>
+                  <p class="card-text">{{Place.menu_offering}}</p>
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+                </div> 
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <button class="btn" style="padding: 0px;" data-bs-toggle="collapse" data-bs-target="#thing">Menu</button>
+
+                    <div class="collapse collapse-horizontal" id="thing">
+                      <div class="card card-body" style="width: 300px;">
+                        {% for key, value in Place.opening_days.items %}
+                        {{key}} - {{value}}
+                        <br>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  
+                  </li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul> 
+              </div>          
             </div>
         </div>
+        {% endfor %}
     </div>
 {% endblock %}

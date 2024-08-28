@@ -1,5 +1,48 @@
 {
-    "416 Burger Co.": {
+    "0": {
+        "location_name": "416 Burger Co.",
+        "location": "Dahdaleh Building (DB)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "416 Burger Co. Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8 am - 8 pm",
+            "Tuesday": "8 am - 8 pm",
+            "Wednesday": "8 am - 8 pm",
+            "Thursday": "8 am - 8 pm",
+            "Friday": "8 am - 5 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "1": {
+        "location_name": "416 Burger Co.",
+        "location": "Osgoode Hall Law School (OSG)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "416 Burger Co. Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "7:30 a.m. - 7:00 p.m.",
+            "Tuesday": "7:30 a.m. - 7:00 p.m.",
+            "Wednesday": "7:30 a.m. - 7:00 p.m.",
+            "Thursday": "7:30 a.m. - 7:00 p.m.",
+            "Friday": "7:30 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "2": {
+        "location_name": "416 Burger Co.",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
         "menu_offering": "North American",
@@ -19,7 +62,8 @@
             "Saturday": "Closed"
         }
     },
-    "Al Dente": {
+    "3": {
+        "location_name": "Al Dente",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pasta-Pop-Up-.pdf",
         "menu_offering": "Italian",
@@ -39,7 +83,8 @@
             "Saturday": "Closed"
         }
     },
-    "Amaya Express": {
+    "4": {
+        "location_name": "Amaya Express",
         "location": "The Quad",
         "location_link": "https://www.amayaexpress.com/menus/",
         "menu_offering": "Indian",
@@ -59,7 +104,29 @@
             "Saturday": "12 pm - 9:45 pm"
         }
     },
-    "Aroma Espresso Bar": {
+    "5": {
+        "location_name": "Aroma Espresso Bar",
+        "location": "York Lanes Mall",
+        "location_link": "https://www.aromacafe.ca/",
+        "menu_offering": "Mediterranean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "8:30 am - 5 pm",
+            "Monday": "7:30 am - 8 pm",
+            "Tuesday": "7:30 am - 8 pm",
+            "Wednesday": "7:30 am - 8 pm",
+            "Thursday": "7:30 am - 8 pm",
+            "Friday": "7:30 am - 8 pm",
+            "Saturday": "8:30 am - 5 pm"
+        }
+    },
+    "6": {
+        "location_name": "Aroma Espresso Bar",
         "location": "The Quad",
         "location_link": "https://www.aromacafe.ca/",
         "menu_offering": "Mediterranean",
@@ -79,7 +146,8 @@
             "Saturday": "7:30 am - 10 pm"
         }
     },
-    "Basil Box": {
+    "7": {
+        "location_name": "Basil Box",
         "location": "The Quad",
         "location_link": "https://thebasilbox.com/",
         "menu_offering": "Thai",
@@ -99,7 +167,29 @@
             "Saturday": "12pm - 7 pm"
         }
     },
-    "Booster Juice": {
+    "8": {
+        "location_name": "Booster Juice",
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Booster.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Booster Juice Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Booster.pdf"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8:30 a.m. - 8:00 p.m.",
+            "Tuesday": "8:30 a.m. - 8:00 p.m.",
+            "Wednesday": "8:30 a.m. - 8:00 p.m.",
+            "Thursday": "8:30 a.m. - 8:00 p.m.",
+            "Friday": "8:30 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "9": {
+        "location_name": "Booster Juice",
         "location": "The Quad",
         "location_link": "https://www.boosterjuice.com/menu/smoothies/",
         "menu_offering": "North American",
@@ -119,7 +209,8 @@
             "Saturday": "8 am - 9 pm"
         }
     },
-    "Burger King": {
+    "10": {
+        "location_name": "Burger King",
         "location": "The Quad",
         "location_link": "https://www.burgerking.ca/",
         "menu_offering": "North American",
@@ -139,7 +230,8 @@
             "Saturday": "7 am - 12 am"
         }
     },
-    "Chaska Indian Street Food": {
+    "11": {
+        "location_name": "Chaska Indian Street Food",
         "location": "York Lanes Mall",
         "location_link": "https://chaska.com/menu/",
         "menu_offering": "Indian",
@@ -159,7 +251,29 @@
             "Saturday": "11 am - 9 pm"
         }
     },
-    "Chef\u2019s Table": {
+    "12": {
+        "location_name": "Chef\u2019s Table",
+        "location": "Winters College (WC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Winters-March.pdf",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Chef\u2019s Table Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Winters-March.pdf"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Monday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Tuesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Wednesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
+            "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
+        }
+    },
+    "13": {
+        "location_name": "Chef\u2019s Table",
         "location": "Stong College (SC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Stong-March.pdf",
         "menu_offering": "Global Cuisines",
@@ -179,7 +293,8 @@
             "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
         }
     },
-    "Chipotle Mexican Grill": {
+    "14": {
+        "location_name": "Chipotle Mexican Grill",
         "location": "The Quad",
         "location_link": "https://www.chipotle.ca/",
         "menu_offering": "Mexican",
@@ -199,7 +314,50 @@
             "Saturday": "10:45 am - 10 pm"
         }
     },
-    "Chop\u2019d & Wrap\u2019d": {
+    "15": {
+        "location_name": "Chop\u2019d & Wrap\u2019d",
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11 am - 7 pm",
+            "Tuesday": "11 am - 7 pm",
+            "Wednesday": "11 am - 7 pm",
+            "Thursday": "11 am - 7 pm",
+            "Friday": "11 am - 3 pm",
+            "Saturday": "Closed"
+        }
+    },
+    "16": {
+        "location_name": "Chop\u2019d & Wrap\u2019d",
+        "location": "Winters College (WC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "Closed"
+        }
+    },
+    "17": {
+        "location_name": "Chop\u2019d & Wrap\u2019d",
         "location": "Dahdaleh Building (DB)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
         "menu_offering": "Global Cuisines",
@@ -219,7 +377,8 @@
             "Saturday": "Closed"
         }
     },
-    "Chungchun Rice Hot Dog": {
+    "18": {
+        "location_name": "Chungchun Rice Hot Dog",
         "location": "The Quad",
         "location_link": "https://chungchunricedog.ca/menu/",
         "menu_offering": "Korean",
@@ -239,7 +398,8 @@
             "Saturday": "11 am - 11 pm"
         }
     },
-    "Country Style (Kosher Deli)": {
+    "19": {
+        "location_name": "Country Style (Kosher Deli)",
         "location": "Winters College (WC)",
         "location_link": "#",
         "menu_offering": "Mediterranean",
@@ -259,7 +419,50 @@
             "Saturday": "Closed"
         }
     },
-    "Create": {
+    "20": {
+        "location_name": "Create",
+        "location": "Winters College (WC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
+        "menu_offering": "Italian, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Create Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "8:00 a.m. - 10:00 p.m.",
+            "Monday": "7:30 a.m. - 11:00 p.m.",
+            "Tuesday": "7:30 a.m. - 11:00 p.m.",
+            "Wednesday": "7:30 a.m. - 11:00 p.m.",
+            "Thursday": "7:30 a.m. - 11:00 p.m.",
+            "Friday": "7:30 a.m. - 10:00 p.m.",
+            "Saturday": "8:00 a.m. - 10:00 p.m."
+        }
+    },
+    "21": {
+        "location_name": "Create",
+        "location": "Stong College (SC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
+        "menu_offering": "Italian, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Create Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:00 a.m. - 8:00 p.m.",
+            "Monday": "10:00 a.m. - 9:00 p.m.",
+            "Tuesday": "10:00 a.m. - 9:00 p.m.",
+            "Wednesday": "10:00 a.m. - 9:00 p.m.",
+            "Thursday": "10:00 a.m. - 9:00 p.m.",
+            "Friday": "10:00 a.m. - 8:00 p.m.",
+            "Saturday": "10:00 a.m. - 8:00 p.m."
+        }
+    },
+    "22": {
+        "location_name": "Create",
         "location": "Osgoode Hall Law School (OSG)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf",
         "menu_offering": "Italian, Southeast Asian",
@@ -279,7 +482,8 @@
             "Saturday": "Closed"
         }
     },
-    "Create Stir Fry": {
+    "23": {
+        "location_name": "Create Stir Fry",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
         "menu_offering": "Italian, Southeast Asian",
@@ -299,7 +503,8 @@
             "Saturday": "Closed"
         }
     },
-    "Crepe Delicious": {
+    "24": {
+        "location_name": "Crepe Delicious",
         "location": "The Quad",
         "location_link": "https://www.crepedelicious.com/our-menu/",
         "menu_offering": "French",
@@ -319,7 +524,8 @@
             "Saturday": "11 am - 11 pm"
         }
     },
-    "Cucina Italian Cafe": {
+    "25": {
+        "location_name": "Cucina Italian Cafe",
         "location": "York Lanes Mall",
         "location_link": "#",
         "menu_offering": "Italian",
@@ -339,7 +545,8 @@
             "Saturday": "3 pm - 11 pm"
         }
     },
-    "Executive Dining Room": {
+    "26": {
+        "location_name": "Executive Dining Room",
         "location": "Schulich Dining",
         "location_link": "#",
         "menu_offering": "Global Cuisines",
@@ -359,7 +566,8 @@
             "Saturday": "Closed"
         }
     },
-    "Fat Bastard Burrito": {
+    "27": {
+        "location_name": "Fat Bastard Burrito",
         "location": "The Quad",
         "location_link": "https://www.fatbastardburrito.ca/",
         "menu_offering": "Mexican",
@@ -379,7 +587,8 @@
             "Saturday": "11 am - 12 am"
         }
     },
-    "Galito\u2019s Flamed Grilled Chicken": {
+    "28": {
+        "location_name": "Galito\u2019s Flamed Grilled Chicken",
         "location": "The Quad",
         "location_link": "https://galitoschicken.com/menu",
         "menu_offering": "South African",
@@ -399,7 +608,8 @@
             "Saturday": "11 am - 11 pm"
         }
     },
-    "Gateway": {
+    "29": {
+        "location_name": "Gateway",
         "location": "First Student Centre",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
@@ -419,7 +629,8 @@
             "Saturday": "Closed"
         }
     },
-    "Gino\u2019s Pizza": {
+    "30": {
+        "location_name": "Gino\u2019s Pizza",
         "location": "First Student Centre",
         "location_link": "https://ginospizza.ca/",
         "menu_offering": "Italian",
@@ -439,7 +650,8 @@
             "Saturday": "11 am - 9:30 pm"
         }
     },
-    "Gong cha": {
+    "31": {
+        "location_name": "Gong cha",
         "location": "The Quad",
         "location_link": "https://gong-cha.ca/",
         "menu_offering": "Thai",
@@ -459,7 +671,29 @@
             "Saturday": "12 pm - 8 pm"
         }
     },
-    "Grill House": {
+    "32": {
+        "location_name": "Grill House",
+        "location": "Stong College (SC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Grill House Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "7:30 a.m. - 10:00 p.m.",
+            "Monday": "7:30 a.m. - 11:00 p.m.",
+            "Tuesday": "7:30 a.m. - 11:00 p.m.",
+            "Wednesday": "7:30 a.m. - 11:00 p.m.",
+            "Thursday": "7:30 a.m. - 11:00 p.m.",
+            "Friday": "7:30 a.m. - 10:00 p.m.",
+            "Saturday": "7:30 a.m. - 10:00 p.m."
+        }
+    },
+    "33": {
+        "location_name": "Grill House",
         "location": "Winters College (WC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
         "menu_offering": "North American",
@@ -479,7 +713,8 @@
             "Saturday": "8:00 a.m. - 10:00 p.m."
         }
     },
-    "Hero Certified Burgers": {
+    "34": {
+        "location_name": "Hero Certified Burgers",
         "location": "York Lanes Mall",
         "location_link": "https://heroburgers.com/",
         "menu_offering": "North American",
@@ -499,7 +734,8 @@
             "Saturday": "11 am - 9 pm"
         }
     },
-    "Insomnia Cookies": {
+    "35": {
+        "location_name": "Insomnia Cookies",
         "location": "The Quad",
         "location_link": "https://insomniacookies.com/",
         "menu_offering": "Dessert, North American",
@@ -519,7 +755,8 @@
             "Saturday": "12 pm - 3 am"
         }
     },
-    "Jimmy The Greek": {
+    "36": {
+        "location_name": "Jimmy The Greek",
         "location": "First Student Centre",
         "location_link": "https://www.jimmythegreek.com/menu/",
         "menu_offering": "Greek",
@@ -539,7 +776,8 @@
             "Saturday": "Closed"
         }
     },
-    "K-Bowl & K-Roll": {
+    "37": {
+        "location_name": "K-Bowl & K-Roll",
         "location": "",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
@@ -559,7 +797,29 @@
             "Saturday": "Closed"
         }
     },
-    "KitchenMate": {
+    "38": {
+        "location_name": "KitchenMate",
+        "location": "Glendon Campus",
+        "location_link": "https://www.kitchenmate.com/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Credit Card, Debit Card",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Kosher (K), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "All Day",
+            "Monday": "All Day",
+            "Tuesday": "All Day",
+            "Wednesday": "All Day",
+            "Thursday": "All Day",
+            "Friday": "All Day",
+            "Saturday": "All Day"
+        }
+    },
+    "39": {
+        "location_name": "KitchenMate",
         "location": "School of Continuing Studies (SCS)",
         "location_link": "https://www.kitchenmate.com/",
         "menu_offering": "Global Cuisines",
@@ -579,7 +839,8 @@
             "Saturday": "All Day"
         }
     },
-    "La Prep": {
+    "40": {
+        "location_name": "La Prep",
         "location": "York Lanes Mall",
         "location_link": "https://laprep.com/",
         "menu_offering": "Global Cuisines",
@@ -599,7 +860,8 @@
             "Saturday": "Closed"
         }
     },
-    "Mac\u2019s Sushi": {
+    "41": {
+        "location_name": "Mac\u2019s Sushi",
         "location": "First Student Centre",
         "location_link": "https://macssushi.com/",
         "menu_offering": "Japanese",
@@ -619,7 +881,8 @@
             "Saturday": "Closed"
         }
     },
-    "Mandarin 2 Go": {
+    "42": {
+        "location_name": "Mandarin 2 Go",
         "location": "The Quad",
         "location_link": "http://m2gobymandarin.com/menu/",
         "menu_offering": "Chinese",
@@ -639,7 +902,8 @@
             "Saturday": "11:30 am - 9 pm"
         }
     },
-    "March\u00e9 \u2013 BokChoy": {
+    "43": {
+        "location_name": "March\u00e9 \u2013 BokChoy",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Bok-Choy-Menu.pdf",
         "menu_offering": "Southeast Asian",
@@ -659,7 +923,8 @@
             "Saturday": "10:00 a.m. - 8:00 p.m."
         }
     },
-    "March\u00e9 \u2013 Chef\u2019s Table": {
+    "44": {
+        "location_name": "March\u00e9 \u2013 Chef\u2019s Table",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Glendon-March.pdf",
         "menu_offering": "Global Cuisines",
@@ -679,7 +944,8 @@
             "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
         }
     },
-    "March\u00e9 \u2013 Grill House": {
+    "45": {
+        "location_name": "March\u00e9 \u2013 Grill House",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
         "menu_offering": "North American",
@@ -699,7 +965,8 @@
             "Saturday": "8:00 a.m. - 10:00 p.m."
         }
     },
-    "March\u00e9 \u2013 Pizza Pizza": {
+    "46": {
+        "location_name": "March\u00e9 \u2013 Pizza Pizza",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
         "menu_offering": "North American",
@@ -719,7 +986,8 @@
             "Saturday": "10:00 a.m. - 9:00 p.m."
         }
     },
-    "March\u00e9 \u2013 Pop Up Kitchen": {
+    "47": {
+        "location_name": "March\u00e9 \u2013 Pop Up Kitchen",
         "location": "Glendon Campus",
         "location_link": "#",
         "menu_offering": "Global Cuisines",
@@ -739,7 +1007,8 @@
             "Saturday": "11:00 a.m. - 8:00 p.m."
         }
     },
-    "March\u00e9 \u2013 Stacks": {
+    "48": {
+        "location_name": "March\u00e9 \u2013 Stacks",
         "location": "Glendon Campus",
         "location_link": "#",
         "menu_offering": "North American",
@@ -759,7 +1028,8 @@
             "Saturday": "11:00 a.m. - 7:00 p.m."
         }
     },
-    "Market (Certified Gluten Free Facility)": {
+    "49": {
+        "location_name": "Market (Certified Gluten Free Facility)",
         "location": "Bergeron Centre (BRG)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/bergeron-market.pdf",
         "menu_offering": "Global Cuisines",
@@ -779,7 +1049,8 @@
             "Saturday": "Closed"
         }
     },
-    "Meltwich Food Co.": {
+    "50": {
+        "location_name": "Meltwich Food Co.",
         "location": "The Quad",
         "location_link": "https://meltwich.com/menu/",
         "menu_offering": "North American",
@@ -799,7 +1070,8 @@
             "Saturday": "12 pm - 2 am"
         }
     },
-    "Omni Noodle": {
+    "51": {
+        "location_name": "Omni Noodle",
         "location": "The Quad",
         "location_link": "https://omninoodle.ca/",
         "menu_offering": "Chinese",
@@ -819,7 +1091,8 @@
             "Saturday": "11 am - 10 pm"
         }
     },
-    "Osmow\u2019s Shawarma": {
+    "52": {
+        "location_name": "Osmow\u2019s Shawarma",
         "location": "The Quad",
         "location_link": "https://osmows.com/shawarma-north-york-quad-york-university/",
         "menu_offering": "Middle Eastern",
@@ -839,7 +1112,8 @@
             "Saturday": "10 am - 5 am"
         }
     },
-    "Pagoda Tree": {
+    "53": {
+        "location_name": "Pagoda Tree",
         "location": "First Student Centre",
         "location_link": "#",
         "menu_offering": "Korean",
@@ -859,7 +1133,8 @@
             "Saturday": "Closed"
         }
     },
-    "Palgong Tea": {
+    "54": {
+        "location_name": "Palgong Tea",
         "location": "Lassonde Building (LAS)",
         "location_link": "https://palgongtea.ca/",
         "menu_offering": "Korean",
@@ -879,7 +1154,8 @@
             "Saturday": "Closed"
         }
     },
-    "Pita Land": {
+    "55": {
+        "location_name": "Pita Land",
         "location": "York Lanes Mall",
         "location_link": "https://pitaland.ca/",
         "menu_offering": "Middle Eastern",
@@ -899,7 +1175,50 @@
             "Saturday": "9:00 am - 2 am"
         }
     },
-    "Pizza Pizza": {
+    "56": {
+        "location_name": "Pizza Pizza",
+        "location": "Winters College (WC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Pizza Pizza Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:00 a.m. - 9:00 p.m.",
+            "Monday": "10:00 a.m. - 10:00 p.m.",
+            "Tuesday": "10:00 a.m. - 10:00 p.m.",
+            "Wednesday": "10:00 a.m. - 10:00 p.m.",
+            "Thursday": "10:00 a.m. - 10:00 p.m.",
+            "Friday": "10:00 a.m. - 9:00 p.m.",
+            "Saturday": "10:00 a.m. - 9:00 p.m."
+        }
+    },
+    "57": {
+        "location_name": "Pizza Pizza",
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Pizza Pizza Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu.pdf"
+        },
+        "dietary_options": "Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11:00 a.m. - 7:00 p.m.",
+            "Tuesday": "11:00 a.m. - 7:00 p.m.",
+            "Wednesday": "11:00 a.m. - 7:00 p.m.",
+            "Thursday": "11:00 a.m. - 7:00 p.m.",
+            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "58": {
+        "location_name": "Pizza Pizza",
         "location": "Stong College (SC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
         "menu_offering": "Global Cuisines",
@@ -919,7 +1238,8 @@
             "Saturday": "10:00 a.m. - 9:00 p.m."
         }
     },
-    "Pizza Studio": {
+    "59": {
+        "location_name": "Pizza Studio",
         "location": "The Quad",
         "location_link": "http://pizzastudiocanada.com/home.html#menu",
         "menu_offering": "North American",
@@ -939,7 +1259,8 @@
             "Saturday": "11:30 am - 3 am"
         }
     },
-    "Popeyes": {
+    "60": {
+        "location_name": "Popeyes",
         "location": "York Lanes Mall",
         "location_link": "https://popeyeschicken.ca/",
         "menu_offering": "North American",
@@ -959,7 +1280,8 @@
             "Saturday": "11:00 am - 10 pm"
         }
     },
-    "Qoola FRESH": {
+    "61": {
+        "location_name": "Qoola FRESH",
         "location": "York Lanes Mall",
         "location_link": "https://www.instagram.com/qoola_yorklanes/",
         "menu_offering": "Global Cuisines",
@@ -979,7 +1301,8 @@
             "Saturday": "10:30 am - 8:00 pm"
         }
     },
-    "Rasoi": {
+    "62": {
+        "location_name": "Rasoi",
         "location": "Central Square (CSQ)",
         "location_link": "#",
         "menu_offering": "Indian",
@@ -999,7 +1322,8 @@
             "Saturday": "Closed"
         }
     },
-    "Revolution Noodles": {
+    "63": {
+        "location_name": "Revolution Noodles",
         "location": "Dahdaleh Building (DB)",
         "location_link": "#",
         "menu_offering": "North American, Southeast Asian",
@@ -1019,7 +1343,8 @@
             "Saturday": "Closed"
         }
     },
-    "Sakura": {
+    "64": {
+        "location_name": "Sakura",
         "location": "York Lanes Mall",
         "location_link": "#",
         "menu_offering": "Japanese, Korean",
@@ -1039,7 +1364,8 @@
             "Saturday": "10:30 am - 10 pm"
         }
     },
-    "Salus Fresh Food": {
+    "65": {
+        "location_name": "Salus Fresh Food",
         "location": "The Quad",
         "location_link": "https://salusfreshfoods.com/our-menu/",
         "menu_offering": "Global Cuisines",
@@ -1059,7 +1385,8 @@
             "Saturday": "12 pm - 7 pm"
         }
     },
-    "Schulich Market Caf\u00e9": {
+    "66": {
+        "location_name": "Schulich Market Caf\u00e9",
         "location": "Schulich Dining",
         "location_link": "#",
         "menu_offering": "North American",
@@ -1079,7 +1406,8 @@
             "Saturday": "Closed"
         }
     },
-    "Smoke\u2019s Poutinerie": {
+    "67": {
+        "location_name": "Smoke\u2019s Poutinerie",
         "location": "Dahdaleh Building (DB)",
         "location_link": "https://smokespoutinerie.com/",
         "menu_offering": "North American",
@@ -1099,7 +1427,8 @@
             "Saturday": "Closed"
         }
     },
-    "Starbucks": {
+    "68": {
+        "location_name": "Starbucks",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.starbucks.ca/",
         "menu_offering": "North American",
@@ -1119,7 +1448,29 @@
             "Saturday": "8 am - 10 pm"
         }
     },
-    "Subway": {
+    "69": {
+        "location_name": "Subway",
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.subway.com/en-CA/",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10:30 am - 9 pm",
+            "Monday": "9 am - 9 pm",
+            "Tuesday": "9 am - 9 pm",
+            "Wednesday": "9 am - 9 pm",
+            "Thursday": "9 am - 9 pm",
+            "Friday": "9 am - 9 pm",
+            "Saturday": "10:30 am - 9 pm"
+        }
+    },
+    "70": {
+        "location_name": "Subway",
         "location": "The Quad",
         "location_link": "https://www.subway.com/en-ca/",
         "menu_offering": "North American",
@@ -1139,7 +1490,8 @@
             "Saturday": "9 am - 1 am"
         }
     },
-    "Sushi Shop": {
+    "71": {
+        "location_name": "Sushi Shop",
         "location": "York Lanes Mall",
         "location_link": "https://sushishop.com/",
         "menu_offering": "Japanese",
@@ -1159,7 +1511,8 @@
             "Saturday": "11:30 am - 9 pm"
         }
     },
-    "Sushi-Q": {
+    "72": {
+        "location_name": "Sushi-Q",
         "location": "The Quad",
         "location_link": "https://www.sushiq.com/menu",
         "menu_offering": "Japanese, Korean",
@@ -1179,7 +1532,8 @@
             "Saturday": "10:30 am - 9 pm"
         }
     },
-    "Thai Express": {
+    "73": {
+        "location_name": "Thai Express",
         "location": "York Lanes Mall",
         "location_link": "https://thaiexpress.ca/",
         "menu_offering": "Thai",
@@ -1199,7 +1553,8 @@
             "Saturday": "11:00 am - 10 pm"
         }
     },
-    "The Break Caf\u00e9": {
+    "74": {
+        "location_name": "The Break Caf\u00e9",
         "location": "Second Student Centre",
         "location_link": "https://mybreakroom.ca/break-cafe",
         "menu_offering": "Global Cuisines",
@@ -1219,7 +1574,8 @@
             "Saturday": "Closed"
         }
     },
-    "The Break Room": {
+    "75": {
+        "location_name": "The Break Room",
         "location": "First Student Centre",
         "location_link": "https://mybreakroom.ca/",
         "menu_offering": "Global Cuisines",
@@ -1239,7 +1595,8 @@
             "Saturday": "Closed"
         }
     },
-    "The Campus Bubble Tea": {
+    "76": {
+        "location_name": "The Campus Bubble Tea",
         "location": "York Lanes Mall",
         "location_link": "https://www.instagram.com/campusbubbletea/?hl=en",
         "menu_offering": "Chinese",
@@ -1259,7 +1616,8 @@
             "Saturday": "1 pm - 8:30 pm"
         }
     },
-    "The Great Canadian Bagel": {
+    "77": {
+        "location_name": "The Great Canadian Bagel",
         "location": "York Lanes Mall",
         "location_link": "https://greatcanadianbagel.com/",
         "menu_offering": "North American",
@@ -1279,7 +1637,8 @@
             "Saturday": "10 am - 3 pm"
         }
     },
-    "The Islands Caribbean Cookshop": {
+    "78": {
+        "location_name": "The Islands Caribbean Cookshop",
         "location": "First Student Centre",
         "location_link": "https://www.theislandscaribbean.com/pages/menu",
         "menu_offering": "Caribbean",
@@ -1299,7 +1658,8 @@
             "Saturday": "12 pm - 8 pm"
         }
     },
-    "The Orange Snail": {
+    "79": {
+        "location_name": "The Orange Snail",
         "location": "Stong College (SC)",
         "location_link": "#",
         "menu_offering": "Global Cuisines",
@@ -1319,7 +1679,50 @@
             "Saturday": "Closed"
         }
     },
-    "Tim Hortons": {
+    "80": {
+        "location_name": "Tim Hortons",
+        "location": "William Small Centre (WSC)",
+        "location_link": "#",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "9 am - 7 pm",
+            "Monday": "7 am - 9:30 pm",
+            "Tuesday": "7 am - 9:30 pm",
+            "Wednesday": "7 am - 9:30 pm",
+            "Thursday": "7 am - 9:30 pm",
+            "Friday": "7 am - 7 pm",
+            "Saturday": "9 am - 7 pm"
+        }
+    },
+    "81": {
+        "location_name": "Tim Hortons",
+        "location": "Glendon Campus",
+        "location_link": "#",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No menu provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8:00 a.m. - 6:00 p.m.",
+            "Tuesday": "8:00 a.m. - 6:00 p.m.",
+            "Wednesday": "8:00 a.m. - 6:00 p.m.",
+            "Thursday": "8:00 a.m. - 6:00 p.m.",
+            "Friday": "8:00 a.m. - 5:00 p.m.",
+            "Saturday": "Closed"
+        }
+    },
+    "82": {
+        "location_name": "Tim Hortons",
         "location": "Dahdaleh Building (DB)",
         "location_link": "#",
         "menu_offering": "North American",
@@ -1339,7 +1742,8 @@
             "Saturday": "9 am - 4 pm"
         }
     },
-    "Timbers Lodge": {
+    "83": {
+        "location_name": "Timbers Lodge",
         "location": "York Lanes Mall",
         "location_link": "https://www.timberslodge.ca/",
         "menu_offering": "Global Cuisines",
@@ -1359,7 +1763,8 @@
             "Saturday": "11 am - 2 am"
         }
     },
-    "Treats": {
+    "84": {
+        "location_name": "Treats",
         "location": "First Student Centre",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
@@ -1379,7 +1784,8 @@
             "Saturday": "10 am - 5 pm"
         }
     },
-    "Tuchner\u2019s Pub": {
+    "85": {
+        "location_name": "Tuchner\u2019s Pub",
         "location": "Schulich Dining",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
@@ -1399,7 +1805,8 @@
             "Saturday": "Closed"
         }
     },
-    "Wendy\u2019s": {
+    "86": {
+        "location_name": "Wendy\u2019s",
         "location": "First Student Centre",
         "location_link": "https://www.wendys.com/en-ca",
         "menu_offering": "North American",
@@ -1419,7 +1826,8 @@
             "Saturday": "7 am - 12 am"
         }
     },
-    "World Kitchen": {
+    "87": {
+        "location_name": "World Kitchen",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/World-Kitchen-CSQ.pdf",
         "menu_offering": "Global Cuisines, Indian",
@@ -1439,7 +1847,8 @@
             "Saturday": "Closed"
         }
     },
-    "Yogen Fruz": {
+    "88": {
+        "location_name": "Yogen Fruz",
         "location": "First Student Centre",
         "location_link": "https://yogenfruz.com/",
         "menu_offering": "Dessert",

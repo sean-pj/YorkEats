@@ -9,19 +9,23 @@ class Command(BaseCommand):
     help = 'Updates database with json data'
 
     def handle(self, *args, **kwargs):
+
+        Place.objects.all().delete()
+
         with open("YorkEats/data/dining_dir.json", "r") as json_file:
             data = json.load(json_file)
-        for entry in data:
+        for id in data:
+            entry = data.get(id)
             place = Place(
-                name=entry,
-                location=data.get(entry).get("location"), 
-                location_link=data.get(entry).get("location_link"), 
-                menu_offering=data.get(entry).get("menu_offering"),
-                payment_options=data.get(entry).get("payment_options"),
-                menu_name=data.get(entry).get("menu").get("menu_name"),
-                menu_href=data.get(entry).get("menu").get("menu_href"),
-                dietary_options=data.get(entry).get("dietary_options"),
-                opening_days=data.get(entry).get("opening_days")
+                name=entry.get("location_name"),
+                location=entry.get("location"), 
+                location_link=entry.get("location_link"), 
+                menu_offering=entry.get("menu_offering"),
+                payment_options=entry.get("payment_options"),
+                menu_name=entry.get("menu").get("menu_name"),
+                menu_href=entry.get("menu").get("menu_href"),
+                dietary_options=entry.get("dietary_options"),
+                opening_days=entry.get("opening_days")
                 )
             place.save()
         

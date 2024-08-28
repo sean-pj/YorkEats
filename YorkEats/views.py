@@ -2,6 +2,7 @@ from django.shortcuts import render
 from YorkEats.models import *
 from django.http import HttpResponse
 from datetime import datetime
+from YorkEats.models import *
 
 # Create your views here.
 
@@ -16,7 +17,7 @@ def index(request):
         #Many replacements because the dining dir doesnt make their entries consistent please help me
         #https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
         #https://www.datacamp.com/tutorial/converting-strings-datetime-objects
-        for time in place.opening_days.get(datetime.now().strftime('%A')).replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").split("-"):
+        for time in place.opening_days.get(datetime.now().strftime('%A')).replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12", "11:59").split("-"):
             if time == "AllDay":
                 place.is_open = True
                 place.save()
@@ -31,19 +32,25 @@ def index(request):
                     date_format1 = '%I%p'
                     open_period.append(datetime.strptime(time, date_format1).time())
         
-        #I promise i'll get rid of the repeated code I swear leave me alone
-        if len(open_period) == 2:
-            if open_period[0] <= datetime.now().time() <= open_period[1]:
+        #Checks if location is open within the given time periods
+        place.is_open = False
+        place.save()
+        for i in range(0, len(open_period) - 1, 2):
+            if open_period[i] <= datetime.now().time() <= open_period[i + 1]:
                 place.is_open = True
                 place.save()
-            else:
-                place.is_open = False
-                place.save()
-        elif len(open_period) > 2:
-            if open_period[0] <= datetime.now().time() <= open_period[1] or open_period[2] <= datetime.now().time() <= open_period[3] :
-                place.is_open = True
-                place.save()
-            else:
-                place.is_open = False
-                place.save()
-    return render(request, "yorkeats/index.html")
+
+        # if len(open_period) == 2:
+        #     if open_period[0] <= datetime.now().time() <= open_period[1]:
+        #         place.is_open = True
+        #         place.save()
+        # elif len(open_period) > 2:
+        #     if open_period[0] <= datetime.now().time() <= open_period[1] or open_period[2] <= datetime.now().time() <= open_period[3] :
+        #         place.is_open = True
+        #         place.save()
+        # else:
+        #     place.is_open = False
+        #     place.save()
+    return render(request, "yorkeats/index.html", {
+        "Places" : Place.objects.all().filter(is_open=True)
+    })

@@ -68,7 +68,8 @@ class Command(BaseCommand):
                 opening_days = {}
 
             #Update dictionary with new info
-            new_data = {location_name: {
+            new_data = {card_htmls.index(card_html): {
+                "location_name" : location_name,
                 'location': location,
                 'location_link' : location_link,
                 'menu_offering': menu_offering,
