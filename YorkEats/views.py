@@ -3,6 +3,7 @@ from YorkEats.models import *
 from django.http import HttpResponse
 from datetime import datetime
 from YorkEats.models import *
+from django.db.models.functions import Length
 
 # Create your views here.
 
@@ -42,5 +43,11 @@ def index(request):
 
     return render(request, "yorkeats/index.html", {
         "Places" : Place.objects.all().filter(is_open=True),
-        "day_of_week" : datetime.now().strftime('%A')
+        "day_of_week" : datetime.now().strftime('%A'),
+        "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
+        # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
+        "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
+        # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
+        "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
+        "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", ") 
     })

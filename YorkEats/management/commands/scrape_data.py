@@ -40,10 +40,10 @@ class Command(BaseCommand):
                 location_link = card_html.find("a").get("href")
             else:
                 location_link = "#"
-            if card_html.find("i", attrs={"alt": "location:"}) is not None:
+            if card_html.find("i", attrs={"alt": "location:"}) is not None and card_html.find("i", attrs={"alt": "location:"}) != "":
                 location = card_html.find("i", attrs={"alt": "location:"}).find_next().text.strip()
             else:
-                location = "Unknown location, check google maps"
+                location = "Unknown location"
             if card_html.find("i", attrs={"alt": "menu offering:"}) is not None:
                 menu_offering = card_html.find("i", attrs={"alt": "menu offering:"}).find_next().text.strip()
             else:
@@ -88,3 +88,5 @@ class Command(BaseCommand):
         dining_dir = open("YorkEats/data/dining_dir.json", "w")
         json.dump(data, dining_dir, indent=4)
         dining_dir.close()
+
+        print("Successfully scraped dining directory")

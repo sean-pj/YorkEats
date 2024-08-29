@@ -2,7 +2,64 @@
 
 {% block body %}
     <h4 style="text-align: center;">Currently Open</h4>
-    <div class="row row-cols-3 justify-content-center">
+
+    <div class="container-sm">
+      <div class="row">
+        <div class="col">
+          <p>Dining</p>
+          {% for location in locations %}
+          {% if location != "" and location != "Unknown location" %}
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="{{location}}">
+            <label class="form-check-label" for="{{location}}">
+              {{location}}
+            </label>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="col">
+          <p>Cuisine</p>
+          {% for cuisine in cuisines %}
+          {% if cuisine != "" and cuisine != "No genre of cuisine provided" %}
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="{{cuisine}}">
+            <label class="form-check-label" for="{{cuisine}}">
+              {{cuisine}}
+            </label>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="col">
+          <p>Payment Type</p>
+          {% for options in payment_options %}
+          {% if options != "" and options != "No payment options provided" %}
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="{{options}}">
+            <label class="form-check-label" for="{{options}}">
+              {{options}}
+            </label>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="col">
+          <p>Dietary</p>
+          {% for options in dietary_options %}
+          {% if options != "" and options != "No dietary options provided" %}
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="{{options}}">
+            <label class="form-check-label" for="{{options}}">
+              {{options}}
+            </label>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-3 justify-content-center" style="width: 99.7vw;">
         {% for Place in Places %}
         <div class="col" style="max-width: 500px; margin: 20px;">
           <div class="card">
@@ -65,6 +122,18 @@
                   <div id="diet{{Place.id}}" class="accordion-collapse collapse">
                     <div class="accordion-body">
                       {{Place.dietary_options}}
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#payment{{Place.id}}">
+                      Payment Options
+                    </button>
+                  </h2>
+                  <div id="payment{{Place.id}}" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      {{Place.payment_options | cut:"Meal Plan (MP)," | cut:"Meal Plan Plus (MP+)," | cut:"Meal Plan Taxable"}}
                     </div>
                   </div>
                 </div>
