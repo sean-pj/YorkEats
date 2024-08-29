@@ -12,6 +12,7 @@ class Place(models.Model):
     dietary_options = models.TextField()
     opening_days = models.JSONField(null=True, blank=True)
     is_open = models.BooleanField(default=False)
+    timestamp = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f"Name: {self.name}"

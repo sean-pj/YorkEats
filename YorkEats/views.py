@@ -17,7 +17,7 @@ def index(request):
         #Many replacements because the dining dir doesnt make their entries consistent please help me
         #https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
         #https://www.datacamp.com/tutorial/converting-strings-datetime-objects
-        for time in place.opening_days.get(datetime.now().strftime('%A')).replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12", "11:59").split("-"):
+        for time in place.opening_days.get(datetime.now().strftime('%A')).replace("11 am - 11 pm11 am - 11 pm","11 am - 11 pm").replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12", "11:59").split("-"):
             if time == "AllDay":
                 place.is_open = True
                 place.save()

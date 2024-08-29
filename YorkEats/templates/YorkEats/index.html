@@ -1,33 +1,39 @@
 {% extends "yorkeats/layout.html" %}
 
 {% block body %}
-    <h4>Currently Open</h4>
-    <div class="d-flex flex-row mb-3 justify-content-center">
-      <div class="p-2">Flex item 1</div>
-      <div class="p-2">Flex item 2</div>
-      <div class="p-2">Flex item 3</div>
-    </div>
+    <h4 style="text-align: center;">Currently Open</h4>
     <div class="row row-cols-3 justify-content-center">
         {% for Place in Places %}
         <div class="col" style="max-width: 500px; margin: 20px;">
           <div class="card">
+            <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">{{Place.name}}</h5>
-              <p class="card-text">{{Place.location}}</p>
-              <p class="card-text">{{Place.menu_offering}}</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <p class="card-text">Location: {{Place.location}}</p>
+              <p class="card-text">Style: {{Place.menu_offering}}</p>
+              <p class="card-text">
+                {% if "Meal Plan (MP)" in Place.payment_options %}
+                <strong style="color: red;">Meal Plan!</strong>
+                {% endif %}
+                {% if "Meal Plan Plus (MP+)" in Place.payment_options %}
+                <strong style="color: maroon;">Meal Plan Plus!</strong>
+                {% endif %}
+                {% if "Meal Plan Taxable" in Place.payment_options %}
+                <strong style="color: crimson;">Meal Plan Taxable!</strong>
+                {% endif %}
+              </p>
               <div class="accordion accordion-flush">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{Place.id}}">
-                      Accordion Item #1
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hours{{Place.id}}">
+                      Hours
                     </button>
                   </h2>
-                  <div id="{{Place.id}}" class="accordion-collapse collapse">
+                  <div id="hours{{Place.id}}" class="accordion-collapse collapse">
                     <div class="accordion-body">
                       {% for day, hours in Place.opening_days.items %}
                       {% if day == day_of_week %}
-                      <span style="font-weight: bold; color: green;">{{day}} - {{hours}}</span>
+                      <span style="font-weight: bold; color: green;">{{day}} - {{hours}} </span>
                       {% else %}
                       {{day}} - {{hours}}
                       {% endif %}
@@ -36,6 +42,36 @@
                     </div>
                   </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu{{Place.id}}">
+                      Menu
+                    </button>
+                  </h2>
+                  <div id="menu{{Place.id}}" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <a href="{{Place.menu_href}}" style="color: red;">{{Place.menu_name}}</a>
+                      <br>
+                      <a href="{{Place.location_link}}" style="color: maroon">Website</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#diet{{Place.id}}">
+                      Dietary Options
+                    </button>
+                  </h2>
+                  <div id="diet{{Place.id}}" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      {{Place.dietary_options}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- https://docs.djangoproject.com/en/5.1/ref/templates/builtins/#timesince -->
+              <div class="card-footer bg-transparent">
+                <small class="text-body-secondary">Last updated {{Place.timestamp | timesince}} ago</small>
               </div>
             </div>
               
