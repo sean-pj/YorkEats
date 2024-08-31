@@ -65,7 +65,19 @@
         {% for Place in Places %}
         <div class="col" style="max-width: 500px; margin: 20px;" id="card-col">
           <div class="card">
-            <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top" alt="...">
+            <div class="card-header" id="card-header">
+              <button id="edit-btn" style="padding: 0px;" class="text-dark btn">Edit</button>
+              <div id="edit-form" style="display: none;">
+                <input type="file" name="image" accept="image/*" required="" id="image">
+                <button id="save-btn" class="btn btn-primary">Save</button>
+                <div id="place-id" hidden>{{Place.id}}</div>
+              </div>
+            </div>
+            {% if Place.image %}
+            <img src="{{Place.image.url}}" class="card-image-top">
+            {% else %}
+            <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top">
+            {% endif %}
             <div class="card-body" id="card-body">
               <h5 class="card-title">{{Place.name}}</h5>
               <p class="card-text" id="filter" alt="Dining">{{Place.location}}</p>

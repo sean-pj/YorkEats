@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from YorkEats.models import *
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from datetime import datetime
 from YorkEats.models import *
 from django.db.models.functions import Length
+import json
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
@@ -51,3 +53,22 @@ def index(request):
         "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
         "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", ") 
     })
+
+# @login_required
+def edit(request):
+
+    #Must be a post request
+    if request.method != "POST":
+        return JsonResponse({"error": "POST request required."}, status=400)
+
+    data = request.POST
+    place = Place.objects.get(id=int(data.get("id")))
+
+    #Double check that the correct user is signed in
+    # if request.user != place.user:
+    #     return JsonResponse({"error": "Not signed in to the correct account"}, status=400)
+
+    place.image = request.FILES.get("image")
+    place.save()
+    return JsonResponse(request.POST)
+    

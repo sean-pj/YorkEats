@@ -12,7 +12,9 @@ class Place(models.Model):
     dietary_options = models.TextField()
     opening_days = models.JSONField(null=True, blank=True)
     is_open = models.BooleanField(default=False)
-    timestamp = models.DateTimeField(auto_now_add=True)
+    #auto_now updates every time the instance is saved, auto_now_add updates only on creation
+    timestamp = models.DateTimeField(auto_now=True)
+    image = models.ImageField(null=True, blank=True, upload_to='images/')
 
     def __str__(self):
         return f"Name: {self.name}"
