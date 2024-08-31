@@ -11,7 +11,7 @@
           <p>Dining</p>
           {% for location in locations %}
           {% if location != "" and location != "Unknown location" %}
-          <div class="form-check" id="filter-form">
+          <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="{{location}}">
             <label class="form-check-label" for="{{location}}">
               {{location}}
@@ -61,17 +61,17 @@
         </div>
       </div>
     </div>
-    <div class="row row-cols-3 justify-content-center" style="width: 99.7vw;">
+    <div class="row row-cols-3 justify-content-center" style="width: 99.7vw;" id="card-row">
         {% for Place in Places %}
         <div class="col" style="max-width: 500px; margin: 20px;" id="card-col">
           <div class="card">
             <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top" alt="...">
             <div class="card-body" id="card-body">
               <h5 class="card-title">{{Place.name}}</h5>
-              <p class="card-text" id="filter">{{Place.location}}</p>
-              <p class="card-text" id="filter">{{Place.menu_offering}}</p>
-              <p id="filter" hidden> {{Place.payment_options}}</p>
-              <p id="filter" hidden>{{Place.dietary_options}}</p>
+              <p class="card-text" id="filter" alt="Dining">{{Place.location}}</p>
+              <p class="card-text" id="filter" alt="Cuisine">{{Place.menu_offering}}</p>
+              <p id="filter" alt="Payment Type" hidden> {{Place.payment_options}}</p>
+              <p id="filter" alt="Dietary" hidden>{{Place.dietary_options}}</p>
               <p class="card-text">
                 {% if "Meal Plan (MP)" in Place.payment_options %}
                 <strong style="color: red;">Meal Plan!</strong>
@@ -136,7 +136,7 @@
                     </button>
                   </h2>
                   <div id="payment{{Place.id}}" class="accordion-collapse collapse">
-                    <div class="accordion-body" id="filter">
+                    <div class="accordion-body">
                       {{Place.payment_options}}
                     </div>
                   </div>
