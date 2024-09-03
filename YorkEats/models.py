@@ -20,7 +20,20 @@ class Place(models.Model):
     timestamp = models.DateTimeField(auto_now=True)
     image = models.ImageField(null=True, blank=True, upload_to='images/')
 
+    # https://www.reddit.com/r/djangolearning/comments/1b9jfit/how_to_properly_setup_rating_stars/
+    def average_rating(self):
+        ratings = self.ratings.all()
+        if ratings.aggregate(models.Avg('stars'))['stars__avg'] != None:
+            return round(ratings.aggregate(models.Avg('stars'))['stars__avg'])
+        else:
+            return 0
+
     def __str__(self):
         return f"Name: {self.name}"
+    
+class Rating(models.Model):
+    place = models.ForeignKey(Place, on_delete=models.CASCADE, related_name="ratings")
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="ratings")
+    stars = models.IntegerField(default=1)
 
     

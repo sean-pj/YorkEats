@@ -81,21 +81,38 @@
             {% endif %}
             <div class="card-body" id="card-body">
               <h5 class="card-title">{{Place.name}}
-                <form style="display: inline;">
+                <form style="display: inline;" id="public-rating">
                   <!-- https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
                   <!-- Comments remove whitespace -->
-                  <input type="radio" id="star5_{{Place.id}}" name="rating" value="5" /><!--
-                  --><label for="star5_{{Place.id}}">★</label><!--
-                  --><input type="radio" id="star4_{{Place.id}}" name="rating" value="4" /><!--
-                  --><label for="star4_{{Place.id}}">★</label><!--
-                  --><input type="radio" id="star3_{{Place.id}}" name="rating" value="3" /><!--
-                  --><label for="star3_{{Place.id}}">★</label><!--
-                  --><input type="radio" id="star2_{{Place.id}}" name="rating" value="2" /><!--
-                  --><label for="star2_{{Place.id}}">★</label><!--
-                  --><input type="radio" id="star1_{{Place.id}}" name="rating" value="1" /><!--
-                  --><label for="star1_{{Place.id}}">★</label>
+                  <input type="radio" id="star1pub_{{Place.id}}" name="rating" value="1" disabled/><!--
+                  --><label for="star1pub_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star2pub_{{Place.id}}" name="rating" value="2" disabled/><!--
+                  --><label for="star2pub_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star3pub_{{Place.id}}" name="rating" value="3" disabled/><!--
+                  --><label for="star3pub_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star4pub_{{Place.id}}" name="rating" value="4" disabled/><!--
+                  --><label for="star4pub_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star5pub_{{Place.id}}" name="rating" value="5" disabled/><!--
+                  --><label for="star5pub_{{Place.id}}">★</label>
+                  <p id="id" hidden>{{Place.id}}</p>
                 </form>
               </h5> 
+              <form style="display: inline;" id="user-rating">
+                <!-- https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
+                <!-- Comments remove whitespace -->
+                <p style="display: inline;">Add your own rating:</p>
+                <input type="radio" id="star1_{{Place.id}}" name="rating" value="1" /><!--
+                --><label for="star1_{{Place.id}}">★</label><!--
+                --><input type="radio" id="star2_{{Place.id}}" name="rating" value="2" /><!--
+                --><label for="star2_{{Place.id}}">★</label><!--
+                --><input type="radio" id="star3_{{Place.id}}" name="rating" value="3" /><!--
+                --><label for="star3_{{Place.id}}">★</label><!--
+                --><input type="radio" id="star4_{{Place.id}}" name="rating" value="4" /><!--
+                --><label for="star4_{{Place.id}}">★</label><!--
+                --><input type="radio" id="star5_{{Place.id}}" name="rating" value="5" /><!--
+                --><label for="star5_{{Place.id}}">★</label>
+                <p id="id" hidden>{{Place.id}}</p>
+              </form>
               <p class="card-text" id="filter" alt="Dining">{{Place.location}}</p>
               <p class="card-text" id="filter" alt="Cuisine">{{Place.menu_offering}}</p>
               <p id="filter" alt="Payment Type" hidden> {{Place.payment_options}}</p>

@@ -18,6 +18,8 @@ label {
     /* float:left; */
 }
 
+/* Rating HTML and CSS inspired by https://stackoverflow.com/questions/23404904/how-to-use-bootstrap-icons-like-star-to-give-the-star-rating */
+
 input[type="radio"]+label{
     color:black;
     font-size: x-large;
@@ -34,11 +36,13 @@ label:has(~ input[type="radio"]:checked) {
     color: gold;
 }
 
-input[type="radio"]+label:hover {
+/* On hover things */
+
+#user-rating > input[type="radio"]+label:hover {
     color: gold;
 }
 
-input[type="radio"]+label:has(~ input[type="radio"]+label:not(:checked):hover) {
+#user-rating > input[type="radio"]+label:has(~ input[type="radio"]+label:not(:checked):hover) {
     color: gold;
 }
 

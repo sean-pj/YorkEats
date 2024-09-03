@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
-
     //Edit btn behavior
     document.querySelectorAll("#edit-form").forEach(form => {
             form.querySelector("#save-btn").addEventListener('click', () => {
@@ -69,6 +68,54 @@ document.addEventListener('DOMContentLoaded', () => {
         dict_filters[filter_name.innerHTML] = []
     })
     update_cards_or()
+
+
+
+    document.querySelectorAll("#public-rating").forEach(form => {
+
+        fetch(`rating/${form.querySelector("#id").innerHTML}`)
+        .then(response => response.json())
+        .then(result => {
+            // Print result
+            // console.log(result["stars"])
+            // console.log(`input[value=\"${result["stars"]}\"]`)
+            if (result["stars"] != 0) {
+                form.querySelector(`input[value=\"${result["stars"]}\"]`).checked = true
+            }
+        });
+    })
+    
+    document.querySelectorAll("#user-rating").forEach(form => {
+        form.querySelectorAll("input").forEach(input => {
+            input.addEventListener('click', () => {
+
+                console.log(input.value)
+
+                var formData = new FormData();
+
+                //Learned CSRF from https://docs.djangoproject.com/en/5.1/howto/csrf/
+                const csrftoken = Cookies.get('csrftoken');
+
+                formData.append('stars', input.value)
+                formData.append('id', form.querySelector("#id").innerHTML)
+
+                //Send form data to Django view to update post model
+                fetch('rating', {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRFToken': csrftoken,
+                    }, 
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(result => {
+                    // Print result
+                    console.log(result)
+                });
+                
+            })
+        })
+    })
 })
 
 

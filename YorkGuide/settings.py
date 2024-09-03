@@ -131,3 +131,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #https://stackoverflow.com/questions/49189402/auth-user-groups-fields-e304-reverse-accessor-for-user-groups-clashes-with
 AUTH_USER_MODEL = "YorkEats.User"
+
+# Change redirect if un-logged in user accesses a part of the website that requires login
+LOGIN_URL = "login"
+
+LOGOUT_REDIRECT_URL = 'login'

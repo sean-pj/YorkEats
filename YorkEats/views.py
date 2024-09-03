@@ -65,12 +65,35 @@ def edit(request):
     place = Place.objects.get(id=int(data.get("id")))
 
     # Double check that the correct user is signed in
-    if request.user != place.user:
-        return JsonResponse({"error": "Not signed in to the correct account"}, status=400)
+    # if request.user != place.user:
+    #     return JsonResponse({"error": "Not signed in to the correct account"}, status=400)
 
     place.image = request.FILES.get("image")
     place.save()
     return JsonResponse(request.POST)
+
+def rating(request):
+
+    #Must be a post request
+    if request.method != "POST":
+        return JsonResponse({"error": "POST request required."}, status=400)
+    
+    if not request.user.is_authenticated:
+        return JsonResponse({"error": "Must be logged in to rate."}, status=400)
+
+    data = request.POST
+    place = Place.objects.get(id=int(data.get("id")))
+    stars = int(data.get("stars"))
+
+    rating = Rating(place=place, user=request.user, stars=stars)
+    rating.save()
+    return JsonResponse({"stars" : place.average_rating()})
+
+
+def place_rating(request, id):
+    if request.method == "GET":
+        place = Place.objects.get(id=id)
+        return JsonResponse({"stars" : place.average_rating()})
 
 
 def login_view(request):
