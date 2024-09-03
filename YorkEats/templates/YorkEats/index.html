@@ -4,8 +4,7 @@
 {% block body %}
     <script src="{% static 'home.js' %}"></script>
     <h4 style="text-align: center;">Currently Open</h4>
-
-    <div class="container-sm">
+    <div class="container-sm border border-4">
       <div id="form-grid" class="row" style="height: 300px; overflow-y:scroll;">
         <div class="col">
           <p>Dining</p>
@@ -65,6 +64,7 @@
         {% for Place in Places %}
         <div class="col" style="max-width: 500px; margin: 20px;" id="card-col">
           <div class="card">
+            {% if user.is_superuser %}
             <div class="card-header" id="card-header">
               <button id="edit-btn" style="padding: 0px;" class="text-dark btn">Edit</button>
               <div id="edit-form" style="display: none;">
@@ -73,13 +73,29 @@
                 <div id="place-id" hidden>{{Place.id}}</div>
               </div>
             </div>
+            {% endif %}
             {% if Place.image %}
             <img src="{{Place.image.url}}" class="card-image-top">
             {% else %}
             <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top">
             {% endif %}
             <div class="card-body" id="card-body">
-              <h5 class="card-title">{{Place.name}}</h5>
+              <h5 class="card-title">{{Place.name}}
+                <form style="display: inline;">
+                  <!-- https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
+                  <!-- Comments remove whitespace -->
+                  <input type="radio" id="star5_{{Place.id}}" name="rating" value="5" /><!--
+                  --><label for="star5_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star4_{{Place.id}}" name="rating" value="4" /><!--
+                  --><label for="star4_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star3_{{Place.id}}" name="rating" value="3" /><!--
+                  --><label for="star3_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star2_{{Place.id}}" name="rating" value="2" /><!--
+                  --><label for="star2_{{Place.id}}">★</label><!--
+                  --><input type="radio" id="star1_{{Place.id}}" name="rating" value="1" /><!--
+                  --><label for="star1_{{Place.id}}">★</label>
+                </form>
+              </h5> 
               <p class="card-text" id="filter" alt="Dining">{{Place.location}}</p>
               <p class="card-text" id="filter" alt="Cuisine">{{Place.menu_offering}}</p>
               <p id="filter" alt="Payment Type" hidden> {{Place.payment_options}}</p>
@@ -156,7 +172,7 @@
               </div>
               <!-- https://docs.djangoproject.com/en/5.1/ref/templates/builtins/#timesince -->
               <div class="card-footer bg-transparent">
-                <small class="text-body-secondary">Last updated {{Place.timestamp | timesince}} ago</small>
+                <small class="text-body-secondary"> Last updated: {{Place.timestamp}}</small>
               </div>
             </div>
               

@@ -1,4 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+class User(AbstractUser):
+    pass
 
 # Create your models here.
 class Place(models.Model):
@@ -18,4 +22,5 @@ class Place(models.Model):
 
     def __str__(self):
         return f"Name: {self.name}"
+
     

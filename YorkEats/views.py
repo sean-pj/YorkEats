@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from YorkEats.models import *
-from django.http import HttpResponse, JsonResponse
+from django.contrib.auth import authenticate, login, logout
+from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from datetime import datetime
 from YorkEats.models import *
+from django.urls import reverse
 from django.db.models.functions import Length
+from django.db import IntegrityError
 import json
 from django.contrib.auth.decorators import login_required
 
@@ -35,9 +38,6 @@ def index(request):
                     date_format1 = '%I%p'
                     open_period.append(datetime.strptime(time, date_format1).time())
         
-        #Checks if location is open within the given time periods
-        place.is_open = False
-        place.save()
         for i in range(0, len(open_period) - 1, 2):
             if open_period[i] <= datetime.now().time() <= open_period[i + 1]:
                 place.is_open = True
@@ -54,7 +54,7 @@ def index(request):
         "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", ") 
     })
 
-# @login_required
+@login_required
 def edit(request):
 
     #Must be a post request
@@ -64,11 +64,61 @@ def edit(request):
     data = request.POST
     place = Place.objects.get(id=int(data.get("id")))
 
-    #Double check that the correct user is signed in
-    # if request.user != place.user:
-    #     return JsonResponse({"error": "Not signed in to the correct account"}, status=400)
+    # Double check that the correct user is signed in
+    if request.user != place.user:
+        return JsonResponse({"error": "Not signed in to the correct account"}, status=400)
 
     place.image = request.FILES.get("image")
     place.save()
     return JsonResponse(request.POST)
-    
+
+
+def login_view(request):
+    if request.method == "POST":
+
+        # Attempt to sign user in
+        username = request.POST["username"]
+        password = request.POST["password"]
+        user = authenticate(request, username=username, password=password)
+
+        # Check if authentication successful
+        if user is not None:
+            login(request, user)
+            return HttpResponseRedirect(reverse("index"))
+        else:
+            return render(request, "YorkEats/login.html", {
+                "message": "Invalid username and/or password."
+            })
+    else:
+        return render(request, "YorkEats/login.html")
+
+
+def logout_view(request):
+    logout(request)
+    return HttpResponseRedirect(reverse("index"))
+
+def register(request):
+    if request.method == "POST":
+        username = request.POST["username"]
+        email = request.POST["email"]
+
+        # Ensure password matches confirmation
+        password = request.POST["password"]
+        confirmation = request.POST["confirmation"]
+        if password != confirmation:
+            return render(request, "YorkEats/register.html", {
+                "message": "Passwords must match."
+            })
+
+        # Attempt to create new user
+        try:
+            user = User.objects.create_user(username, email, password)
+            user.save()
+        except IntegrityError:
+            return render(request, "YorkEats/register.html", {
+                "message": "Username already taken."
+            })
+        login(request, user)
+        return HttpResponseRedirect(reverse("index"))
+    else:
+        return render(request, "YorkEats/register.html")

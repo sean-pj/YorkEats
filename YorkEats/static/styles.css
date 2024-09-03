@@ -5,3 +5,52 @@ h4 {
 #table > div {
     margin-bottom: 10px;
 }
+
+input[type="radio"]{
+    display: none;
+}
+
+label {
+    display: inline;
+    text-align: right;
+    /* Gets rid of whitespace, can also change html to do this with comments */
+    /* https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html */
+    /* float:left; */
+}
+
+input[type="radio"]+label{
+    color:black;
+    font-size: x-large;
+}
+
+input[type="radio"]:checked+label{
+    color:gold;
+    font-size: x-large;
+}
+
+/* https://tobiasahlin.com/blog/previous-sibling-css-has/ */
+
+label:has(~ input[type="radio"]:checked) {
+    color: gold;
+}
+
+input[type="radio"]+label:hover {
+    color: gold;
+}
+
+input[type="radio"]+label:has(~ input[type="radio"]+label:not(:checked):hover) {
+    color: gold;
+}
+
+/* <div>
+      <input type="radio" id="star5" name="rating" value="5" /><!--
+      --><label for="star5">★</label><!--
+      --><input type="radio" id="star4" name="rating" value="4" /><!--
+      --><label for="star4">★</label><!--
+      --><input type="radio" id="star3" name="rating" value="3" /><!--
+      --><label for="star3">★</label><!--
+      --><input type="radio" id="star2" name="rating" value="2" /><!--
+      --><label for="star2">★</label><!--
+      --><input type="radio" id="star1" name="rating" value="1" /><!--
+      --><label for="star1">★</label>
+    </div> */

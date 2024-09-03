@@ -6,6 +6,7 @@ all_filters = []
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    //Show hide edit_btn
     document.querySelectorAll("#edit-btn").forEach(edit_btn => {
         edit_btn.addEventListener('click', () => {
             if (edit_btn.nextElementSibling.style.display == "none") {
@@ -16,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
+
+    //Edit btn behavior
     document.querySelectorAll("#edit-form").forEach(form => {
             form.querySelector("#save-btn").addEventListener('click', () => {
 
@@ -61,46 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         })
     })
-
-    // //Show caption hide the form
-    // form.parentNode.querySelector("#edit-post-form").style.display = "none";
-    // form.parentNode.querySelector("#caption").style.display = "block";
-
-    // //Learned CSRF from https://docs.djangoproject.com/en/5.1/howto/csrf/
-    // const csrftoken = Cookies.get('csrftoken');
-
-    // // Learned to upload image files through JS from both the following links
-    // //https://stackoverflow.com/questions/36067767/how-do-i-upload-a-file-with-the-js-fetch-api
-    // //https://stackoverflow.com/questions/69120374/how-can-i-upload-file-and-also-include-json-data-with-fetch-api
-    // var formData = new FormData();
-    
-    // if (form.querySelector("#image").files[0] != null) {
-    //     formData.append('image', form.querySelector("#image").files[0]);
-    //     formData.append('caption',  form.querySelector("#edit-post-textarea").value);
-    //     formData.append('id',  form.querySelector("#post-id").innerHTML);
-
-    //     //Send form data to Django view to update post model
-    //     fetch('edit', {
-    //         method: 'POST',
-    //         headers: {
-    //             'X-CSRFToken': csrftoken,
-    //         }, 
-    //         body: formData
-    //     })
-    //     .then(response => response.json())
-    //     .then(result => {
-    //         // Print result
-    //         console.log(result)
-    //     });
-    //     //Updates the post's image and caption without refresh
-    //     form.parentNode.querySelector("#caption").innerHTML = form.querySelector("#edit-post-textarea").value;
-    //     //Learned to update JS image from https://stackoverflow.com/questions/40809635/js-function-to-change-image-on-page-with-file-upload
-    //     var URL = window.URL
-    //     var url = URL.createObjectURL(form.querySelector("#image").files[0])
-    //     form.parentNode.querySelector("img").src = url
-    // } else {
-    //     alert("Cannot edit a post without an image, please try again")
-    // }
 
     document.querySelector("#form-grid").querySelectorAll("p").forEach(filter_name => {
         dict_filters[filter_name.innerHTML] = []
