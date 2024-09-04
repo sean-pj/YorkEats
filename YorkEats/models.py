@@ -22,11 +22,14 @@ class Place(models.Model):
 
     # https://www.reddit.com/r/djangolearning/comments/1b9jfit/how_to_properly_setup_rating_stars/
     def average_rating(self):
-        ratings = self.ratings.all()
-        if ratings.aggregate(models.Avg('stars'))['stars__avg'] != None:
-            return round(ratings.aggregate(models.Avg('stars'))['stars__avg'])
-        else:
-            return 0
+        if self.ratings != None:
+            ratings = self.ratings.all()
+            if ratings.aggregate(models.Avg('stars'))['stars__avg'] != None:
+                return ratings.aggregate(models.Avg('stars'))['stars__avg']
+            else:
+                return 0
+        else: 
+            return 0 
 
     def __str__(self):
         return f"Name: {self.name}"

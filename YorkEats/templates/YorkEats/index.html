@@ -80,8 +80,8 @@
             <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top">
             {% endif %}
             <div class="card-body" id="card-body">
-              <h5 class="card-title">{{Place.name}}
-                <form style="display: inline;" id="public-rating">
+              <h5 class="card-title" style="display: inline;">{{Place.name}}
+                <form style="display: inline;" id="public-rating" autocomplete="off">
                   <!-- https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
                   <!-- Comments remove whitespace -->
                   <input type="radio" id="star1pub_{{Place.id}}" name="rating" value="1" disabled/><!--
@@ -97,10 +97,11 @@
                   <p id="id" hidden>{{Place.id}}</p>
                 </form>
               </h5> 
-              <form style="display: inline;" id="user-rating">
+              <small id="avg_rating" style="display: inline;">{{Place.average_rating}}</small>
+              <form class="card-text" id="user-rating" style="margin-bottom: 10px;">
                 <!-- https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
                 <!-- Comments remove whitespace -->
-                <p style="display: inline;">Add your own rating:</p>
+                <p style="display: inline;">Personal Rating:</p>
                 <input type="radio" id="star1_{{Place.id}}" name="rating" value="1" /><!--
                 --><label for="star1_{{Place.id}}">★</label><!--
                 --><input type="radio" id="star2_{{Place.id}}" name="rating" value="2" /><!--

@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // console.log(result["stars"])
             // console.log(`input[value=\"${result["stars"]}\"]`)
             if (result["stars"] != 0) {
-                form.querySelector(`input[value=\"${result["stars"]}\"]`).checked = true
+                form.querySelector(`input[value=\"${Math.round(result["stars"])}\"]`).checked = true
             }
         });
     })
@@ -111,6 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(result => {
                     // Print result
                     console.log(result)
+                    form.parentNode.querySelector(`input[value=\"${Math.round(result["stars"])}\"]`).checked = true
+                    form.parentNode.querySelector("#avg_rating").innerHTML = result["stars"]
                 });
                 
             })

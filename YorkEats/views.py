@@ -84,8 +84,12 @@ def rating(request):
     data = request.POST
     place = Place.objects.get(id=int(data.get("id")))
     stars = int(data.get("stars"))
-
-    rating = Rating(place=place, user=request.user, stars=stars)
+    if len(Rating.objects.filter(user=request.user, place=place)) == 0:
+        rating = Rating(place=place, user=request.user, stars=stars)
+    else:
+        rating = Rating.objects.get(user=request.user, place=place)
+        rating.stars = stars
+    
     rating.save()
     return JsonResponse({"stars" : place.average_rating()})
 
