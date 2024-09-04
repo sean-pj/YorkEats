@@ -111,8 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(result => {
                     // Print result
                     console.log(result)
-                    form.parentNode.querySelector(`input[value=\"${Math.round(result["stars"])}\"]`).checked = true
-                    form.parentNode.querySelector("#avg_rating").innerHTML = result["stars"]
+                    if (result["stars"] != null) {
+                        form.parentNode.querySelector(`input[value=\"${Math.round(result["stars"])}\"]`).checked = true
+                        form.parentNode.querySelector("#avg_rating").innerHTML = result["stars"]
+                    } else {
+                        input.checked = false;
+                        alert(result["error"])
+                    }
                 });
                 
             })
