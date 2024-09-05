@@ -90,12 +90,21 @@ def rating(request):
     return JsonResponse({"stars" : place.average_rating()})
 
 
-def place_rating(request, id):
+def public_rating(request, id):
     if request.method == "GET":
         place = Place.objects.get(id=id)
         return JsonResponse({"stars" : place.average_rating()})
 
-
+def user_rating(request, id):
+    if request.method == "GET" and request.user.is_authenticated:
+        try:
+            return JsonResponse({"stars" : Place.objects.get(id=id).ratings.all().get(user=request.user).stars})
+        except Rating.DoesNotExist:
+            return JsonResponse({"stars" : 0})
+    else:
+        return JsonResponse({"stars" : 0})
+            
+    
 def login_view(request):
     if request.method == "POST":
 

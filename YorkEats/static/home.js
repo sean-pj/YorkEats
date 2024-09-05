@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //Update public rating stars
     document.querySelectorAll("#public-rating").forEach(form => {
 
-        fetch(`rating/${form.querySelector("#id").innerHTML}`)
+        fetch(`public_rating/${form.querySelector("#id").innerHTML}`)
         .then(response => response.json())
         .then(result => {
             // Print result
@@ -79,6 +79,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //User rating input actions
     document.querySelectorAll("#user-rating").forEach(form => {
+
+        fetch(`user_rating/${form.querySelector("#id").innerHTML}`)
+        .then(response => response.json())
+        .then(result => {
+            // Print result
+            // console.log(result["stars"])
+            // console.log(`input[value=\"${result["stars"]}\"]`)
+            if (result["stars"] != 0) {
+                form.querySelector(`input[value=\"${Math.round(result["stars"])}\"]`).checked = true
+            }
+        });
+
         form.querySelectorAll("input").forEach(input => {
             input.addEventListener('click', () => {
 
