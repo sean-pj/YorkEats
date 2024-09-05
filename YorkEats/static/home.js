@@ -59,8 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 alert("cannot edit place without image")
             }
-
-
         })
     })
 
@@ -79,12 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     })
 
-    //Assign each filter category an array in a dictionary
-    document.querySelector("#form-grid").querySelectorAll("#filter-name").forEach(filter_name => {
-        dict_filters[filter_name.innerHTML] = []
-    })
-    update_cards_or()
-    
     //User rating input actions
     document.querySelectorAll("#user-rating").forEach(form => {
         form.querySelectorAll("input").forEach(input => {
@@ -124,6 +116,13 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         })
     })
+
+    //Assign each filter category an array in a dictionary
+    document.querySelector("#form-grid").querySelectorAll("#filter-name").forEach(filter_name => {
+        dict_filters[filter_name.innerHTML] = []
+    })
+    update_cards_or()
+    
 })
 
 
@@ -136,8 +135,14 @@ function update_cards_or() {
         let checkbox = form.querySelector("input")
         let filter_name = form.parentNode.querySelector("#filter-name")
 
+        //Uncheck checkbox's on page load
+        checkbox.checked = false;
+
         //Checkbox click behavior
         checkbox.addEventListener('change', () => {
+            console.log(Object.keys(dict_filters).length)
+
+            //Updates store filters
             if (checkbox.checked) {
                 dict_filters[filter_name.innerHTML].push(checkbox.id)
                 all_filters.push(checkbox.id)
@@ -146,6 +151,7 @@ function update_cards_or() {
                 all_filters.splice(all_filters.indexOf(checkbox), 1)
             }
 
+            //If there are no filters display every place, otherwise hide them all and only show the places that match the filters.
             if (all_filters.length == 0) {
                 document.querySelectorAll("#card-col").forEach(col => {
                     col.style.display = "block"
@@ -154,6 +160,7 @@ function update_cards_or() {
                 document.querySelectorAll("#card-col").forEach(col => {
                     col.style.display = "none"
                 })
+                //Removes the places that don't match any filter
                 for (const key in dict_filters) {
                     dict_filters[key].forEach(filter =>{
                         document.querySelectorAll("#card-body").forEach(body => {
@@ -165,7 +172,7 @@ function update_cards_or() {
                         })
                     })
                  }
-                //Remove the places that don't match all the filters
+                //Remove the places that don't match all the filters from each column
                 update_cards_and()
             }
 
@@ -179,9 +186,11 @@ function update_cards_or() {
 //This is specifically done for filters in different columns. So that you can for example look for italian restaurants in two separate locations.
 function update_cards_and() {
     document.querySelectorAll("#card-col").forEach(col => {
+        //Selects places that are haven't already been removed
         if (col.style.display == "block") {
             correct_filters = 0
             col.querySelector(".card").querySelector("#card-body").querySelectorAll("#filter").forEach(attribute => {
+                //For every category of a place, if that category matches a currently selected filter, than add one to correct filters  
                 if (dict_filters[attribute.getAttribute("alt")].length > 0) {
                     dict_filters[attribute.getAttribute("alt")].forEach(filter => {
                         if (filter == attribute.innerHTML || attribute.innerHTML.includes(filter)) {
@@ -190,9 +199,12 @@ function update_cards_and() {
                     })
 
                 } else {
+                    //This is for the case that that no filter is selected for a category, in which case it should be interpreted the same way as a filter matching
                     correct_filters++;
                 }
             })
+            //If the number of correct filters is less than the amount of identifying categories, than the place is removed
+            //This means that if every category doesn't either match a selected filter or doesn't have a selected filter, than it should be removed.
             if (correct_filters < Object.keys(dict_filters).length) {
                 col.style.display = "none";
             }
