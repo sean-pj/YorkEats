@@ -6,8 +6,8 @@
     <h4 style="text-align: center;">Currently Open</h4>
     <div class="container-sm border border-4">
       <div id="form-grid" class="row" style="height: 300px; overflow-y:scroll;">
-        <div class="col">
-          <p>Dining</p>
+        <div class="col border">
+          <h4 id="filter-name" style="text-align: center;">Dining</h4>
           {% for location in locations %}
           {% if location != "" and location != "Unknown location" %}
           <div class="form-check">
@@ -19,8 +19,8 @@
           {% endif %}
           {% endfor %}
         </div>
-        <div class="col">
-          <p>Cuisine</p>
+        <div class="col border">
+          <h4 id="filter-name" style="text-align: center;">Cuisine</h4>
           {% for cuisine in cuisines %}
           {% if cuisine != "" and cuisine != "No genre of cuisine provided" %}
           <div class="form-check">
@@ -32,8 +32,8 @@
           {% endif %}
           {% endfor %}
         </div>
-        <div class="col">
-          <p>Payment Type</p>
+        <div class="col border">
+          <h4 id="filter-name" style="text-align: center;">Payment Type</h4>
           {% for options in payment_options %}
           {% if options != "" and options != "No payment options provided" %}
           <div class="form-check">
@@ -45,8 +45,8 @@
           {% endif %}
           {% endfor %}
         </div>
-        <div class="col">
-          <p>Dietary</p>
+        <div class="col border">
+          <h4 id="filter-name" style="text-align: center;">Dietary</h4>
           {% for options in dietary_options %}
           {% if options != "" and options != "No dietary options provided" %}
           <div class="form-check">

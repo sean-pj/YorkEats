@@ -64,13 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
-    document.querySelector("#form-grid").querySelectorAll("p").forEach(filter_name => {
-        dict_filters[filter_name.innerHTML] = []
-    })
-    update_cards_or()
-
-
-
+    //Update public rating stars
     document.querySelectorAll("#public-rating").forEach(form => {
 
         fetch(`rating/${form.querySelector("#id").innerHTML}`)
@@ -84,7 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     })
+
+    //Assign each filter category an array in a dictionary
+    document.querySelector("#form-grid").querySelectorAll("#filter-name").forEach(filter_name => {
+        dict_filters[filter_name.innerHTML] = []
+    })
+    update_cards_or()
     
+    //User rating input actions
     document.querySelectorAll("#user-rating").forEach(form => {
         form.querySelectorAll("input").forEach(input => {
             input.addEventListener('click', () => {
@@ -126,12 +127,16 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 
-
+//Filter checkbox behavior. 
+//This function gets the places that matches the filters, but only one filter needs to be match. 
+//Meaning if one filter matched a place, but another selected filter didn't, the place would still be selected.
+//This is specifically for filters in the same column/category. So that you can for example see north american or italian restaurants.
 function update_cards_or() {
     document.querySelectorAll(".form-check").forEach(form => {
         let checkbox = form.querySelector("input")
-        let filter_name = form.parentNode.querySelector("p")
+        let filter_name = form.parentNode.querySelector("#filter-name")
 
+        //Checkbox click behavior
         checkbox.addEventListener('change', () => {
             if (checkbox.checked) {
                 dict_filters[filter_name.innerHTML].push(checkbox.id)
@@ -160,13 +165,18 @@ function update_cards_or() {
                         })
                     })
                  }
-                 update_cards_and()
+                //Remove the places that don't match all the filters
+                update_cards_and()
             }
 
         })
     })
 
 }
+
+//Filter checkbox behavior. 
+//This function gets the places that matches the filters, but all filters must match in order for the place be selected.
+//This is specifically done for filters in different columns. So that you can for example look for italian restaurants in two separate locations.
 function update_cards_and() {
     document.querySelectorAll("#card-col").forEach(col => {
         if (col.style.display == "block") {

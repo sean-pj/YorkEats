@@ -64,10 +64,6 @@ def edit(request):
     data = request.POST
     place = Place.objects.get(id=int(data.get("id")))
 
-    # Double check that the correct user is signed in
-    # if request.user != place.user:
-    #     return JsonResponse({"error": "Not signed in to the correct account"}, status=400)
-
     place.image = request.FILES.get("image")
     place.save()
     return JsonResponse(request.POST)
