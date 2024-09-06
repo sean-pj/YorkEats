@@ -94,8 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
         form.querySelectorAll("input").forEach(input => {
             input.addEventListener('click', () => {
 
-                console.log(input.value)
-
                 var formData = new FormData();
 
                 //Learned CSRF from https://docs.djangoproject.com/en/5.1/howto/csrf/

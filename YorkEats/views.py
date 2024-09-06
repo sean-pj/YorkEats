@@ -104,7 +104,8 @@ def user_rating(request, id):
     else:
         return JsonResponse({"stars" : 0})
             
-    
+
+#Function adapted from previous cs50 projects
 def login_view(request):
     if request.method == "POST":
 
@@ -119,12 +120,12 @@ def login_view(request):
             return HttpResponseRedirect(reverse("index"))
         else:
             return render(request, "YorkEats/login.html", {
-                "message": "Invalid username and/or password."
+                "invalid" : "is-invalid",
             })
     else:
         return render(request, "YorkEats/login.html")
 
-
+#Function adapted from previous cs50 projects
 def logout_view(request):
     logout(request)
     return HttpResponseRedirect(reverse("index"))
@@ -134,12 +135,17 @@ def register(request):
         username = request.POST["username"]
         email = request.POST["email"]
 
+        if email.split("@")[1] != "my.yorku.ca" or email.split("@")[1] != "yorku.ca":
+            return render(request, "YorkEats/register.html", {
+                "email_invalid" : "is-invalid",
+            })
+
         # Ensure password matches confirmation
         password = request.POST["password"]
         confirmation = request.POST["confirmation"]
         if password != confirmation:
             return render(request, "YorkEats/register.html", {
-                "message": "Passwords must match."
+                "password_invalid" : "is-invalid",
             })
 
         # Attempt to create new user
@@ -148,7 +154,7 @@ def register(request):
             user.save()
         except IntegrityError:
             return render(request, "YorkEats/register.html", {
-                "message": "Username already taken."
+                "user_invalid" : "is-invalid",
             })
         login(request, user)
         return HttpResponseRedirect(reverse("index"))

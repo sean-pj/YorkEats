@@ -1,30 +1,52 @@
 {% extends "YorkEats/layout.html" %}
 
+
+{% load static %}
 {% block body %}
+
+    <link rel="stylesheet" href="{% static 'login_styles.css' %}">
 
     <h2>Register</h2>
 
-    {% if message %}
-        <div>{{ message }}</div>
-    {% endif %}
-
-    <form action="{% url 'register' %}" method="post">
+    <form class="w-50" action="{% url 'register' %}" method="post">
         {% csrf_token %}
-        <div class="form-group">
-            <input class="form-control" autofocus type="text" name="username" placeholder="Username">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control {{user_invalid}}" id="floatingInput" placeholder="name@example.com" name="username" required>
+            <label for="floatingInput">Username</label>
+            <div class="invalid-tooltip">
+                Username is already taken
+            </div>    
         </div>
-        <div class="form-group">
-            <input class="form-control" type="email" name="email" placeholder="Email Address">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control {{email_invalid}}" id="floatingInput" placeholder="name@example.com" name="email" required>
+            <label for="floatingInput">Email</label>
+            <div class="invalid-tooltip">
+                Email must be York affiliated
+            </div>    
         </div>
-        <div class="form-group">
-            <input class="form-control" type="password" name="password" placeholder="Password">
+        <div class="row">
+            <div class="col">
+                <div class="form-floating">
+                    <input type="password" class="form-control {{password_invalid}}" id="floatingPassword" placeholder="Password" name="password" required>
+                    <label for="floatingPassword">Password</label>        
+                    <div class="invalid-tooltip">
+                        Passwords must match.
+                    </div>    
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-floating">
+                    <input type="password" class="form-control {{password_invalid}}" id="floatingPassword" placeholder="Password" name="confirmation" required>
+                    <label for="floatingPassword">Confirm password</label>
+                    <div class="invalid-tooltip">
+                        Passwords must match.
+                    </div>            
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-            <input class="form-control" type="password" name="confirmation" placeholder="Confirm Password">
-        </div>
-        <input class="btn btn-primary" type="submit" value="Register">
+        <input class="btn btn-danger" type="submit" value="Register">
     </form>
 
-    Already have an account? <a href="{% url 'login' %}">Log In here.</a>
+    <p>Already have an account? <a href="{% url 'login' %}">Log In here.</a></p>
 
 {% endblock %}

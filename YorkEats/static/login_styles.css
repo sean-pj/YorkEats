@@ -1,0 +1,24 @@
+.body > * {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body {
+    width: 100%;
+    /* Code from: https://www.w3schools.com/css/css_align.asp */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* End of Referenced Code */
+}
+
+form > * {
+    margin-bottom: auto;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center; 
+    margin:auto;
+}
