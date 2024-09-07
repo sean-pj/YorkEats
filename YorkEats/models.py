@@ -32,6 +32,9 @@ class Place(models.Model):
                 return 0
         else: 
             return 0 
+    
+    def round_average_rating(self):
+        return round(self.average_rating())
 
     def __str__(self):
         return f"Name: {self.name}"

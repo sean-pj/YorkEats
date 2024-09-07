@@ -51,8 +51,14 @@ def check_openings(check_time=datetime.now().time(), day_of_week=datetime.now().
 def index(request):
     check_openings()
 
+    if(request.user.is_authenticated):
+        ratings = Rating.objects.all().filter(user=request.user)
+    else:
+        ratings = None
+
     return render(request, "yorkeats/index.html", {
         "Places" : Place.objects.all().filter(is_open=True),
+        "Ratings" :  ratings,
         "day_of_week" : datetime.now().strftime('%A'),
         "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
         # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
