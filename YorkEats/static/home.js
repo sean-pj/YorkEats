@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector("#open-nav").classList.add("active")
     } else if ((view.innerHTML === "\"all\"")) {
         document.querySelector("#all-nav").classList.add("active")
+    } else if ((view.innerHTML === "\"later\"")) {
+        document.querySelector("#later-nav").classList.add("active")
     }
 
     //Show hide edit_btn

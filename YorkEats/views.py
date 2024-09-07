@@ -13,8 +13,9 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 # Update models if place is open
-def check_openings(time=datetime.now().time()):
+def check_openings(check_time=datetime.now().time(), day_of_week=datetime.now().strftime('%A')):
     opening_days = Place.objects.first().opening_days
+
 
     for day in opening_days:
         opening_days.get(day).replace(" ", "").split("-")
@@ -24,7 +25,7 @@ def check_openings(time=datetime.now().time()):
         #Many replacements because the dining dir doesnt make their entries consistent please help me
         #https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
         #https://www.datacamp.com/tutorial/converting-strings-datetime-objects
-        for time in place.opening_days.get(datetime.now().strftime('%A')).replace("11 am - 11 pm11 am - 11 pm","11 am - 11 pm").replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12am", "11:59pm").split("-"):
+        for time in place.opening_days.get(day_of_week).replace("11 am - 11 pm11 am - 11 pm","11 am - 11 pm").replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12am", "11:59pm").split("-"):
             if time == "AllDay":
                 place.is_open = True
                 place.save()
@@ -40,8 +41,11 @@ def check_openings(time=datetime.now().time()):
                     open_period.append(datetime.strptime(time, date_format1).time())
         
         for i in range(0, len(open_period) - 1, 2):
-            if open_period[i] <= datetime.now().time() <= open_period[i + 1]:
+            if open_period[i] <= check_time <= open_period[i + 1]:
                 place.is_open = True
+                place.save()
+            else:
+                place.is_open = False
                 place.save()
 
 def index(request):
@@ -56,7 +60,8 @@ def index(request):
         # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
         "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
         "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
-        "view" : "open" 
+        "view" : "open",
+        "title" : "Currently Open"
     })
 
 @login_required
@@ -182,5 +187,35 @@ def all(request):
         # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
         "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
         "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
-        "view" : "all" 
+        "view" : "all",
+        "title" : "All locations at York"
     })
+
+def later(request):
+    if request.method == "POST":
+
+        # Attempt to sign user in
+        try:
+            search_time = datetime.strptime(request.POST["datetime"], '%Y-%m-%dT%H:%M')
+        except ValueError:
+            return render(request, "YorkEats/later.html", {
+                "invalid" : "is-invalid"
+            })
+        day_of_week = search_time.strftime("%A")
+        time = search_time.time()
+        check_openings(check_time=time, day_of_week=day_of_week)
+        return render(request, "yorkeats/index.html", {
+            "Places" : Place.objects.all().filter(is_open=True),
+            "day_of_week" : day_of_week,
+            "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
+            # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
+            "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
+            # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
+            "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
+            "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
+            "view" : "later",
+            "title" : "Open at: " + search_time.strftime('%Y-%m-%d %H:%M %p')
+        })
+    else:
+        return render(request, "YorkEats/later.html")
+        

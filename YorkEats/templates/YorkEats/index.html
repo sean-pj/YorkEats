@@ -5,7 +5,7 @@
     {{ view|json_script:"view" }}
     <script src="{% static 'home.js' %}"></script>
     <link rel="stylesheet" href="{% static 'home_styles.css' %}">
-    <h4 style="text-align: center;">Currently Open</h4>
+    <h4 style="text-align: center;">{{title}}</h4>
     <div class="container-sm border border-4">
       <div id="form-grid" class="row" style="height: 300px; overflow-y:scroll;">
         <div class="col border">
