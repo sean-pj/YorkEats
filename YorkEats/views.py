@@ -104,21 +104,6 @@ def rating(request):
     
     rating.save()
     return JsonResponse({"stars" : place.average_rating()})
-
-
-def public_rating(request, id):
-    if request.method == "GET":
-        place = Place.objects.get(id=id)
-        return JsonResponse({"stars" : place.average_rating()})
-
-def user_rating(request, id):
-    if request.method == "GET" and request.user.is_authenticated:
-        try:
-            return JsonResponse({"stars" : Place.objects.get(id=id).ratings.all().get(user=request.user).stars})
-        except Rating.DoesNotExist:
-            return JsonResponse({"stars" : 0})
-    else:
-        return JsonResponse({"stars" : 0})
             
 
 #Function adapted from previous cs50 projects
@@ -184,8 +169,14 @@ def all(request):
 
     check_openings()
 
+    if(request.user.is_authenticated):
+        ratings = Rating.objects.all().filter(user=request.user)
+    else:
+        ratings = None
+
     return render(request, "yorkeats/index.html", {
         "Places" : Place.objects.all(),
+        "Ratings" :  ratings,
         "day_of_week" : datetime.now().strftime('%A'),
         "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
         # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
@@ -210,9 +201,16 @@ def later(request):
         day_of_week = search_time.strftime("%A")
         time = search_time.time()
         check_openings(check_time=time, day_of_week=day_of_week)
+
+        if(request.user.is_authenticated):
+            ratings = Rating.objects.all().filter(user=request.user)
+        else:
+            ratings = None
+
         return render(request, "yorkeats/index.html", {
             "Places" : Place.objects.all().filter(is_open=True),
             "day_of_week" : day_of_week,
+            "Ratings" :  ratings,
             "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
             # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
             "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
