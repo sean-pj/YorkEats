@@ -16,7 +16,6 @@ from django.contrib.auth.decorators import login_required
 def check_openings(check_time=datetime.now().time(), day_of_week=datetime.now().strftime('%A')):
     opening_days = Place.objects.first().opening_days
 
-
     for day in opening_days:
         opening_days.get(day).replace(" ", "").split("-")
 
@@ -48,9 +47,7 @@ def check_openings(check_time=datetime.now().time(), day_of_week=datetime.now().
                 place.is_open = False
                 place.save()
 
-def index(request):
-    check_openings()
-
+def render_places(request, view, title, day_of_week=datetime.now().strftime('%A')):
     if(request.user.is_authenticated):
         ratings = Rating.objects.all().filter(user=request.user)
     else:
@@ -59,16 +56,21 @@ def index(request):
     return render(request, "yorkeats/index.html", {
         "Places" : Place.objects.all().filter(is_open=True),
         "Ratings" :  ratings,
-        "day_of_week" : datetime.now().strftime('%A'),
+        "day_of_week" : day_of_week,
         "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
         # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
         "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
         # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
         "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
         "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
-        "view" : "open",
-        "title" : "Currently Open"
+        "view" : view,
+        "title" : title
     })
+
+def index(request):
+    check_openings()
+
+    return render_places(request, "open", "Currently Open")
 
 @login_required
 def edit(request):
@@ -169,24 +171,7 @@ def all(request):
 
     check_openings()
 
-    if(request.user.is_authenticated):
-        ratings = Rating.objects.all().filter(user=request.user)
-    else:
-        ratings = None
-
-    return render(request, "yorkeats/index.html", {
-        "Places" : Place.objects.all(),
-        "Ratings" :  ratings,
-        "day_of_week" : datetime.now().strftime('%A'),
-        "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
-        # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
-        "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
-        # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
-        "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
-        "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
-        "view" : "all",
-        "title" : "All locations at York"
-    })
+    return render_places(request, "all", "All Locations at York")
 
 def later(request):
     if request.method == "POST":
@@ -202,24 +187,7 @@ def later(request):
         time = search_time.time()
         check_openings(check_time=time, day_of_week=day_of_week)
 
-        if(request.user.is_authenticated):
-            ratings = Rating.objects.all().filter(user=request.user)
-        else:
-            ratings = None
-
-        return render(request, "yorkeats/index.html", {
-            "Places" : Place.objects.all().filter(is_open=True),
-            "day_of_week" : day_of_week,
-            "Ratings" :  ratings,
-            "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
-            # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
-            "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
-            # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
-            "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
-            "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
-            "view" : "later",
-            "title" : "Open at: " + search_time.strftime('%Y-%m-%d %H:%M %p')
-        })
+        return render_places(request, "later", "Open at: " + search_time.strftime('%Y-%m-%d %H:%M %p'), day_of_week=day_of_week)
     else:
         return render(request, "YorkEats/later.html")
         
