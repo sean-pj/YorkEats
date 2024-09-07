@@ -59,3 +59,25 @@ label:has(~ input[type="radio"]:checked) {
       --><input type="radio" id="star1" name="rating" value="1" /><!--
       --><label for="star1">★</label>
     </div> */
+
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#card-col {
+    /* Post reveal animation */
+    opacity: 0;
+    animation-name: reveal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}

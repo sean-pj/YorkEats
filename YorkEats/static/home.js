@@ -132,6 +132,17 @@ document.addEventListener('DOMContentLoaded', () => {
         dict_filters[filter_name.innerHTML] = []
     })
     update_cards_or()
+
+    //Animate each post
+    let delay = 0;
+    document.querySelectorAll("#card-col").forEach(card => {
+        if (card.style.display != "none"){
+            card.style.animationPlayState = 'running';
+            //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
+            card.style.animationDelay = delay.toString().concat('s');
+            delay += 0.3;
+        }
+    })
     
 })
 
@@ -150,7 +161,6 @@ function update_cards_or() {
 
         //Checkbox click behavior
         checkbox.addEventListener('change', () => {
-            console.log(Object.keys(dict_filters).length)
 
             //Updates store filters
             if (checkbox.checked) {
@@ -185,6 +195,26 @@ function update_cards_or() {
                 //Remove the places that don't match all the filters from each column
                 update_cards_and()
             }
+
+            //Animate each post
+            let delay = 0;
+            document.querySelectorAll("#card-col").forEach(card => {
+                if (card.style.display == 'block') {
+                    // https://stackoverflow.com/questions/6268508/restart-animation-in-css3-any-better-way-than-removing-the-element
+                    //Remove animation
+                    card.style.animation = "none";
+                    //Force reflow
+                    card.offsetHeight;
+                    //Restores animation from CSS
+                    card.style.animation = "";
+                    //Replay animation
+                    card.style.animationPlayState = 'running';
+                    //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
+                    card.style.animationDelay = delay.toString().concat('s');
+                    console.log(card.style.animationDelay)
+                    delay += 0.1;
+                }
+            })
 
         })
     })
