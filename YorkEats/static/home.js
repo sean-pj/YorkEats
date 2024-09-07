@@ -136,16 +136,13 @@ document.addEventListener('DOMContentLoaded', () => {
     //Animate each post
     let delay = 0;
     document.querySelectorAll("#card-col").forEach(card => {
-        if (card.style.display != "none"){
-            card.style.animationPlayState = 'running';
-            //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
-            card.style.animationDelay = delay.toString().concat('s');
-            delay += 0.3;
-        }
+        //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
+        card.style.animationDelay = delay.toString().concat('s');
+        delay += 0.1;
+        card.style.animationPlayState = 'running';
     })
     
 })
-
 
 //Filter checkbox behavior. 
 //This function gets the places that matches the filters, but only one filter needs to be match. 
@@ -211,14 +208,12 @@ function update_cards_or() {
                     card.style.animationPlayState = 'running';
                     //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
                     card.style.animationDelay = delay.toString().concat('s');
-                    console.log(card.style.animationDelay)
                     delay += 0.1;
                 }
             })
 
         })
     })
-
 }
 
 //Filter checkbox behavior. 
