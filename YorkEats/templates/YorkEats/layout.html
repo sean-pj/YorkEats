@@ -16,13 +16,13 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="{% url 'index' %}">What's Open Now?</a>
+                <a id="open-nav" class="nav-link" href="{% url 'index' %}">What's Open Now?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">What's Open Later?</a>
+                <a id="later-nav" class="nav-link" href="#">What's Open Later?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">All Locations</a>
+                <a id="all-nav" class="nav-link" href="{% url 'all' %}">All Locations</a>
               </li>
               {% if user.is_authenticated %}
               <li class="nav-item dropdown">

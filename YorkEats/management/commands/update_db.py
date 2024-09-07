@@ -26,7 +26,9 @@ class Command(BaseCommand):
                     menu_name=entry.get("menu").get("menu_name"),
                     menu_href=entry.get("menu").get("menu_href"),
                     dietary_options=entry.get("dietary_options"),
-                    opening_days=entry.get("opening_days")
+                    opening_days=entry.get("opening_days"),
+                    image_url=entry.get("image_url"),
+                    address=entry.get("address")
                     )
                 place.save()
             else:
@@ -38,38 +40,8 @@ class Command(BaseCommand):
                 place.menu_href = entry.get("menu").get("menu_href")
                 place.dietary_options = entry.get("dietary_options")
                 place.opening_days = entry.get("opening_days")
+                place.image_url = entry.get("image_url")
+                place.address = entry.get("address")
                 place.save()
         
         print("Successfully updated the database")
-        
-        
-        # period = []
-        # week_day = []
-        # for day in data.get("Pizza Studio").get("opening_days"):
-        #     week_day.append(day)
-        #     period.append(data.get("Pizza Studio").get("opening_days").get(day).replace(" ", "").split("-"))
-        # week_day.append(week_day.pop(0))
-        # print(week_day)
-        # print(period)
-        # for range in period:
-        #     for time in range:
-        #         try:
-        #             date_format1 = '%I:%M%p'
-        #             print(datetime.strptime(time, date_format1).time())
-        #         except ValueError:
-        #             date_format1 = '%I%p'
-        #             print(datetime.strptime(time, date_format1).time())
-
-
-        # https://www.datacamp.com/tutorial/converting-strings-datetime-objects
-        # date_str = '02/28/2023 02:30 PM'
-        # date_format = '%m/%d/%Y %I:%M %p'
-        # date_str1 = '02:30 PM'
-        # date_format1 = '%I:%M %p'
-        # date_str2 = '02:30 PM'
-        # date_format2 = '%I:%M %p'
-
-        # date_obj1 = datetime.strptime(date_str1, date_format1)
-        # date_obj2 = datetime.strptime(date_str2, date_format2)
-        # print(date_obj2)
-        # print(date_obj1 == date_obj2)

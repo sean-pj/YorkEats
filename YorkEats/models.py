@@ -19,6 +19,8 @@ class Place(models.Model):
     #auto_now updates every time the instance is saved, auto_now_add updates only on creation
     timestamp = models.DateTimeField(auto_now=True)
     image = models.ImageField(null=True, blank=True, upload_to='images/')
+    image_url = models.TextField(default="#", null=True)
+    address = models.TextField(default="No address found", null=True)
 
     # https://www.reddit.com/r/djangolearning/comments/1b9jfit/how_to_properly_setup_rating_stars/
     def average_rating(self):

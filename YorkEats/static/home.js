@@ -6,6 +6,12 @@ all_filters = []
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    if (view.innerHTML === "\"open\"") {
+        document.querySelector("#open-nav").classList.add("active")
+    } else if ((view.innerHTML === "\"all\"")) {
+        document.querySelector("#all-nav").classList.add("active")
+    }
+
     //Show hide edit_btn
     document.querySelectorAll("#edit-btn").forEach(edit_btn => {
         edit_btn.addEventListener('click', () => {
@@ -143,6 +149,17 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     
 })
+
+//If the user scrolls beyond, instantly play the animation
+window.onscroll = () => {
+    if (window.scrollY > 4000) {
+        document.querySelectorAll("#card-col").forEach(card => {
+            //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
+            card.style.animationDelay = '0s'
+            card.style.animationPlayState = 'running';
+        })
+    }
+}
 
 //Filter checkbox behavior. 
 //This function gets the places that matches the filters, but only one filter needs to be match. 

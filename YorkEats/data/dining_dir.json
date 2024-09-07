@@ -18,7 +18,9 @@
             "Thursday": "8 am - 8 pm",
             "Friday": "8 am - 5 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5_32jg886ClQ3CheSns0oaHq6J_eC-nVXkB0a9E9AGltvg6yOFOLz-Q3csWST6ofSYLMnSJzePEWaIktGaqDaxSq1RFr5-UIMzd3FYzgI3Noqvi0DSafk26pS217Mzc30EJEgaDd8-hMEkEgMpQh94yehySVcez74yKJUD4wH-1CGV&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "1": {
         "location_name": "416 Burger Co.",
@@ -39,7 +41,9 @@
             "Thursday": "7:30 a.m. - 7:00 p.m.",
             "Friday": "7:30 a.m. - 5:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7hgv6F0pbe6rDnI44AaTeEQwn6ZYXxboCoegTnY-sz6FfBcxEFts4jELGNkXsvSuz7vwUWS4HN_UYYJbJVV7bXqcDGnGdyBCKez01stoMDNyIwdMMLzPZlDGOvFiO6cH_HfnKVwVDx6wTd29pDNPELHkHXzOJTjb8ZUtxcN09eVuHy&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "2": {
         "location_name": "416 Burger Co.",
@@ -81,7 +85,9 @@
             "Thursday": "10:00 a.m. - 8:00 p.m.",
             "Friday": "10:00 a.m. - 5:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6ZAYOYPPXiknrDSksvw_0NBCIEXBNNVRZDIBimv29Khb7D3OAX_lR5I4R_rUELGfTqJ5WMDLpyhBhy0KqCO41uD5tz46soyF4xv5FbrtdZFtdEJ4FyxXKkiX4lB1uM-4HZeC_oyR7snvw128Yi8dmP8GwrEHTn6TAF0jzcXMiRJBmJ&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "4": {
         "location_name": "Amaya Express",
@@ -102,7 +108,9 @@
             "Thursday": "12 pm - 9:45 pm",
             "Friday": "12 pm - 9:45 pm",
             "Saturday": "12 pm - 9:45 pm"
-        }
+        },
+        "address": "95 The Pond Rd #20, North York, ON M3J 0L1, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4_mk9oCOl6RzPYwXgIkV5Oa8jzApUaFzZU_oEwFUkf-SbPY_H3ZBRHeYePGXSqlwSX2olEzD70GiEw8aVHBunKGfwQHUtcrAnnQYt36i5T3nVEyWp8oRH2euCW6QU2cOeZJNeB8WeirHEHQIZ10fzf2-P9tdxhh1JRDVQw5uN_7gAA&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "5": {
         "location_name": "Aroma Espresso Bar",
@@ -123,7 +131,9 @@
             "Thursday": "7:30 am - 8 pm",
             "Friday": "7:30 am - 8 pm",
             "Saturday": "8:30 am - 5 pm"
-        }
+        },
+        "address": "York Lanes Mall, 80 York Blvd, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5Eeyv-_Q4e573zmNL2lWKuPLEf3UKuPg0s_YucJgulynwtAvHPXZW5-BvXuDP6oyzO9QVUfQENRiQGvsAuhOQYiJpc1Ad1USm4tRLpptFCGEV9ZFVdVwavbZWQhtOrA2JoUFLhdq5o8afVpzR6UXDWNRy6hOTdozlVxXIfD9MxGIGw&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "6": {
         "location_name": "Aroma Espresso Bar",
@@ -144,7 +154,9 @@
             "Thursday": "7:30 am - 10 pm",
             "Friday": "7:30 am - 10 pm",
             "Saturday": "7:30 am - 10 pm"
-        }
+        },
+        "address": "105 The Pond Rd, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6AJvBQ0eBclos8tlemUN_Wm_kV3KOtjSQyx_yKKDjDA5nltWMmeSn4R1yCGANVV3mtCFC8fKUbjM8Fb1u4bb9Wi_JTRF_uDyZTehqvatSJomVK5qmxoizOtryrYvLqwEJTLp6p0x99w6owOkchTDzbIEQqW0AOYwyQ9112FP7zSt43&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "7": {
         "location_name": "Basil Box",
@@ -165,7 +177,9 @@
             "Thursday": "11 am - 8 pm",
             "Friday": "11 am - 8 pm",
             "Saturday": "12pm - 7 pm"
-        }
+        },
+        "address": "105, 30 The Pond Rd #30, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4rf3ukkxx8BIKpUt1DTWeStENexo77XSgr78sOlJkPlWY2qBkt8F8pc6RkDtU9NRJ7ojySp9h-6fcqul66Kui-1YcQMyeGSZbihLbhkOj3nojAcNPq1Gr_q628mFU9MzpX5qVFRrfUQbBfUkkB6cSKoD8QKdTjVEbod1AiXf0rbDpy&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "8": {
         "location_name": "Booster Juice",
@@ -186,7 +200,9 @@
             "Thursday": "8:30 a.m. - 8:00 p.m.",
             "Friday": "8:30 a.m. - 5:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "Ross, 4700 Keele Street York University Curtis, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q58JHoj7oKtRF_RZ5b7FeKJh3dv44UtTvUMtLwebAffHRbHLybdJ-d5VbEjc3Qm5Y-Kqdy3B1awBESoPpm9StNNK5EbPOrvSgXUqFIZ2IANEntZOXDc1HhY_EmX08JoXCJVUUfckp0nlrwRFDMroOWnQZ9PydpCZXCw56RF6g6wCi-S&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "9": {
         "location_name": "Booster Juice",
@@ -207,7 +223,9 @@
             "Thursday": "7 am - 9 pm",
             "Friday": "7 am - 9 pm",
             "Saturday": "8 am - 9 pm"
-        }
+        },
+        "address": "105 The Pond Rd Unit #70, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5Rx3xB3U6rz9SDOUaSazZEMprkDYmI1P2WdJwrc-0uS1tkiCRLPH4vtTmF334uYMPFAe0iMnDsFTbHG6QSNrBgAHQ-ERRtpY0xyZh10cdTxzUCG8pPWBU07wVSQ0DbXzF01UKW2wmBpYoyolKg455d2FW90xzdBwhyZA-1CbZARyav&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "10": {
         "location_name": "Burger King",
@@ -228,7 +246,9 @@
             "Thursday": "7 am - 12 am",
             "Friday": "7 am - 12 am",
             "Saturday": "7 am - 12 am"
-        }
+        },
+        "address": "115 Haynes Ave, North York, ON M3J 0L8, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4MUWQzn8NMeyKjFI6z6hcHRjr6LRFMRd0tFdlVkz_8b6QS7gZc3jWKifCYgu6xl2Ha0VoP6mlpn-qepuCbv8S1cemFte3tY5abZ5zOuxvZwU6mFSgk5AsbAU9fKI7YKSjCMBLBmKTIQQWSRDU0RXJ6zV1_gPSkVdhi0whjE7YHE6ZA&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "11": {
         "location_name": "Chaska Indian Street Food",
@@ -249,7 +269,9 @@
             "Thursday": "11 am - 9 pm",
             "Friday": "11 am - 9 pm",
             "Saturday": "11 am - 9 pm"
-        }
+        },
+        "address": "80 York Blvd Unit 17, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7M3G2s55HTarFfeWKwlg9QfdgX5SB5gSz7HJtrHztyGeRC7pFZXLATf6SugxmHMN9SNScHHqLy-A9dFQGcveO4t64QT53izAtu9J-pGvva8_COJMuLEvLRzO1kbBVc4au3aVqBEtOm5gRI9pDSjNwgWQQenwra2-Vplq-4ymqPcq2l&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "12": {
         "location_name": "Chef\u2019s Table",
@@ -270,7 +292,9 @@
             "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
             "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
-        }
+        },
+        "address": "001 Winters College McLaughlin Rd, North York, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7WWhmF1FQky_PtlKK2C3Of67eLZQfnVAl79Qhq-X2dQ8VL0XoLv3gMWoTHZyxwB6nzxaUEf3KyNgHD25KrpuE6ueiYnH8I96f_EFhv9H0CoFrqdlPNxXfGQ7hGilUdi1Q6EE9LTSdWQyFY323OEhcegs0FUZebZNL358P56fjf5rDf&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "13": {
         "location_name": "Chef\u2019s Table",
@@ -291,7 +315,9 @@
             "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
             "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
-        }
+        },
+        "address": "165 Campus Walk, North York, ON M3J, Canada",
+        "image_url": "#"
     },
     "14": {
         "location_name": "Chipotle Mexican Grill",
@@ -312,7 +338,9 @@
             "Thursday": "10:45 am - 10 pm",
             "Friday": "10:45 am - 10 pm",
             "Saturday": "10:45 am - 10 pm"
-        }
+        },
+        "address": "85 The Pond Rd, North York, ON M3J 0L7, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7pPOVtZLJEEYLgB3PFZSxA9AuH7A_b_YLmfxs4rjhHHgm8p1ey31ksjrLxBsV0DLb-J2q1OdWXL806-g2s-kOBn8Kgr608mK7j9xAq2C5Qg2b3SoMgVryoqzt6L1P1KFj33EcQQnSLC1RbEBT842aPnKu5Y7p5YsNkp0O60tE5rHJv&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "15": {
         "location_name": "Chop\u2019d & Wrap\u2019d",
@@ -333,7 +361,9 @@
             "Thursday": "11 am - 7 pm",
             "Friday": "11 am - 3 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7IQJXoLSgQp2wlyjeSJ8f6O07KavminV_-zMZIFwQ0B-uMzwPSda93v74QomNp8NUuPKMSj-EZczVIV1w3NYPboSsoczZlTLiFlKkSeTFyZEaITqoXk_0r3ok0YpdhS5OdptDQKA6CpWWhsW4IAtRJ_Mvsr0jl0eY8iRELBvhZdPYV&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "16": {
         "location_name": "Chop\u2019d & Wrap\u2019d",
@@ -354,7 +384,9 @@
             "Thursday": "Closed",
             "Friday": "Closed",
             "Saturday": "Closed"
-        }
+        },
+        "address": "72 Winters Ln, North York, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7j1zlq4BOq0Xz_uaFQ1WhzbA2zBwahF6yzJse8nR-c2ZdhbogEOPQMTP58nZdyRZPmVprfy0Vqr8Ipo-gpnNv3DOkcxiq-ntSz7mO0XWsPi_4ija38_DCfyudMVbr98J3yHj8YMQVlvL2SQjDxbId4RSKxyA5OXd3OpVexyGIlPd6j&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "17": {
         "location_name": "Chop\u2019d & Wrap\u2019d",
@@ -375,7 +407,9 @@
             "Thursday": "11 am - 7 pm",
             "Friday": "10 am - 5 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4bOH1xYablwgcYPsOZobXuf5ojTX6ISZMLJ9On0mJ-h4rZ_R4RRKzJZxvU7WsWfE_RGTA9WD9h01tkkvIJ-5Ct1dToPvsW2z3lX39odoza6Ok2F8BmxVtcH36iWpdinJpyy5F_XoFMYbfFy0nQwfdJuHVXwqxNpATN9OuflvO6W5rD&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "18": {
         "location_name": "Chungchun Rice Hot Dog",
@@ -396,7 +430,9 @@
             "Thursday": "11 am - 11 pm",
             "Friday": "11 am - 11 pm",
             "Saturday": "11 am - 11 pm"
-        }
+        },
+        "address": "95 The Pond Rd #20, North York, ON M3J 0L1, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q63Kn14ZMhgenXz9vTkKToxHkFQdm5gKx_-dGCmqcFQREWoP1xR7KUq7VeWYdBs4UMpTUILoYhx4E4vDhVzikbQ5rfBk02J34Dm9X1WHIx4uGg3Thzb1Ky82XcUvoz9r_FKJ-EBNByCap90Xa7jk0loYPS03oSlC1w3jS-qRVE-Fh3J&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "19": {
         "location_name": "Country Style (Kosher Deli)",
@@ -417,7 +453,9 @@
             "Thursday": "7:00 a.m. \u2013 7:00 p.m.",
             "Friday": "7:00 a.m. \u2013 7:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "72 Winters Ln, North York, ON M3J 2N9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7o3VG9reMFDDuUMNeykjXh7wEgErQzIMUkNJV5IVcHX-1qRGyxdzGKrgYujRQwdHJQtxK7aJ-Hf3bY6qdy-rmwzs36_2GEur56BuY57osGefR7jYpL3ObwbOo6c16kXyndOgBQdtXrjcM2tYrn9HP5TL4Q6sVz68zcmzQsDoKfz_Yt&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "20": {
         "location_name": "Create",
@@ -438,7 +476,9 @@
             "Thursday": "7:30 a.m. - 11:00 p.m.",
             "Friday": "7:30 a.m. - 10:00 p.m.",
             "Saturday": "8:00 a.m. - 10:00 p.m."
-        }
+        },
+        "address": "72 Winters Ln, North York, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5nMHo45pyds2bNklgZa-Y8CuHbI0iabdi7iZ5xgR35twNFF2GneIbQuo8vsQ10tqvzXLPIWLdDXAmw9GGWJG9E624QAVNerI7oGfg3lh52NFFS3yRgi62HnCSl3LXJ1q9dUVz7YIjbG44Ve-HfKXTLHMkQrlFypZzO-LJU4LNLiHea&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "21": {
         "location_name": "Create",
@@ -459,7 +499,9 @@
             "Thursday": "10:00 a.m. - 9:00 p.m.",
             "Friday": "10:00 a.m. - 8:00 p.m.",
             "Saturday": "10:00 a.m. - 8:00 p.m."
-        }
+        },
+        "address": "165 Campus Walk, North York, ON M3J, Canada",
+        "image_url": "#"
     },
     "22": {
         "location_name": "Create",
@@ -480,7 +522,9 @@
             "Thursday": "7:30 a.m. - 7:00 p.m.",
             "Friday": "7:30 a.m. - 5:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7G50mAXQKX8vYmjqzV2QeOwi8kmmMpzqIYw3y-SOGcsHqZElIbDqiOiSw_vWkhojRKZ22ALTiwZXufHYtXhhazPEt6T6Ot3YpngzjISZtMMAIwdIv6oLB0Ky6DLb7ivPqVEnbjptV6P_r791-YZllhQwGBhkemDwmAVQGB2pQbNE5Q&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "23": {
         "location_name": "Create Stir Fry",
@@ -501,7 +545,9 @@
             "Thursday": "10:00 a.m. - 8:00 p.m.",
             "Friday": "10:00 a.m. - 5:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q66JhiQd0DdQT8vSsFzWyAEv6AAUPhPzUNUXUBZsm7K3-IFhIrfMyXj0tUxtqtVI8kNybzec39sjLX1EtUofjKtOEYpXwAeUds4_lWEkbPwhBzAD8Ph0h8nnRvnvNxOsRV7h1Cnib7koXGkKZN2xeoYNrneeuVfcraeltUNNtQt8hOm&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "24": {
         "location_name": "Crepe Delicious",
@@ -522,7 +568,9 @@
             "Thursday": "11 am - 11 pm",
             "Friday": "11 am - 11 pm",
             "Saturday": "11 am - 11 pm"
-        }
+        },
+        "address": "115 Haynes Ave, North York, ON M3J 0L8, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6HDNViqDljUdbfnL6v1lo9sUgXmbUhLXhKWaStxd-sG4KyxUnrrPSai-2JetFCe7puvzafqx8tIKarwUrDsC2lNIich_cWhO3NK-yC9W0gBlEwGKzhxbrbjcs1owQf77pBr35KWDkD2mMXeiI_LdrhQdLoXmOlt8tDbPcNxosNFOI&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "25": {
         "location_name": "Cucina Italian Cafe",
@@ -543,7 +591,9 @@
             "Thursday": "8 am - 11 pm",
             "Friday": "8 am - 11 pm",
             "Saturday": "3 pm - 11 pm"
-        }
+        },
+        "address": "4700 Keele St #14, Toronto, ON M3K 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7sxOgcVYl-ihDTSWZHxtI_aaoFAQZzD8IAcYk31MUQBrbI83Jt0PbsVVOdNI45XOLiC0xpaVxh069eHnrLuElZdlMwpD8Be1-_uwhsMV80IM4qHsCya2BQGeuk3D-V0PxpVmuqJr2-3fIq0iSdu2s9VNOES4UKTIrKSY3qJT1vzVfV&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "26": {
         "location_name": "Executive Dining Room",
@@ -564,7 +614,9 @@
             "Thursday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
             "Friday": "7 am - 2:00 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "56 Fine Arts Rd, Toronto, ON M3J, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5mA1XA20B8vZDZwvHRBwv8PNySwcgZag1gKX-n2XO8IsxyneA9gQkLsmiyD8JIxjwwyyrRyBZ9svHbiu_szrjof6lxCJ-YgQcnGccYItd-3K_p31dlsqUchveKyr35hth9Yy1Cczv7SvvHMlnPXIbSH3MqUxtCcjaZhjtCpI7tAwxI&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "27": {
         "location_name": "Fat Bastard Burrito",
@@ -585,7 +637,9 @@
             "Thursday": "11 am - 12 pm",
             "Friday": "11 am - 12 am",
             "Saturday": "11 am - 12 am"
-        }
+        },
+        "address": "95 The Pond Rd #80, Toronto, ON M3J 0L1, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6Wj9Gsq6dZ7lMhZIVo9yDx_-tnCET1sd-k17jr_tpzakTv2zQX_IIAtX2qTbNYhEeGcuQUdccWgCj9tHGk0tuFNTTEc5rh_do1toGh_OBfxN7YPKFz-XOmm8cVF3sowuJyd2s-VX0X7nyiKOe5_nzSF4Tg53EefYGf6_1nh0pWmeJy&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "28": {
         "location_name": "Galito\u2019s Flamed Grilled Chicken",
@@ -606,7 +660,9 @@
             "Thursday": "11 am - 11 pm11 am - 11 pm",
             "Friday": "11 am - 11 pm",
             "Saturday": "11 am - 11 pm"
-        }
+        },
+        "address": "95 The Pond Rd #50, North York, ON M3J 0L1, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7qoWNSMN3V1n8OX4zcWz-8cuoaSemVF5taSGvIYYZ-klcwKSumB77wUuQVpN0vjHMxiYY7ulImCWFsRrbIWMiS9ZlFJhaJZCHnsZI8fBnnzNl5MrNkhPDwb0sU9El9MpU_COFmqHky6pYst_pvNQQ9WuwEYdYhJaktN6vy70Guz-uE&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "29": {
         "location_name": "Gateway",
@@ -627,7 +683,9 @@
             "Thursday": "9 am - 9 pm",
             "Friday": "9 am - 9 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5dErkca6XaW2-3ud0NWtFMFq2sybojvLelG4XKys7Y_eTGgh3_T1KZBidOTxDLgaPdGmIV1yBzVXQaHZ4COnOiVnRsKp0Wo5JeKvk5wxH-j8LCETclYexLYDfTp15Arcv3lxi1eA4H2lNiHWMeXGO2kK1ni21G7C14sgyo1yw2tGTQ&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "30": {
         "location_name": "Gino\u2019s Pizza",
@@ -648,7 +706,9 @@
             "Thursday": "10 am - 9:30 pm",
             "Friday": "10 am - 9:30 pm",
             "Saturday": "11 am - 9:30 pm"
-        }
+        },
+        "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6gyjTjp6_n3YCJ8c4ht-dqnGo9JMbDCLqFLRZO_io16grSbM3XMvdC87IOMIqIsHhT5KkDmeMUwRJC55WuI5p5rxxc_lvwJSPq7GBHeYerh9SoH2cqZ-2Ay0h27_jJaNXLvKWVhsRCWuu3aGJy0zJlRTR53aHUWlLs_s-ip_yWsv96&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "31": {
         "location_name": "Gong cha",
@@ -669,7 +729,9 @@
             "Thursday": "11 am -11 pm",
             "Friday": "11 am -11 pm",
             "Saturday": "12 pm - 8 pm"
-        }
+        },
+        "address": "95 The Pond Rd Complex 2, Unit #30, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7ENj2ZyQRbqTxulJM4cTDh8oXHNzRITHd4pdMPit6N-1vdQTdACoIdTp2V0W5oMJ_noY_RJWfWzT516cWP5DcY6OEUMhczV2B3qpNNd28sz4_m6miPrzTYnnCJDkP2pQSsjtH36QTICxGXkzZ4wLNj18ZOs8gEgEMhNlzycMUDsGLk&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "32": {
         "location_name": "Grill House",
@@ -690,7 +752,9 @@
             "Thursday": "7:30 a.m. - 11:00 p.m.",
             "Friday": "7:30 a.m. - 10:00 p.m.",
             "Saturday": "7:30 a.m. - 10:00 p.m."
-        }
+        },
+        "address": "001 Winters College McLaughlin Rd, North York, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6ZyX5JTW7WaQZDmpdyvjTOQUDiemXTRS4E-BW6GHfr84Lp4bZZmijGupIITo3yr5IcJQMgP6etqMvlUX3QbjcEz9HrpNi7w52Q-aY48j0BWrUKqyvXEmQBcm7w9Z7QZcFLnlbuFHlaxxChgjHwsz1fEGYk1cF_XuM0i8d4HqjO-_9c&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "33": {
         "location_name": "Grill House",
@@ -711,7 +775,9 @@
             "Thursday": "7:30 a.m. - 11:00 p.m.",
             "Friday": "8:00 a.m. - 10:00 p.m.",
             "Saturday": "8:00 a.m. - 10:00 p.m."
-        }
+        },
+        "address": "001 Winters College McLaughlin Rd, North York, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4IB-icqVlwIHzWe29eb0V0zFyvhQqrkkIrcrGUFVnhPM1N7ncNdNv2FE1Z8Ka4NDdftNlLbgMXtGrqsapDloJvU-zsISJesS02lsiu5iFD2NUMQNZLmDbAAcZBP_K3BACf88_DgZbDCC-tZfPIsgVGHzzua2ZHGDGC6yTOlr0ZMfVv&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "34": {
         "location_name": "Hero Certified Burgers",
@@ -732,7 +798,9 @@
             "Thursday": "11 am - 9 pm",
             "Friday": "11 am - 9 pm",
             "Saturday": "11 am - 9 pm"
-        }
+        },
+        "address": "10 Vanier Ln, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4yImB3MiKpcnN41UGKkcWDcAXXoRh7pRf4xHOIFdIrbz-1MYQ2HM05VhleTKA_PqkTzUdTV8AqxtA8FlgTTU7NwmDKsvozMs_fLDWTjlssLW0QbaBtbCQn0Uc4wrgwQcrOU1gcGcwUFtYPTg2Rboz_RQfIILMPwEsQO4xA15PB5Mea&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "35": {
         "location_name": "Insomnia Cookies",
@@ -753,7 +821,9 @@
             "Thursday": "12 pm - 3 am",
             "Friday": "12 pm - 3 am",
             "Saturday": "12 pm - 3 am"
-        }
+        },
+        "address": "85 The Pond Rd unit C4 130, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6M6ltsG1WGBIJDj7YI4hYnHtuBey65_IMJs4WDza1P9dNXcqI0nav_2MWJPQckpNAQa5nnW6VnwVwChlFxZAUvXnFzWuNbSoueCmI1xR6O599FGvV-lHeWEjGvzGQBj-zR4u4ArH0iOxaJx9UZGOpAFSd0NWYJyME2bQJGaAbRMhCd&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "36": {
         "location_name": "Jimmy The Greek",
@@ -774,7 +844,9 @@
             "Thursday": "9 am - 9 pm",
             "Friday": "9 am - 9 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "York University, 4700 Keele St, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6ddPWQaLP3Kg19-jYYwmMjrv4ZFv1Zwzyf1v39WID2qaoHU2q1DC6mXfDN28lEWu7iaDcewid5g9rflaI7ZLBFOsKjcca3r5GEm3gLEcqHROynTVFil1U5cfWQ2P0jr3t1uHB9NldK1r07p97Y3WpsUKgP5TsM9GpCbEYhSfEjrW8&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "37": {
         "location_name": "K-Bowl & K-Roll",
@@ -795,7 +867,9 @@
             "Thursday": "11:00 a.m. - 7:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "37 Kodiak Crescent Unit 4, North York, ON M3J 3E5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q42zqMitlaVZLs-O_XqigG653fVREgUbESc_nHd62Dc1mRXC5PptOboD1A0pGosK3Vk1V1CnxMzLmIQmDFwjf1hIJFL1J1n0v3Cex2Vf9Qsw547nuGVSQ5ll-LxB8Nnqzl_0gg7S0OxQuWbZNHmsQ62VSBwzZtSFGLhrwM8lmWgs_GD&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "38": {
         "location_name": "KitchenMate",
@@ -816,7 +890,9 @@
             "Thursday": "All Day",
             "Friday": "All Day",
             "Saturday": "All Day"
-        }
+        },
+        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6w0I5X5EEuhsuO8JFsFcHC-z8R5Kmw15w5Vew9F-6D-6LXuZk4m3B_5rV5xMob8_aHi5A6NgWFRTwVgrqaDI5NGWwCEbUMC4-mIeVeUsmFhO2CiFW_elfp9VEBQA1eqwXZDeZR02-5kunPbVwUPKo4wQoRBmsqn9DsItaN1HzNOvn_&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "39": {
         "location_name": "KitchenMate",
@@ -837,7 +913,9 @@
             "Thursday": "All Day",
             "Friday": "All Day",
             "Saturday": "All Day"
-        }
+        },
+        "address": "68 The Pond Road, 4700 Keele St, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4224poG5BZh8fjULDwx7KKx-LkF9MtAvMuwWaFHKlLAq2FqAoEyBfhXTL84_hpS1ajVoIOkzdt_5hus4Vk-KLRGd25Is7DktzE_y0lveFPVIMGEe4rIvkwYSRXrvi0uMRIbqBrfJyjQvV-Tl_LbwoX45gYPGNK1u4BxNsRbnG2ZpKx&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "40": {
         "location_name": "La Prep",
@@ -858,7 +936,9 @@
             "Thursday": "7:30 am - 9 pm",
             "Friday": "11 am - 6 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6U3bay8ajro7C3W-x265Kxj68kSGht7U5__iIv8GYcs8zIzoynJfeAx9rUBaVvRcCfC4fwUvEurw7RvVBIx_oCIz-BIgrI1_LI8m8-BuSE2597tc6GZvNq3F1GIHa02f5UDnUAOk2GYfqYsdrGsqwmtZ9Q3V5_KpHUyx5bFG0K8F1Q&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "41": {
         "location_name": "Mac\u2019s Sushi",
@@ -879,7 +959,9 @@
             "Thursday": "9 am - 7 pm",
             "Friday": "9 am - 7 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5SDEAsYLJ9NA_xb87F5DtaIcP44Oq7iQto7fk17VFuiGLLETPqqD8rDOWfPd9HMJvTQ1Tv0hQkKRGSFFRwC4JKlld9l21mcfeJdQe7BN4j_2j1ep8ZbzWz6FwydoV6teGC79HoDYBhezP6xBsI3uXwYY-O8hW5x15tu-01SkmIem3_&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "42": {
         "location_name": "Mandarin 2 Go",
@@ -900,7 +982,9 @@
             "Thursday": "11 am - 9 pm",
             "Friday": "11 am - 9 pm",
             "Saturday": "11:30 am - 9 pm"
-        }
+        },
+        "address": "105 The Pond Rd, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6v-r2ZtrfODrcGFxxQ3y1-9GHRerzkqLwUFpi6PmCRGDobVG6xmJmBcNosxrxLJJYisiTILFr1q5u5a5tttxi4thmDE3r8iXsposkYHqeIOT3fn3Ejv9PQv-alT1s5cC6Yd1qZiPW6CfuuO76h3V1xjnJFbsgE1ntGH0wWHlH54d7W&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "43": {
         "location_name": "March\u00e9 \u2013 BokChoy",
@@ -921,7 +1005,9 @@
             "Thursday": "10:00 a.m. - 9:00 p.m.",
             "Friday": "10:00 a.m. - 8:00 p.m.",
             "Saturday": "10:00 a.m. - 8:00 p.m."
-        }
+        },
+        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q71ACh8vfRhP_7BJ2mtWiUYLGP2cdU8BzyhfZp92rG4q1_yrbnAa0OyOy2u_qUNZdRm_GK9oaR4DNFH0vSAUikXN_0uiJb7NnnUwB85R9TbyM-YyHH4Xi8bN6zrik1a2bm6eKlcsQrjsJl3tMUMT2_rVdwEd07nkabc5gbLDki77avV&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "44": {
         "location_name": "March\u00e9 \u2013 Chef\u2019s Table",
@@ -942,7 +1028,9 @@
             "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
             "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
-        }
+        },
+        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6LiXtIAVbxN4movHsi9GmRvcBK2NNvkLRzeZANGiBwFX9Vswfj650a5x9eoRfbRjMU0h1nfu7eQVXqniL8PBBLdtI08nZs9vYTGDzAxPGay_rfUjah53nqP5cSOzsT41-KBf9T8aDPk5DkeuddbMUTGdAfWyKYg5-ZjLYTBypcQ-Y&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "45": {
         "location_name": "March\u00e9 \u2013 Grill House",
@@ -963,7 +1051,9 @@
             "Thursday": "7:30 a.m. - 11:00 p.m.",
             "Friday": "8:00 a.m. - 10:00 p.m.",
             "Saturday": "8:00 a.m. - 10:00 p.m."
-        }
+        },
+        "address": "2275 Bayview Ave, Toronto, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6v0Tisx-6rFGmdF89GQTAm7C04nkO6nJForCyFwawUT07bBBV5NZ47a_z9uvLOv3pw_Lo3q-138j65omgZ2AutEWBQy5YSbLyLTnNkzJa3eB__3zBS31DH0zfpoD4LAa73Eet1HPKj6EBm8LeiIBI-2xILijNXjn8INyM_I9LTuvv1&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "46": {
         "location_name": "March\u00e9 \u2013 Pizza Pizza",
@@ -984,7 +1074,9 @@
             "Thursday": "10:00 a.m. - 10:00 p.m.",
             "Friday": "10:00 a.m. - 9:00 p.m.",
             "Saturday": "10:00 a.m. - 9:00 p.m."
-        }
+        },
+        "address": "123 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4OF9f7rxt9xZbk4MRiWYiUDHZV0ItwZqCLYBY_t_T-_0D6WgMBjp--oVaMQhZ_RmjgJJIkAZxvE_IvnOcdQ7FpRrXkgBxx22XbE7TXghNHozZB-oX-Q4GfF_oVRHZ4-mxSg5bDqYsdqT9dZCR1tHvEzlFOIuDZi8exPkrQRhCBgIWk&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "47": {
         "location_name": "March\u00e9 \u2013 Pop Up Kitchen",
@@ -1005,7 +1097,9 @@
             "Thursday": "11:00 a.m. - 8:00 p.m.",
             "Friday": "11:00 a.m. - 8:00 p.m.",
             "Saturday": "11:00 a.m. - 8:00 p.m."
-        }
+        },
+        "address": "2275 Bayview Ave, Toronto, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4lIoqgx8KlnQlirqDF-3WZxDOceXhhPUhkiwi2FD03ZPDddblV0vCCpD_mBbOxCoxxb1xOb9A3rNbsPZVVgnkSEc-hgbRiKUhd_lgIRzIWcNXMm8P_fRrEvRh8guQ7MlMLcuoMAIpmXjPS1XOC98JfML1XqUZyhOYMsj3CuJHGpMkB&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "48": {
         "location_name": "March\u00e9 \u2013 Stacks",
@@ -1026,7 +1120,9 @@
             "Thursday": "11:00 a.m. - 7:00 p.m.",
             "Friday": "11:00 a.m. - 7:00 p.m.",
             "Saturday": "11:00 a.m. - 7:00 p.m."
-        }
+        },
+        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7soxZ8t3CRnbXKf2zgjAhMmt17RkRuvIQAv0lpPOpI0Y9rjRJQaK4w61AMByVeXlLiKuwtiu5u970ksKa0AnsFmSBV7TT2EvkJAFb-AhOwI0SexeqLDJjkFR2otvl4TmDrZxC6u5nNgGtex5JC0PWHGekfGRz8d3IjqXovKoFaNT10&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "49": {
         "location_name": "Market (Certified Gluten Free Facility)",
@@ -1047,7 +1143,9 @@
             "Thursday": "8:00 a.m. - 5:00 p.m.",
             "Friday": "8:00 a.m. - 4:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "11 Arboretum Ln, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5WVzaGp2r5qykDvcvb1JCut82I5NYhjbGG9OhaB-HkN78uDMQgzYr_wH8hXJ8AKRwkhDBH19AmXTMLuSd2PttoLURVlLm4GqYRm8byJe4vjJmRbTKhr-xjtsJNP3G2Ia8fIqPpbK64VPSQvEOpcIf4uizbAotVwriaulo-3X7EIS_a&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "50": {
         "location_name": "Meltwich Food Co.",
@@ -1068,7 +1166,9 @@
             "Thursday": "11 am - 2 am",
             "Friday": "11 am - 2 am",
             "Saturday": "12 pm - 2 am"
-        }
+        },
+        "address": "105 The Pond Rd Unit 90 Building C1, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7lSbqe72zM21bgN7H1Q31x5pizt4FGFQrCEpzetNBGzi3ogc7zcuEFpOwm-gExVwUF_ddiZ7SYFHrQOw1S5wvxEl2ztuFmfJAzoI4TcnE1m_c-dbjP8LC1_x9Wd9SbYyF7u_ddQgqktTGo3FwaBcXWoEs4-PH1SJzwNdhy5pp7TDCr&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "51": {
         "location_name": "Omni Noodle",
@@ -1089,7 +1189,9 @@
             "Thursday": "11 am - 10 pm",
             "Friday": "11 am - 10 pm",
             "Saturday": "11 am - 10 pm"
-        }
+        },
+        "address": "115 Haynes Ave Unit 120, North York, ON M3J 0L8, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7Jl-e1zdYwlXH_uebqQpaBLDDghzcA7D9-ZWu3BDpyLjNxbjA-6rAljM5jqU7XGHTHAUWh-jRSzEcqKtwDS7GgWXdag6lqbkKSDwCPjUHtSfLsi3oFT4Pdf7y8nPrAd6E9Z6sZK45ZjOv50VgqNtFW1Xqwb612oEo_EGCGnntVa03j&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "52": {
         "location_name": "Osmow\u2019s Shawarma",
@@ -1110,7 +1212,9 @@
             "Thursday": "10 am - 5 am",
             "Friday": "10 am - 5 am",
             "Saturday": "10 am - 5 am"
-        }
+        },
+        "address": "95 The Pond Rd Building C2, Unit 40, North York, ON M3J 0L1, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4EAQrJhIVIt4LmLaCYZETKkhFFueTAuwmF56rivGV4U-W1KfQTwW368wDJ3sSmmBeY-_cQ8UtKI1gyKJn2SWMFusgdzKc0gV-aKAS-WFK2CREGafrplGcMx68COIHvqJVnQisJ_Cdp-jFOhvqy2mvd6Nv_UdBeycBkoHM4iYTCRpt9&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "53": {
         "location_name": "Pagoda Tree",
@@ -1131,7 +1235,9 @@
             "Thursday": "10:30 am - 9 pm",
             "Friday": "10:30 am - 9 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5qsUjUnYIEQF0NuDcaPNXevZamQJYOH0as9Qq3vuQSWBx9c6aU6o6jRgRx22Ru6aIu5Jv6sps7HqSbIMgomarNy_nKdQ1H6uvLMqcC3Qy2dok3ayaHjXwsik7cSHnCCQN2YE2VcwjIiOEb2DKmyFomtxWv9aiGuQ5-1TZR-vmouO6F&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "54": {
         "location_name": "Palgong Tea",
@@ -1152,7 +1258,9 @@
             "Thursday": "8 am - 7 pm",
             "Friday": "8 am - 4 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "Inside the Lassonde School of Engineering, 204 Bergeron Centre York University, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6m6BYcOiWQ8xFXQfEWwwrvGjHGUtSsEuNfpGo82aAsRHMZQehD2_M0wSQ5nZLvYHgGOdMnUEjYB4U7cxa6IRN8AjGkJ9GhrBvC29BoAocl5Y-xfURCpFxaNYTX1p2MfK66tFdjLYwhqNle9fPhku1q9kWodKXmt5R1WMtGtMba9fPg&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "55": {
         "location_name": "Pita Land",
@@ -1173,7 +1281,9 @@
             "Thursday": "7:30 am - 2 am",
             "Friday": "7:30 am - 2 am",
             "Saturday": "9:00 am - 2 am"
-        }
+        },
+        "address": "York Lanes, 80 York Blvd, North York, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q70qKdNC5mxgUnpvXjVFCRfzvmrO8aHXo9B_rgZmZtlB_FoM1a8B0YfL3GrbxsBsMDqeI2tW3lMWTniYM2nX07CIwaBsvOgRXdSXDHA2gTGWXTTPDMtdnwvcenoaTlSEYJKIKqiFP9Y3sbRcytQZq5X6gHB-iReDQJCi_C1zkEJWGuk&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "56": {
         "location_name": "Pizza Pizza",
@@ -1194,7 +1304,9 @@
             "Thursday": "10:00 a.m. - 10:00 p.m.",
             "Friday": "10:00 a.m. - 9:00 p.m.",
             "Saturday": "10:00 a.m. - 9:00 p.m."
-        }
+        },
+        "address": "York University, 72 Winters Ln, Winters College, Toronto, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6yN3wHIORcJefr33V-8_8QjWZIQC811EtLmoSywiD6yRAbvPm2_aB74AhpQWE06FuXfdM4hxMAChJO0K5vNTL4m-1YUwjj9ccpEtvks0xzm-PS3aFfVcC9Xw1SdDeYw6CmHsD1r6f35aZQTnHe3S0SNmm8-FYZtQe1QCl_g7LzcX6A&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "57": {
         "location_name": "Pizza Pizza",
@@ -1215,7 +1327,9 @@
             "Thursday": "11:00 a.m. - 7:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "123 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7DAodeL0SRf1YAVLXnexpF6PXn3IVTIN2ACVVyJlOHxZaHdEvd89N7G91zxWpWtQmyDmJb7G2l079NuSMYtGWbyMpUvSj4DLIMLpbVCmh-Fv-t3fNjCXRdFB4gV38Mbcc_7j8M9vkFsKxo_BXpWvhiUW35sBHuihPHLiq1oqTuz2lX&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "58": {
         "location_name": "Pizza Pizza",
@@ -1236,7 +1350,9 @@
             "Thursday": "10:00 a.m. - 10:00 p.m.",
             "Friday": "10:00 a.m. - 9:00 p.m.",
             "Saturday": "10:00 a.m. - 9:00 p.m."
-        }
+        },
+        "address": "123 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6OI1a954qabDVRbDXr03OLhn9-rFhwN45MhlsWFphLWmRwdenJJ-iUzXG0lIG_FRhmOELyTiu09Dy_80uJEV2gmte31XqKiYyUzl3hmKIMFsOacNHzJqNkpXGVfvcovpQOqBRtsUAeZQ27dBEJPfdgSfk79x4sD9KCaB8hv9DDZU4g&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "59": {
         "location_name": "Pizza Studio",
@@ -1257,7 +1373,9 @@
             "Thursday": "11: 30 am - 2 am",
             "Friday": "11:30 am - 3 am",
             "Saturday": "11:30 am - 3 am"
-        }
+        },
+        "address": "105 The Pond Rd Unit 100, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4v0Ca_YA81QH4a5r9VlzPNyVJZF4l2njDRR7RPQrosLkQtmAX0HOkE5WexwDXajGs3xiWxxlWOhAYfgeaoaG4vuo5i2VbidMA-o6dOYJDtafy7HD_rJsI5-l0W6UE4lV6LF5M7Jdm1QldbECn-wzXtDHjIPBIxnfwtUxHoFRp2EbuT&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "60": {
         "location_name": "Popeyes",
@@ -1278,7 +1396,9 @@
             "Thursday": "10 am - 11 pm",
             "Friday": "10 am - 11 pm",
             "Saturday": "11:00 am - 10 pm"
-        }
+        },
+        "address": "York Lanes, 9 Vanier Ln, Mall, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6Rr9Kh0rdY0GKaqFeEriZFxz5gkw0scdCPyOyXZTgG72Qajgtadi8E1UIGQgxcWUIqto1sYtGaCVirBT05HayqK-RW32pIYSK7TyJdDVAAxNXtPpXas1edhrfnz8RPuLV07_KtVp5GAo-3F1w5aifm6bkDRS1Cna4R4WR3iuQGPgjq&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "61": {
         "location_name": "Qoola FRESH",
@@ -1299,7 +1419,9 @@
             "Thursday": "8:00 am - 9:00 pm",
             "Friday": "8:00 am - 9:00 pm",
             "Saturday": "10:30 am - 8:00 pm"
-        }
+        },
+        "address": "York Lanes Building, 4700 Keele Street, 80 Vanier Ln #16, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6qoJNT2wdIvb87cKSXPCEVE4hjwI61l4sCZk51Z4RJb7tKM1npvmGRlnr6Ve0BaHtNrcLWnOij2suJxL8CG0hdQWQ6IqKtosRIWBu5-I2t-DxEGIrA9p59u9P8Yz6SzOSq01QuPNgQyTkY-v0aiB-lUH6zP_ygm9V0kBBpHxLDKu3Y&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "62": {
         "location_name": "Rasoi",
@@ -1320,7 +1442,9 @@
             "Thursday": "11:00 a.m. - 7:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4TsRce9M9WLkwJSN6WJSYahT98OB1AU06hpL6WiwzOeEQV19TbwdwkAQQEayXVRW4rfxIdrw0D1SPvU2LuOHp1sdBfQz_pMPuHi3AhkIldHal7nj4VhAD3VnvawU58KMpzONP1QLDi2kGmlTj6xe6OVppuG_ii2W-ufFuE2ogZBY2I&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "63": {
         "location_name": "Revolution Noodles",
@@ -1341,7 +1465,9 @@
             "Thursday": "10 am - 8 pm",
             "Friday": "10 am - 5 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5A7whTNg1UZDgNUZDpJoQnzNrYTzel8eiL2mfUEKFNZtFpBgSAivqR_PiUqzpf0DvLpXeMU-KNCuXgnPdaVe5LTJ2KEhzzOzepMN-K8_Me5Os2m2oVP9DtiP9j3grrqXoanoGsjK0fWBmkRPlRIZt2qzaptyxlf-AxRVvT8TjAkVW1&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "64": {
         "location_name": "Sakura",
@@ -1362,7 +1488,9 @@
             "Thursday": "10:30 am - 11pm",
             "Friday": "10:30 am - 11pm",
             "Saturday": "10:30 am - 10 pm"
-        }
+        },
+        "address": "York Lanes, 80 York Blvd Unit 12, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4zrO5Qqoml5mDERn6gv9awVYFUFjR26sJkMh0BcTVAOiSiQXjtImetI2BHaEg5-LViDJeJiH4HvPbKdhydtq-0REZJX3ka2VnFpXURw9gNpXpY9xxWi6TDlQ_5N0WJofG8qQH5KJqedFbwjuooWma4KNni8c-XRGCM8CZuQ6NUOWEW&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "65": {
         "location_name": "Salus Fresh Food",
@@ -1383,7 +1511,9 @@
             "Thursday": "11 am - 8 pm",
             "Friday": "11 am - 8 pm",
             "Saturday": "12 pm - 7 pm"
-        }
+        },
+        "address": "115 Haynes Ave, North York, ON M3J 0L8, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5VukeeW6yag_gQgi_-ZNGz7PRJ3q3kj-tuq6lU1p-grrtG6XKFel1bLGMqRcEMyjZs-vp6KFZFQwja7j8HccYOzCjYeUEaOC5sU7Khrb6CVrfXYf2qmU0kzWFZwt0V3_RyQjk3mx4WDtSYkaPQbas2PHLAQHxasXKVnnkvpa4su_Ng&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "66": {
         "location_name": "Schulich Market Caf\u00e9",
@@ -1404,7 +1534,9 @@
             "Thursday": "7 am - 9 pm",
             "Friday": "7 am - 3 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4mXJ_secXvhWXZ-3b4Uk52W4oQH4ooQ9o61NZonpi8wTQIp6oz-Ia_AO5kWa3e4EGJTGIREUDkoTRDe2-BCACJDOB_nFNmrDvXs9K13hjAl0HRaCdY9KiEQ5nyM3PsZynIilSaTQuLUwgTldOPuhPXcq8EX94S_CIlFcdnXBXzyYce&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "67": {
         "location_name": "Smoke\u2019s Poutinerie",
@@ -1425,7 +1557,9 @@
             "Thursday": "8 am - 8 pm",
             "Friday": "8 am - 5 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "Pick Up Inside O'Grady's, 518 B Church St, Toronto, ON M4Y 2C8, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5hpQKqgZQU6IlHKtuNMMelZz_rycFmlvdrJg-2kxh_t6xVJYFKxuARNwPJKqRov5J-h4khqpyigORll4htmDt1tJBkceGoo-YQstFfzlBhT7TUdTsLnDAckUZDnKDQvKyuTOb7YxUtkSSRe4B2FCfCpIR1jxa87bXdbq70V5SnMa1c&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "68": {
         "location_name": "Starbucks",
@@ -1446,7 +1580,9 @@
             "Thursday": "7 am - 11 pm",
             "Friday": "7 am - 11 pm",
             "Saturday": "8 am - 10 pm"
-        }
+        },
+        "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6wCOAblkWFldPRzs48uonALAe0BJvkHo6Oy07XTdwxn7Z2z-8BZD_SybdRBaI-j6hAd6WdG7m5GVu00itSng_7DsUj-0REUwDD3k-wfNKc7V9YhUHc4PlUk1pIVlPKlSB89VkomQHpxS_SR0ocHY-aYnSpBJlQTVtsaZGuvKds23h_&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "69": {
         "location_name": "Subway",
@@ -1467,7 +1603,9 @@
             "Thursday": "9 am - 9 pm",
             "Friday": "9 am - 9 pm",
             "Saturday": "10:30 am - 9 pm"
-        }
+        },
+        "address": "Central Square, 4700 Keele St Bldng, 2nd, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5l6nw0FBZyh1lbtTFunvKJdm-zUeCb0_qDVjnowZqYAEte5_Jb51b3i1ZuMIhRKu-zfc2Xw9mo1mj-BYESi1w1D5qBlGnFd1aXbv2_sXNAThpb62UxNr1g2DxstoR9kwhRBIkbcdaBVvuNyKGQCXRbJnZgIN7TQcb10pPobJoUSiFB&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "70": {
         "location_name": "Subway",
@@ -1488,7 +1626,9 @@
             "Thursday": "8 am - 12 am",
             "Friday": "8 am - 12 am",
             "Saturday": "9 am - 1 am"
-        }
+        },
+        "address": "105 The Pond Rd Bldg C1, Unit 20, North York, ON M3J 0K9, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6S8HHjjct9kSYvVX_MbG9jsyfKOoKrESRVTg5li2xkY69SnwpLAk1-L41GPV6OzReNnnE7lEKJc2_dWDT7urgoGdg4wXADFnpGmb-E-PWQdzdYxWMePn0aUKbQuJqiKtWKZf4fsM3J41HqD0ZYKMldm1fV2P_wbQmcmejjgeYtutW4&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "71": {
         "location_name": "Sushi Shop",
@@ -1509,7 +1649,9 @@
             "Thursday": "11 am - 10:30 pm",
             "Friday": "11 am - 10:30 pm",
             "Saturday": "11:30 am - 9 pm"
-        }
+        },
+        "address": "4700 Keele St #11, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4Gw7bg0S4IO76_ZOivYraz8VBrsEV5XpzhHkHk5uTbruD3PM9gjmHwAFZgzUDIVNkZFe6nf3ySp2_P5QHxqDVfTNxx9NWr9jMRI2c5iuastlNqOvqcuuEijBwZt-laX-hv3aCSQnMt72Td2x4NtCQFWSpf4G31W4A7o_lJ-9hzCwwp&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "72": {
         "location_name": "Sushi-Q",
@@ -1530,7 +1672,9 @@
             "Thursday": "10:30 am - 9 pm",
             "Friday": "10:30 am - 9 pm",
             "Saturday": "10:30 am - 9 pm"
-        }
+        },
+        "address": "105 The Pond Rd #80, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5DpirOz_laxbCRqAHEB1hj566f2Mte6SdVAOhtBvYGjIPu6BnDUb8V0dqLCMNQ46VO84wCCtNeyRxAajFCcNFjKvr3sh4nLD61Se6X9bipG5TgE2rUvTQO1Fjo7Pr5_jYQ-DhbnjcoKwaCkG7ybkQJMlId66c9X5af9TMrXsfhLdDV&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "73": {
         "location_name": "Thai Express",
@@ -1551,7 +1695,9 @@
             "Thursday": "10 am - 11 pm",
             "Friday": "10 am - 11 pm",
             "Saturday": "11:00 am - 10 pm"
-        }
+        },
+        "address": "York Lanes, 4700 Keele St, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4lt6GLMblwayAyNl6YRQ5Ze8a1GogTNESxk4Htt35r9RwzQVYejONDxOxu8dOPhSJbcrcABr3mBYCyeBrcIRwvqAlAou_Osw_vmjAJAfKWn6VCzczGcRBiMP2xYGm5WggaYgxeiX04T0isilxRK9Me5785aa_2MYBs_qKmbY3OdG4Q&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "74": {
         "location_name": "The Break Caf\u00e9",
@@ -1572,7 +1718,9 @@
             "Thursday": "8 am - 8 pm",
             "Friday": "8 am - 8 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "15 Library Ln, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q42zU__oBk5l1mEs-8O7bMbuACRdp6YH9Jhr_q3vkmbwx2a5aM00Z7VHtzw_MGiRE4N3WpN2NAkSS9pidaNiix9lO8CMZYwf_v321w83PIljkc7AWz3LNX2pRQSYfdjat3YRIHGa3mB53AcuMTGFcTU07_-pKLxivz3uG_Ffe4VNxNK&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "75": {
         "location_name": "The Break Room",
@@ -1593,7 +1741,9 @@
             "Thursday": "10 am - 11 pm",
             "Friday": "10 am - 12 am",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5rYCT7Z1RI61-bRxOPEkgsteBz7rcJpq8xpV7hsIYJKTzdC1sIl0qVIbaUWnnEyN82QyfiBiy1MEabozcgiOi8EL02WGjHNDFRwB734aA43l4O6kSCr6ZBpCWhHj_Gz86QpSI0nrrkoTEwQGl6rS-Usbow0nShJhHt_QKBXP8KDxM_&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "76": {
         "location_name": "The Campus Bubble Tea",
@@ -1614,7 +1764,9 @@
             "Thursday": "10:30 am - 10:30 pm",
             "Friday": "10:30 am - 10:30 pm",
             "Saturday": "1 pm - 8:30 pm"
-        }
+        },
+        "address": "Mall inside YorkU, York Lanes, 1 Vanier Ln, Toronto, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7WrAYBo_1RRKlueH-ZdSgE7FznoqDNawrxw7J7Tm9BfOvGcFlcdKTbhfmDdaxYhtOENn2_ntpUuYeQd3wHJYX9HTam642srh5z8YZpw1jKtr9IQnbREGK-a8U8ezu0Or7-lHU8_y75oCTSkxUszv-8rpTwUxTC68TiTtWMiQJB7oho&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "77": {
         "location_name": "The Great Canadian Bagel",
@@ -1635,7 +1787,9 @@
             "Thursday": "8 am - 7 pm",
             "Friday": "8 am - 7 pm",
             "Saturday": "10 am - 3 pm"
-        }
+        },
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4MJ8cjSNyagSjkKO5CHGkKchwz97gDCN-N1F_jDMqI5ORmhf-KVmRBKSeeihJJDdpDUn-I9z8pq9QppG2-iWe7-VJCtkRokyEZPpWjdsRNtEi373S6VsHTRx8k6QOvHVuc74B9JjH-0vKE3OJK1c5cIJePf5_ay5wMDj6qy1dwagUD&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "78": {
         "location_name": "The Islands Caribbean Cookshop",
@@ -1656,7 +1810,9 @@
             "Thursday": "11 am to 9 pm",
             "Friday": "11 am to 9 pm",
             "Saturday": "12 pm - 8 pm"
-        }
+        },
+        "address": "Student Centre, York University, 4700 Keele St #107D, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4Z1gb--ILcVIDrrfi_Qi5HZf4HbA_m3kjyL3YlUMB9wy7uefxavCmgSOWH4wSoVolkVx47qJeIoNBJxcfB3Rn70chbITjQnq0YHrHfaEabA145CWbOKkBHWTBilDsn_72M4XVRJweiXcjissV02uyqpVVAsE2SHFa1AZqH5XQKryJM&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "79": {
         "location_name": "The Orange Snail",
@@ -1677,7 +1833,9 @@
             "Thursday": "11:30 am - 9:30 pm",
             "Friday": "11:30 am - 9:30 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "Stong College, 163-165 Campus Walk #106, North York, ON, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6AmM4ZnvNP7KvasK4hffSqohAeIG2105VFXYo-5KN4wwJvdRIjFSCIOn9jWI-5HdyyRasZPQZFiL3yoVSQjD08W_YgLqtYj1dCcOomeK8sBWHspDLVFMrKchG3dPhlkptlHeM6oPG43JrdKGOWEZuNXHf2-eMcXhZCPveviqy4rAvZ&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "80": {
         "location_name": "Tim Hortons",
@@ -1698,7 +1856,9 @@
             "Thursday": "7 am - 9:30 pm",
             "Friday": "7 am - 7 pm",
             "Saturday": "9 am - 7 pm"
-        }
+        },
+        "address": "William Small Centre, 155 Campus Walk, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4IPBift6-OIJr5s9XoTtDm3a_5wVwomaOUu2oETDoLwoddGbhJj1d321QP0WU7HjGhWXddlrLEn3kjXk5ILPy05ZLcoNRBAFtePrPg5mBasNAFwYg7S75VUxcV8pfL3BAIw3Jb0sesOM1Z-rUZEVMfbfX3bjPp7t7PCqBgA5p9HPn8&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "81": {
         "location_name": "Tim Hortons",
@@ -1719,7 +1879,9 @@
             "Thursday": "8:00 a.m. - 6:00 p.m.",
             "Friday": "8:00 a.m. - 5:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7mmuYnihhHEZa4_Ahy9GFiPKfszLkLNRCR_dFbjy7WcnpeobySOL6wiRzfOktPPCgskrmp8BKU3m5JKTgIRGa31z8_aAGbjXzoAqEKJeuFP8fECRlwnj6ZJ56K7Vq0reflAjpFRRKGdqBNPvhAZmkAE3jxW6VzypjTHz1ahrdAeak7&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "82": {
         "location_name": "Tim Hortons",
@@ -1740,7 +1902,9 @@
             "Thursday": "7 am - 10 pm",
             "Friday": "7 am - 6 pm",
             "Saturday": "9 am - 4 pm"
-        }
+        },
+        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q7y7XsrjKh1p73zYoflrSOtCh-4iYZdSgWHVnyNon3MGj-PdWwIxhUEAaP6KSyGTChOGc7AKaVvUZrHUT9qdpAGK4jFPSZXaWlzFxDEsSNuIdDCQD3E4TIlTwueTHkqyWw8ppn-fun_7SgrtiOogxtVtZdEP9f7cvWGFW2dN0FYFYh3&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "83": {
         "location_name": "Timbers Lodge",
@@ -1761,7 +1925,9 @@
             "Thursday": "11 am - 2 am",
             "Friday": "11 am - 2 am",
             "Saturday": "11 am - 2 am"
-        }
+        },
+        "address": "York Lanes, Toronto, ON M7A 2C5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q52vlTjNR0B-25bje2uouTyKPqi95ZT1Ag9SP-QA2r1zGWTaIEJgWAeiXCBzhHCnhpItjgqo-m99JSe66cfdv-5h7bM13zr_eVuR9FzsyXBoSaGBFEyNcwH7DLMLPMXz0tPONOqRJ99SMDeMEfY_NoFHu-ijPpX_THqlDoEkXD8QW5O&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "84": {
         "location_name": "Treats",
@@ -1782,7 +1948,9 @@
             "Thursday": "7 am - 10 pm",
             "Friday": "7 am - 10 pm",
             "Saturday": "10 am - 5 pm"
-        }
+        },
+        "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4qA6ynlFuhRKFQz68yNGwfFIUdLJbG7MeyVZRzwYCFhGNatXpo7kKzKfGx18EBQIYZKKvsvlxy4IrGJCTAHrFotEC6LzzZOJ4Dt0fxhC4SfYujZwRBIsu6ffDKxKWM44aE-0l7qe2VeTzE0KUcxNS41igNrNY_stHn5VWm06_twPZN&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "85": {
         "location_name": "Tuchner\u2019s Pub",
@@ -1803,7 +1971,9 @@
             "Thursday": "Closed",
             "Friday": "Closed",
             "Saturday": "Closed"
-        }
+        },
+        "address": "56 Fine Arts Rd, North York, ON M3J 3M6, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q4w9HDt_NjrY8vPsfPWmOE8lWTiMyLiJKxai88qJXE_LLsOR77daDkzIidCZlyUu9RSyZ4osHg7eJpL_4WT84vIEqr5CP2r-jJ2wyPiEW3JYgF9WKrof-FajNPubV02s4BIeUBnSvJ_vba9VlYzJPcO-cXJ8rh9E2_0vvOrHCo-FgPr&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "86": {
         "location_name": "Wendy\u2019s",
@@ -1824,7 +1994,9 @@
             "Thursday": "7 am - 12 am",
             "Friday": "7 am - 12 am",
             "Saturday": "7 am - 12 am"
-        }
+        },
+        "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6xPz8fEt8jR8E9iTorW0Rz3KC_2wLGqejxG6G3NFQ7QApwpsalQAiQgANQKeGLk8e96qKTTVx8AOQjUGnfMYk0_Kzt93M6LsyAXrnQ7gYA0PVqyWT7XRciP7CdB3aScZRoG5rUpUo5wI_9Wb_ab0fR0wsHI3-OqAxqWRnqvfK6vpsM&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "87": {
         "location_name": "World Kitchen",
@@ -1845,7 +2017,9 @@
             "Thursday": "11:00 a.m. - 7:00 p.m.",
             "Friday": "11:00 a.m. - 3:00 p.m.",
             "Saturday": "Closed"
-        }
+        },
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q6asQU935Z0mZrsVeH8blIgESlkluTskp5Xb0pMO4k_v29OZ_h5SYvdhXFWKF4j-F46krPUCp92o8nQpdrRNAe9bMT4Nw2ShEvazjxoLcpx1ht1NKB6tfuwEcFpLhmMqJFaUiQEBqllGHmYpVrNS95-k1l4Mg93er5fk6lrCdiVce_Y&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     },
     "88": {
         "location_name": "Yogen Fruz",
@@ -1866,6 +2040,8 @@
             "Thursday": "10 am - 6 pm",
             "Friday": "10 am - 6 pm",
             "Saturday": "Closed"
-        }
+        },
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada",
+        "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxheight=500&photoreference=AXCi2Q5ImrQwIBpg5NmRDvKV7-0RYiR2S4TLXbP0jfjmvQMmvgKdcNQUxw0NFdPpW1iK6LGloa9sok6l9q2d5ToTsmc1VKqJxc6VUTdCiIXVfds0SKyTqOdx4cXHsoFSbY6d4pFfbVNYUuUIkGrXKb9-SB8u7G8GJKzzob6_SjYGKN8rk1Mu&key=AIzaSyDJDxYjsgJbbyDe8qPXSoSC8uhLkmpsjhQ"
     }
 }

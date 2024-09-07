@@ -2,6 +2,7 @@
 
 {% load static %}
 {% block body %}
+    {{ view|json_script:"view" }}
     <script src="{% static 'home.js' %}"></script>
     <link rel="stylesheet" href="{% static 'home_styles.css' %}">
     <h4 style="text-align: center;">Currently Open</h4>
@@ -76,7 +77,9 @@
             </div>
             {% endif %}
             {% if Place.image %}
-            <img src="{{Place.image.url}}" class="card-image-top">
+            <img style="max-height: 600px;" src="{{Place.image.url}}" class="card-image-top">
+            {% elif Place.image_url != "#" and Place.image_url != None %}
+            <img style="max-height: 300px;" src="{{Place.image_url}}" class="card-image-top">
             {% else %}
             <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top">
             {% endif %}
@@ -117,6 +120,7 @@
               </form>
               <p class="card-text" id="filter" alt="Dining">{{Place.location}}</p>
               <p class="card-text" id="filter" alt="Cuisine">{{Place.menu_offering}}</p>
+              <p class="card-text"><a href="http://maps.google.com/?q={{Place.address}}" target=”_blank”>{{Place.address}}</a></p>
               <p id="filter" alt="Payment Type" hidden> {{Place.payment_options}}</p>
               <p id="filter" alt="Dietary" hidden>{{Place.dietary_options}}</p>
               <p class="card-text">
@@ -140,7 +144,7 @@
                   <div id="hours{{Place.id}}" class="accordion-collapse collapse">
                     <div class="accordion-body">
                       {% for day, hours in Place.opening_days.items %}
-                      {% if day == day_of_week %}
+                      {% if day == day_of_week and Place.is_open %}
                       <span style="font-weight: bold; color: green;">{{day}} - {{hours}} </span>
                       {% else %}
                       {{day}} - {{hours}}

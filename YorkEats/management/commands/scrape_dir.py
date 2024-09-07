@@ -89,4 +89,4 @@ class Command(BaseCommand):
         json.dump(data, dining_dir, indent=4)
         dining_dir.close()
 
-        print("Successfully scraped dining directory")
+        print("Successfully scraped dining directory. Make sure to run the scrape_maps command to get update the image and address data before running update_db.")

@@ -12,7 +12,8 @@ from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
-def index(request):
+# Update models if place is open
+def check_openings(time=datetime.now().time()):
     opening_days = Place.objects.first().opening_days
 
     for day in opening_days:
@@ -23,7 +24,7 @@ def index(request):
         #Many replacements because the dining dir doesnt make their entries consistent please help me
         #https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
         #https://www.datacamp.com/tutorial/converting-strings-datetime-objects
-        for time in place.opening_days.get(datetime.now().strftime('%A')).replace("11 am - 11 pm11 am - 11 pm","11 am - 11 pm").replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12", "11:59").split("-"):
+        for time in place.opening_days.get(datetime.now().strftime('%A')).replace("11 am - 11 pm11 am - 11 pm","11 am - 11 pm").replace(" ", "").replace(".","").replace("&", "-").replace(",", "-").replace("–", "-").replace("to", "-").replace("12am", "11:59pm").split("-"):
             if time == "AllDay":
                 place.is_open = True
                 place.save()
@@ -43,6 +44,9 @@ def index(request):
                 place.is_open = True
                 place.save()
 
+def index(request):
+    check_openings()
+
     return render(request, "yorkeats/index.html", {
         "Places" : Place.objects.all().filter(is_open=True),
         "day_of_week" : datetime.now().strftime('%A'),
@@ -51,7 +55,8 @@ def index(request):
         "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
         # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
         "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
-        "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", ") 
+        "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
+        "view" : "open" 
     })
 
 @login_required
@@ -160,3 +165,22 @@ def register(request):
         return HttpResponseRedirect(reverse("index"))
     else:
         return render(request, "YorkEats/register.html")
+    
+def maps(request):
+    return render(request, "YorkEats/maps.html")
+
+def all(request):
+
+    check_openings()
+
+    return render(request, "yorkeats/index.html", {
+        "Places" : Place.objects.all(),
+        "day_of_week" : datetime.now().strftime('%A'),
+        "locations" : Place.objects.all().order_by("location").values_list('location', flat=True).distinct(),
+        # https://stackoverflow.com/questions/44085616/how-to-split-strings-inside-a-list-by-whitespace-characters
+        "cuisines" : sorted(list(set([element.strip() for elements in Place.objects.all().values_list('menu_offering', flat=True).distinct() for element in elements.split(",")]))),
+        # https://docs.djangoproject.com/en/dev/ref/models/database-functions/#length
+        "payment_options" : Place.objects.all().order_by(Length('payment_options').desc()).first().payment_options.split(", "),
+        "dietary_options" : Place.objects.all().order_by(Length('dietary_options').desc()).first().dietary_options.split(", "),
+        "view" : "all" 
+    })
