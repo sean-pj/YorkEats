@@ -44,9 +44,8 @@ class Place(models.Model):
         temp_image = NamedTemporaryFile()
         temp_image.write(open(result[0], 'rb').read())
         temp_image.flush()
-        place = Place.objects.first()
-        place.image.save(f"{Place.id} : {Place.name}.jpg", File(temp_image))
-        place.save()
+        self.image.save(f"{self.id} : {self.name}.jpg", File(temp_image))
+        self.save()
         
 
     def __str__(self):
