@@ -13,12 +13,11 @@ input[type="radio"]{
 label {
     display: inline;
     text-align: right;
-    /* Gets rid of whitespace, can also change html to do this with comments */
-    /* https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html */
-    /* float:left; */
 }
 
-/* Rating HTML and CSS inspired by https://stackoverflow.com/questions/23404904/how-to-use-bootstrap-icons-like-star-to-give-the-star-rating */
+/* The following CSS controls the 5 star rating inputs */
+/* The CSS and HTML was nspired by https://jsfiddle.net/swfour/fnU5V/4/ */
+/* From https://jsfiddle.net/swfour/fnU5V/4/ */
 
 input[type="radio"]+label{
     color:black;
@@ -30,14 +29,14 @@ input[type="radio"]:checked+label{
     font-size: x-large;
 }
 
-/* https://tobiasahlin.com/blog/previous-sibling-css-has/ */
+/* Learned has CSS from https://tobiasahlin.com/blog/previous-sibling-css-has/ */
 /* https://jsfiddle.net/z25FR/7/ */
 
 label:has(~ input[type="radio"]:checked) {
     color: gold;
 }
 
-/* On hover things */
+/* On hover */
 
 #user-rating > input[type="radio"]+label:hover {
     color: gold;
@@ -47,19 +46,8 @@ label:has(~ input[type="radio"]:checked) {
     color: gold;
 }
 
-/* <div>
-      <input type="radio" id="star5" name="rating" value="5" /><!--
-      --><label for="star5">★</label><!--
-      --><input type="radio" id="star4" name="rating" value="4" /><!--
-      --><label for="star4">★</label><!--
-      --><input type="radio" id="star3" name="rating" value="3" /><!--
-      --><label for="star3">★</label><!--
-      --><input type="radio" id="star2" name="rating" value="2" /><!--
-      --><label for="star2">★</label><!--
-      --><input type="radio" id="star1" name="rating" value="1" /><!--
-      --><label for="star1">★</label>
-    </div> */
-
+/* Animations */
+/* This is adapted from my previous CS50 Project 4 CSS */
 
 @keyframes reveal {
     0% {
@@ -74,7 +62,7 @@ label:has(~ input[type="radio"]:checked) {
 }
 
 #card-col {
-    /* Post reveal animation */
+    /* Place reveal animation */
     opacity: 0;
     animation-name: reveal;
     animation-duration: 2s;

@@ -8,6 +8,8 @@
 
     <h2>Register</h2>
 
+    <!--  Register form -->
+    <!-- Adapted from previous CS50 webdev projects -->
     <form class="w-50" action="{% url 'register' %}" method="post">
         {% csrf_token %}
         <div class="form-floating mb-3">

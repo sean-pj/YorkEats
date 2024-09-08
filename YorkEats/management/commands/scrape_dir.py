@@ -4,34 +4,36 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
 
-#https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/
+# Taken from https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/
+# Converts list to dictionary
 def convert(lst):
    res_dict = {}
    for i in range(0, len(lst), 2):
        res_dict[lst[i].get_text().strip()] = lst[i + 1].get_text().strip()
    return res_dict
 
-#Learned commands from https://www.youtube.com/watch?v=GkxpJyuP0Oc
-
+# Learned commands from https://www.youtube.com/watch?v=GkxpJyuP0Oc
 class Command(BaseCommand):
-    help = 'Updates json data with web scraped dining directory'
+    help = 'Updates JSON data with web scraped dining directory (https://www.yorku.ca/foodservices/dining-directory/)'
 
     def handle(self, *args, **kwargs):
 
-        #Open a fetch html from york dining directory page
+        # Open and fetch html from york dining directory page
         url = "https://www.yorku.ca/foodservices/dining-directory/"
         page = urlopen(url)
         html = page.read().decode("utf-8")
+        # Learned beautiful soup from https://www.crummy.com/software/BeautifulSoup/bs4/doc/
         soup = BeautifulSoup(html, "html.parser")
 
-        #Find all the card elements (which store the info for each restaurant)
+        # Find all the card elements (which store the info for each restaurant)
         card_htmls = soup.find_all(attrs={'class':'card border-0 mb-5'})
 
+        # Remove filler card
         card_htmls.pop()
 
         data = {}
-        for card_html in card_htmls:
-            #If information exists, assign it to the appropriate variable
+        # Saves key information from cards into variables
+        for  card_html in card_htmls:
             if card_html.find("h2") is not None:
                 location_name = card_html.find("h2").text
             else:
@@ -67,7 +69,7 @@ class Command(BaseCommand):
             else:
                 opening_days = {}
 
-            #Update dictionary with new info
+            # Update dictionary with new info
             new_data = {card_htmls.index(card_html): {
                 "location_name" : location_name,
                 'location': location,
@@ -83,10 +85,10 @@ class Command(BaseCommand):
             }}
             data.update(new_data)
 
-        #https://www.javatpoint.com/save-json-file-in-python
-        #convert dictionary to json file
+        # Learned from https://www.javatpoint.com/save-json-file-in-python
+        # Saves JSON
         dining_dir = open("YorkEats/data/dining_dir.json", "w")
         json.dump(data, dining_dir, indent=4)
         dining_dir.close()
 
-        print("Successfully scraped dining directory. Make sure to run the scrape_maps command to get update the image and address data before running update_db.")
+        print("Successfully scraped dining directory. Execute the update_db command to update the database.")

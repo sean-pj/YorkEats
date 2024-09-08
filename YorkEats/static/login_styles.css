@@ -5,12 +5,12 @@
 
 .body {
     width: 100%;
-    /* Code from: https://www.w3schools.com/css/css_align.asp */
+    /* Code from https://www.w3schools.com/css/css_align.asp */
+    /* Centers elements in middle of page */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* End of Referenced Code */
 }
 
 form > * {

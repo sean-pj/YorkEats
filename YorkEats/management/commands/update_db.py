@@ -3,17 +3,18 @@ import json
 from datetime import datetime
 from YorkEats.models import *
 
-#Learned commands from https://www.youtube.com/watch?v=GkxpJyuP0Oc
+# Learned commands from https://www.youtube.com/watch?v=GkxpJyuP0Oc
 
 class Command(BaseCommand):
     help = 'Updates database with json data'
 
     def handle(self, *args, **kwargs):
 
-        # Place.objects.all().delete()
-
+        # Get JSON data from file
         with open("YorkEats/data/dining_dir.json", "r") as json_file:
             data = json.load(json_file)
+        
+        # For every place in data update or create a Place model
         for id in data:
             entry = data.get(id)
             if not Place.objects.filter(id=(int(id) + 1)).exists():
@@ -31,7 +32,6 @@ class Command(BaseCommand):
                     )
                 place.save()
             else:
-                print("running")
                 place = Place.objects.get(id=(int(id) + 1))
                 place.name = entry.get("location_name")
                 place.location_link = entry.get("location")

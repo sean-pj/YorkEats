@@ -6,6 +6,7 @@ all_filters = []
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    //Updates which navbar link is highlighted
     if (view.innerHTML === "\"open\"") {
         document.querySelector("#open-nav").classList.add("active")
     } else if ((view.innerHTML === "\"all\"")) {
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector("#later-nav").classList.add("active")
     }
 
-    //Show hide edit_btn
+    //Show/hide edit_btn
     document.querySelectorAll("#edit-btn").forEach(edit_btn => {
         edit_btn.addEventListener('click', () => {
             if (edit_btn.nextElementSibling.style.display == "none") {
@@ -25,7 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
-    //Edit btn behavior
+    //Edit form behavior
+    //Saves uploaded image to place model
+    //Code for image uploading is adapted from my CS50 Project 4 JS
+    //Which was learned from https://www.youtube.com/watch?v=O5YkEFLXcRg
     document.querySelectorAll("#edit-form").forEach(form => {
             form.querySelector("#save-btn").addEventListener('click', () => {
 
@@ -36,12 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
             var formData = new FormData();
 
             if (form.querySelector("#image").files[0] != null) {
-                //hide form
+                //Hide form
                 form.querySelector("#save-btn").parentNode.style.display = "none";
 
                 //Learned CSRF from https://docs.djangoproject.com/en/5.1/howto/csrf/
+                //Generate CSRF token for POST request
                 const csrftoken = Cookies.get('csrftoken');
 
+                //Save image and place id to formdata
                 formData.append('image', form.querySelector("#image").files[0])
                 formData.append('id', form.querySelector("#place-id").innerHTML)
 
@@ -60,17 +66,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 //Learned to update JS image from https://stackoverflow.com/questions/40809635/js-function-to-change-image-on-page-with-file-upload
+                //Updates page with uploaded image
                 var URL = window.URL
                 var url = URL.createObjectURL(form.querySelector("#image").files[0])
                 form.parentNode.parentNode.querySelector("img").src = url
 
             } else {
-                alert("cannot edit place without image")
+                alert("Please upload an image.")
             }
         })
     })
 
     //User rating input actions
+    //Updates Rating models based on user's input
     document.querySelectorAll("#user-rating").forEach(form => {
 
         form.querySelectorAll("input").forEach(input => {
@@ -79,8 +87,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 var formData = new FormData();
 
                 //Learned CSRF from https://docs.djangoproject.com/en/5.1/howto/csrf/
+                //CSRF token for POST
                 const csrftoken = Cookies.get('csrftoken');
 
+                //Save number of stars selected and ID of place
                 formData.append('stars', input.value)
                 formData.append('id', form.querySelector("#id").innerHTML)
 
@@ -96,6 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(result => {
                     // Print result
                     console.log(result)
+
+                    //Updates average rating and input html
                     if (result["stars"] != null) {
                         form.parentNode.querySelector(`input[value=\"${Math.round(result["stars"])}\"]`).checked = true
                         form.parentNode.querySelector("#avg_rating").innerHTML = result["stars"]
@@ -113,6 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#form-grid").querySelectorAll("#filter-name").forEach(filter_name => {
         dict_filters[filter_name.innerHTML] = []
     })
+    //Update the filters
     update_cards_or()
 
     //Animate each post
@@ -170,7 +183,7 @@ function update_cards_or() {
                 document.querySelectorAll("#card-col").forEach(col => {
                     col.style.display = "none"
                 })
-                //Removes the places that don't match any filter
+                //Removes the places that don't match any filter.
                 for (const key in dict_filters) {
                     dict_filters[key].forEach(filter =>{
                         document.querySelectorAll("#card-body").forEach(body => {
@@ -182,7 +195,7 @@ function update_cards_or() {
                         })
                     })
                  }
-                //Remove the places that don't match all the filters from each column
+                //Remove the places that don't match all the filters from each column.
                 update_cards_and()
             }
 
@@ -210,15 +223,15 @@ function update_cards_or() {
 }
 
 //Filter checkbox behavior. 
-//This function gets the places that matches the filters, but all filters must match in order for the place be selected.
+//This function gets the places that matches the filters, but all filters in different categories must match in order for the place be selected.
 //This is specifically done for filters in different columns. So that you can for example look for italian restaurants in two separate locations.
 function update_cards_and() {
     document.querySelectorAll("#card-col").forEach(col => {
-        //Selects places that are haven't already been removed
+        //Selects places that haven't already been removed
         if (col.style.display == "block") {
             correct_filters = 0
             col.querySelector(".card").querySelector("#card-body").querySelectorAll("#filter").forEach(attribute => {
-                //For every category of a place, if that category matches a currently selected filter, than add one to correct filters  
+                //For every category of a place, if that category matches a currently selected filter, then add one to correct filters.  
                 if (dict_filters[attribute.getAttribute("alt")].length > 0) {
                     dict_filters[attribute.getAttribute("alt")].forEach(filter => {
                         if (filter == attribute.innerHTML || attribute.innerHTML.includes(filter)) {
@@ -227,12 +240,12 @@ function update_cards_and() {
                     })
 
                 } else {
-                    //This is for the case that that no filter is selected for a category, in which case it should be interpreted the same way as a filter matching
+                    //This is for the case that that no filter is selected for a category, in which case it should be interpreted the same way as a filter matching.
                     correct_filters++;
                 }
             })
-            //If the number of correct filters is less than the amount of identifying categories, than the place is removed
-            //This means that if every category doesn't either match a selected filter or doesn't have a selected filter, than it should be removed.
+            //If the number of correct filters is less than the amount of identifying categories, than the place is removed.
+            //This means that if every category doesn't either match a selected filter or doesn't have a selected filter, then it should be removed.
             if (correct_filters < Object.keys(dict_filters).length) {
                 col.style.display = "none";
             }

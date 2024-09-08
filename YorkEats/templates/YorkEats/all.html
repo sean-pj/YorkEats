@@ -6,7 +6,7 @@
     <script src="{% static 'home.js' %}"></script>
     <link rel="stylesheet" href="{% static 'home_styles.css' %}">
     
-    <h4 style="text-align: center;">{{title}}</h4>
+    <h4 style="text-align: center;">All Locations</h4>
     <!-- Filters -->
     <div class="container-sm border border-4">
       <div id="form-grid" class="row" style="height: 300px; overflow-y:scroll;">
@@ -110,9 +110,9 @@
               </h5> 
               <small id="avg_rating" style="display: inline;">{{Place.average_rating}}</small>
               <!-- User rating -->
-               <!-- Comments remove whitespace -->
-                <!-- Learned from https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
               <form class="card-text" id="user-rating" style="margin-bottom: 10px;">
+                <!-- Comments remove whitespace -->
+                <!-- Learned from https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
                 <p style="display: inline;">Personal Rating:</p>
                 {% if Ratings.count > 0 %}
                 {% for Rating in Ratings %}
@@ -155,6 +155,11 @@
                 <p id="id" hidden> {{Place.id}}</p>
               </form>
               <!-- Place information -->
+              {% if Place.is_open %}
+              <p class="card-text" style="font-weight: bold; color: green;">Open!</p>
+              {% else %}
+              <p class="card-text" style="font-weight: bold; color: red;">Closed!</p>
+              {% endif %}
               <p class="card-text" id="filter" alt="Dining">{{Place.location}}</p>
               <p class="card-text" id="filter" alt="Cuisine">{{Place.menu_offering}}</p>
               {% if Place.address != "No address found" %}
@@ -186,8 +191,10 @@
                   <div id="hours{{Place.id}}" class="accordion-collapse collapse">
                     <div class="accordion-body">
                       {% for day, hours in Place.opening_days.items %}
-                      {% if day == day_of_week %}
+                      {% if day == day_of_week and Place.is_open %}
                       <span style="font-weight: bold; color: green;">{{day}} - {{hours}} </span>
+                      {% elif day == day_of_week and Place.is_open is False %}
+                      <span style="font-weight: bold; color: red;">{{day}} - {{hours}} </span>
                       {% else %}
                       {{day}} - {{hours}}
                       {% endif %}

@@ -8,6 +8,7 @@
     <h2>Pick a time</h2>
 
     <form class="w-50" action="{% url 'later' %}" method="post">
+        <!-- Datetime form -->
         {% csrf_token %}
         <div class="form-floating mb-3">
             <input type="datetime-local" class="form-control {{invalid}}" name="datetime" required>
