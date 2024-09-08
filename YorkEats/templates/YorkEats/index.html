@@ -78,8 +78,6 @@
             {% endif %}
             {% if Place.image %}
             <img style="max-height: 600px;" src="{{Place.image.url}}" class="card-image-top">
-            {% elif Place.image_url != "#" and Place.image_url != None %}
-            <img style="max-height: 300px;" src="{{Place.image_url}}" class="card-image-top">
             {% else %}
             <img src="https://www.yorku.ca/wp-content/uploads/2020/10/welcome-to-york.jpg" class="card-image-top">
             {% endif %}

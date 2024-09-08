@@ -1,5 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+import urllib.request
+import os
+from django.core.files import File
+from django.core.files.temp import NamedTemporaryFile
 
 class User(AbstractUser):
     pass
@@ -19,7 +23,6 @@ class Place(models.Model):
     #auto_now updates every time the instance is saved, auto_now_add updates only on creation
     timestamp = models.DateTimeField(auto_now=True)
     image = models.ImageField(null=True, blank=True, upload_to='images/')
-    image_url = models.TextField(default="#", null=True)
     address = models.TextField(default="No address found", null=True)
 
     # https://www.reddit.com/r/djangolearning/comments/1b9jfit/how_to_properly_setup_rating_stars/
@@ -35,6 +38,16 @@ class Place(models.Model):
     
     def round_average_rating(self):
         return round(self.average_rating())
+
+    def save_image(self, url):
+        result = urllib.request.urlretrieve(url)
+        temp_image = NamedTemporaryFile()
+        temp_image.write(open(result[0], 'rb').read())
+        temp_image.flush()
+        place = Place.objects.first()
+        place.image.save(f"{Place.id} : {Place.name}.jpg", File(temp_image))
+        place.save()
+        
 
     def __str__(self):
         return f"Name: {self.name}"

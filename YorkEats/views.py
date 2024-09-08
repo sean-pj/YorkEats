@@ -169,7 +169,9 @@ def maps(request):
 
 def all(request):
 
-    check_openings()
+    for place in Place.objects.all():
+        place.is_open = True
+        place.save()
 
     return render_places(request, "all", "All Locations at York")
 

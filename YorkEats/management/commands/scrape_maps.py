@@ -1,6 +1,8 @@
 from django.core.management.base import BaseCommand
 import requests
+import urllib.request
 import json
+from YorkEats.models import *
 
 GOOGLE_API_KEY = ''
 
@@ -41,34 +43,36 @@ class Command(BaseCommand):
     help = 'Updates dining directory json data with images and address found from the google maps API'
     def handle(self, *args, **kwargs):
 
-        try:
-            with open("YorkEats/config/keys.json", "r") as json_file:
-                data = json.load(json_file)
-                GOOGLE_API_KEY = data.get("Google")
-                print(GOOGLE_API_KEY)
-        except FileNotFoundError:
-            return "No API key found. Please add a Google API key to the config/keys.json file"
+        # try:
+        #     with open("YorkEats/config/keys.json", "r") as json_file:
+        #         data = json.load(json_file)
+        #         GOOGLE_API_KEY = data.get("Google")
+        #         print(GOOGLE_API_KEY)
+        # except FileNotFoundError:
+        #     return "No API key found. Please add a Google API key to the config/keys.json file"
 
-        # address, image_url = get_place_data("Yogen Fruz", "First Student Center")
-        # print(address)
-        # print(image_url)
+        address, image_url = get_place_data("Yogen Fruz", "First Student Center")
+        print(address)
+        print(image_url)
 
         with open("YorkEats/data/dining_dir.json", "r") as json_file:
             data = json.load(json_file)
 
-        for i in data:
-            place = data.get(i)
-            if (get_place_data(place.get("location_name"), place.get("location")) != None):
-                address, image_url = get_place_data(place.get("location_name"), place.get("location"))
-                place.update({
-                    "address" : address,
-                    "image_url" : image_url
-                })
+        for place in Place.objects.all():
+            place.save_image("image_url")
+
+        # for i in data:
+            # place = data.get(i)
+            # if (get_place_data(place.get("location_name"), place.get("location")) != None):
+            #     address, image_url = get_place_data(place.get("location_name"), place.get("location"))
+            #     place.update({
+            #         # "address" : address,
+            #     })
 
         #https://www.javatpoint.com/save-json-file-in-python
         #convert dictionary to json file
-        dining_dir = open("YorkEats/data/dining_dir.json", "w")
-        json.dump(data, dining_dir, indent=4)
-        dining_dir.close()
+        # dining_dir = open("YorkEats/data/dining_dir.json", "w")
+        # json.dump(data, dining_dir, indent=4)
+        # dining_dir.close()
 
         print("Updated json data with google maps info successfully, use the update_db command to update the django models")
