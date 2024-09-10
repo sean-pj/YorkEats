@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 formData.append('image', form.querySelector("#image").files[0])
                 formData.append('id', form.querySelector("#place-id").innerHTML)
 
-                //Send form data to Django view to update post model
+                //Send form data to Django view to update place model
                 fetch('edit', {
                     method: 'POST',
                     headers: {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 formData.append('stars', input.value)
                 formData.append('id', form.querySelector("#id").innerHTML)
 
-                //Send form data to Django view to update post model
+                //Send form data to Django view to update place model
                 fetch('rating', {
                     method: 'POST',
                     headers: {
@@ -125,36 +125,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#form-grid").querySelectorAll("#filter-name").forEach(filter_name => {
         dict_filters[filter_name.innerHTML] = []
     })
-    //Update the filters
-    update_cards_or()
-
-    //Animate each post
-    let delay = 0;
-    document.querySelectorAll("#card-col").forEach(card => {
-        //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
-        card.style.animationDelay = delay.toString().concat('s');
-        delay += 0.1;
-        card.style.animationPlayState = 'running';
-    })
     
-})
-
-//If the user scrolls beyond, instantly play the animation
-window.onscroll = () => {
-    if (window.scrollY > 4000) {
-        document.querySelectorAll("#card-col").forEach(card => {
-            //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
-            card.style.animationDelay = '0s'
-            card.style.animationPlayState = 'running';
-        })
-    }
-}
-
-//Filter checkbox behavior. 
-//This function gets the places that matches the filters, but only one filter needs to be match. 
-//Meaning if one filter matched a place, but another selected filter didn't, the place would still be selected.
-//This is specifically for filters in the same column/category. So that you can for example see north american or italian restaurants.
-function update_cards_or() {
+    //Checkbox behavior
     document.querySelectorAll(".form-check").forEach(form => {
         let checkbox = form.querySelector("input")
         let filter_name = form.parentNode.querySelector("#filter-name")
@@ -184,22 +156,12 @@ function update_cards_or() {
                     col.style.display = "none"
                 })
                 //Removes the places that don't match any filter.
-                for (const key in dict_filters) {
-                    dict_filters[key].forEach(filter =>{
-                        document.querySelectorAll("#card-body").forEach(body => {
-                            body.querySelectorAll("#filter").forEach(card_text => {
-                                if(filter == card_text.innerHTML || card_text.innerHTML.includes(filter)) {
-                                    body.parentNode.parentNode.style.display = "block";
-                                }
-                            })
-                        })
-                    })
-                 }
+                update_cards_or
                 //Remove the places that don't match all the filters from each column.
                 update_cards_and()
             }
 
-            //Animate each post
+            //Animate each place
             let delay = 0;
             document.querySelectorAll("#card-col").forEach(card => {
                 if (card.style.display == 'block') {
@@ -212,7 +174,7 @@ function update_cards_or() {
                     card.style.animation = "";
                     //Replay animation
                     card.style.animationPlayState = 'running';
-                    //delay is used so each subsequent post is slightly more delayed. This is so every post executes the animation one after other.
+                    //delay is used so each subsequent place is slightly more delayed. This is so every place executes the animation one after other.
                     card.style.animationDelay = delay.toString().concat('s');
                     delay += 0.1;
                 }
@@ -220,6 +182,46 @@ function update_cards_or() {
 
         })
     })
+
+    //Animate each place
+    let delay = 0;
+    document.querySelectorAll("#card-col").forEach(card => {
+        //delay is used so each subsequent place is slightly more delayed. This is so every place executes the animation one after other.
+        card.style.animationDelay = delay.toString().concat('s');
+        delay += 0.1;
+        card.style.animationPlayState = 'running';
+    })
+    
+})
+
+//If the user scrolls beyond, instantly play the animation
+window.onscroll = () => {
+    if (window.scrollY > 4000) {
+        document.querySelectorAll("#card-col").forEach(card => {
+            //delay is used so each subsequent place is slightly more delayed. This is so every place executes the animation one after other.
+            card.style.animationDelay = '0s'
+            card.style.animationPlayState = 'running';
+        })
+    }
+}
+
+//Filter checkbox behavior. 
+//This function gets the places that matches the filters, but only one filter needs to be match. 
+//Meaning if one filter matched a place, but another selected filter didn't, the place would still be selected.
+//This is specifically for filters in the same column/category. So that you can for example see north american or italian restaurants.
+function update_cards_or() {
+    //Removes the places that don't match any filter.
+    for (const key in dict_filters) {
+        dict_filters[key].forEach(filter =>{
+            document.querySelectorAll("#card-body").forEach(body => {
+                body.querySelectorAll("#filter").forEach(card_text => {
+                    if(filter == card_text.innerHTML || card_text.innerHTML.includes(filter)) {
+                        body.parentNode.parentNode.style.display = "block";
+                    }
+                })
+            })
+        })
+     }
 }
 
 //Filter checkbox behavior. 
