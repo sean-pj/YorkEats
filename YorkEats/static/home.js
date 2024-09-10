@@ -125,6 +125,19 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#form-grid").querySelectorAll("#filter-name").forEach(filter_name => {
         dict_filters[filter_name.innerHTML] = []
     })
+
+    //Clear filter button
+    document.querySelector("#clear-filters").addEventListener('click', () => {
+        document.querySelectorAll(".form-check").forEach(form => {
+            form.querySelector("input").checked = false;
+
+            // Learned dispatchEvent from https://bito.ai/resources/javascript-trigger-change-event-javascript-explained/
+            // Create event
+            const changeEvent = new Event('change');
+
+            form.querySelector("input").dispatchEvent(changeEvent)
+        })
+    })
     
     //Checkbox behavior
     document.querySelectorAll(".form-check").forEach(form => {
@@ -156,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     col.style.display = "none"
                 })
                 //Removes the places that don't match any filter.
-                update_cards_or
+                update_cards_or()
                 //Remove the places that don't match all the filters from each column.
                 update_cards_and()
             }
