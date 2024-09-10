@@ -147,31 +147,17 @@ def register(request):
     if request.method == "POST":
         username = request.POST["username"]
         email = request.POST["email"]
-
-        # Check if user's email is a york affiliated email
-        if email.split("@")[1] == "my.yorku.ca" or email.split("@")[1] == "yorku.ca":
-             # Ensure password matches confirmation
-            password = request.POST["password"]
-            confirmation = request.POST["confirmation"]
-            if password != confirmation:
-                return render(request, "YorkEats/register.html", {
-                    "password_invalid" : "is-invalid",
-                })
-
-            # Attempt to create new user
-            try:
-                user = User.objects.create_user(username, email, password)
-                user.save()
-            except IntegrityError:
-                return render(request, "YorkEats/register.html", {
-                    "user_invalid" : "is-invalid",
-                })
-            login(request, user)
-            return HttpResponseRedirect(reverse("index"))
-        else:
+        
+        # Attempt to create new user
+        try:
+            user = User.objects.create_user(username, email, password)
+            user.save()
+        except IntegrityError:
             return render(request, "YorkEats/register.html", {
-                    "email_invalid" : "is-invalid",
-                })
+                "user_invalid" : "is-invalid",
+            })
+        login(request, user)
+        return HttpResponseRedirect(reverse("index"))
     else:
         return render(request, "YorkEats/register.html")
 
