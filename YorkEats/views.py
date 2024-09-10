@@ -147,7 +147,7 @@ def register(request):
     if request.method == "POST":
         username = request.POST["username"]
         email = request.POST["email"]
-        password = request.POSt["password"]
+        password = request.POST["password"]
         
         # Attempt to create new user
         try:
