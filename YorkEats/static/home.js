@@ -143,19 +143,19 @@ document.addEventListener('DOMContentLoaded', () => {
     //Search bar
     document.querySelector("#search-bar").addEventListener('focusout', () => {
         //Check if search bar is empty
-        if (document.querySelector("#search-bar").value == "") {
+        if (document.querySelector("#search-bar").value != "") {
             //Remove posts that don't match the search
             document.querySelectorAll("#place-name").forEach(name => {
-            if (name.innerHTML.includes(document.querySelector("#search-bar").value)) {
-                name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
-            } else {
-                name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
-            }
-            })
+                if (name.innerHTML.toLowerCase().includes(document.querySelector("#search-bar").value.toLowerCase())) {
+                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
+                } else {
+                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+                }
+                })
         } else {
             //Unhide all places
             document.querySelectorAll("#place-name").forEach(name => {
-                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
             })
         }
 
