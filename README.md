@@ -4,20 +4,20 @@ A website designed to help students, visitors and more find open locations to ea
 ## User Guide
 ### Find places to eat at York
 1. Navigate to All Locations using the navbar
-2. Select filters if needed
+2. Select filters and search if needed
 
 ### Find currently open restaurants
 1. Navigate to "What's Open Now?" using the navbar
-2. Select filters if needed
+2. Select filters and search if needed
 
 ### Find out whats open at a selected time
 1. Navigate to "What's Open Later?" using the navbar
 2. Select a time
-3. Select filters if needed
+3. Select filters and search if needed
 
 ### Rate a location
 1. Login or create an account by clicking the navbar's login button
-2. Rate the desired post using the five stars
+3. Rate the desired post using the five stars
 
 ## Admin Actions
 ### Edit a location's photo
