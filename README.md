@@ -43,7 +43,7 @@ A number of features required external research as referenced in the code. Some 
 * Various Boostrap Components (collapse, dropdown, etc)
 
 ### Summary
-My project aims to help my University's community by providing a quick and easy site to find, locate and filter through open restaurants on campus.  As a result of this tailored problem and solution, my project is distinct from other course projects. The many features required added complexity to the project as they involve applications of the course material in combination with external learning. Functions, and libraries unrelated to the material taught in the course needed to be researched and learned to implement these features. Which makes the project distinct from the previous projects which rely almost soley on the course material.
+My project aims to help my university's community by providing a quick and easy way to find, locate and filter through open restaurants on campus.  As a result of this tailored problem and solution, my project is distinct from other course projects. The many features required added complexity to the project as they involve applications of the course material in combination with external learning. Functions, and libraries unrelated to the material taught in the course needed to be researched and learned to implement these features. Which makes the project distinct from the previous projects which rely almost soley on the course material.
 
 ## File Descriptions
 ### dining_dir.json
