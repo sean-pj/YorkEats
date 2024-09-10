@@ -9,7 +9,7 @@
     <h4 style="text-align: center;">{{title}}</h4>
     <!-- Filters -->
     <div class="container-sm border border-4">
-      <div id="form-grid" class="row" style="height: 300px; overflow-y:scroll;">
+      <div id="form-grid" class="row" style="height: 200px; overflow-y:scroll;">
         <div class="col border">
           <h4 id="filter-name" style="text-align: center;">Dining</h4>
           {% for location in locations %}
@@ -66,6 +66,8 @@
     </div>
     <!-- Clear Filters -->
     <div class="w-100" style="margin-top: 20px;">
+      <!-- On focus: https://www.w3schools.com/howto/howto_html_clear_input.asp -->
+      <input onfocus="this.value=''" style="margin:auto; margin-bottom: 20px;" type="text" class="form-control w-50" id="search-bar" placeholder="Search by name">
       <button style="margin:auto; display: block;" id="clear-filters" class="btn btn-primary">Clear Filters</button>
     </div>
     <!-- Alert -->
@@ -94,9 +96,10 @@
             {% endif %}
             <!-- Body -->
             <div class="card-body" id="card-body">
-              <h5 class="card-title" style="display: inline;">{{Place.name}}
+              <h5 class="card-title" style="display: inline;">
+                <p id="place-name" >{{Place.name}}</p>
                 <!-- Public star rating -->
-                <form style="display: inline;" id="public-rating" autocomplete="off">                  
+                <form id="public-rating" autocomplete="off">                  
                   <!-- Comments remove whitespace -->
                   <!-- Learned from https://stackoverflow.com/questions/1931913/how-can-i-stop-the-new-line-from-adding-a-space-between-my-list-items-in-html -->
                   <input type="radio" id="star1pub_{{Place.id}}" name="rating" value="1" disabled {% if Place.round_average_rating == 1 %} checked {% endif %}/><!--

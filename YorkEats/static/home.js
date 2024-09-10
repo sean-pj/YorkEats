@@ -6,6 +6,10 @@ all_filters = []
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Learned dispatchEvent from https://bito.ai/resources/javascript-trigger-change-event-javascript-explained/
+    // Create event
+    const changeEvent = new Event('change');
+
     //Updates which navbar link is highlighted
     if (view.innerHTML === "\"open\"") {
         document.querySelector("#open-nav").classList.add("active")
@@ -131,12 +135,35 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll(".form-check").forEach(form => {
             form.querySelector("input").checked = false;
 
-            // Learned dispatchEvent from https://bito.ai/resources/javascript-trigger-change-event-javascript-explained/
-            // Create event
-            const changeEvent = new Event('change');
-
+            // Trigger checkbox change event
             form.querySelector("input").dispatchEvent(changeEvent)
         })
+    })
+
+    //Search bar
+    document.querySelector("#search-bar").addEventListener('focusout', () => {
+        //Check if search bar is empty
+        if (document.querySelector("#search-bar").value == "") {
+            //Remove posts that don't match the search
+            document.querySelectorAll("#place-name").forEach(name => {
+            if (name.innerHTML.includes(document.querySelector("#search-bar").value)) {
+                name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
+            } else {
+                name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+            }
+            })
+        } else {
+            //Unhide all places
+            document.querySelectorAll("#place-name").forEach(name => {
+                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+            })
+        }
+
+        //Hide cards based on checkbox filters
+        //Removes the places that don't match any filter.
+        update_cards_or()
+        //Remove the places that don't match all the filters from each column.
+        update_cards_and()
     })
     
     //Checkbox behavior
