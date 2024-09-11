@@ -17,7 +17,7 @@ class Command(BaseCommand):
         # For every place in data update or create a Place model
         for id in data:
             entry = data.get(id)
-            if not Place.objects.filter(id=(int(id) + 1)).exists():
+            if not Place.objects.filter(id=id).exists():
                 place = Place(
                     name=entry.get("location_name"),
                     location=entry.get("location"), 
@@ -32,15 +32,17 @@ class Command(BaseCommand):
                     )
                 place.save()
             else:
-                place = Place.objects.get(id=(int(id) + 1))
+                place = Place.objects.get(id=id)
                 place.name = entry.get("location_name")
-                place.location_link = entry.get("location")
+                place.location = entry.get("location")
+                place.location_link = entry.get("location_link")
                 place.menu_offering = entry.get("menu_offering")
                 place.payment_options = entry.get("payment_options")
+                place.menu_name = entry.get("menu").get("menu_name")
                 place.menu_href = entry.get("menu").get("menu_href")
                 place.dietary_options = entry.get("dietary_options")
                 place.opening_days = entry.get("opening_days")
                 place.address = entry.get("address")
                 place.save()
         
-        print("Successfully updated the database")
+        print("Successfully updated the database.")

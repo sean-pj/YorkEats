@@ -18,6 +18,9 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
 
+        with open("YorkEats/data/dining_dir.json", "r") as json_file:
+            existing_data = json.load(json_file)
+
         # Open and fetch html from york dining directory page
         url = "https://www.yorku.ca/foodservices/dining-directory/"
         page = urlopen(url)
@@ -29,6 +32,7 @@ class Command(BaseCommand):
         card_htmls = soup.find_all(attrs={'class':'card border-0 mb-5'})
 
         # Remove filler card
+        card_htmls.pop()
         card_htmls.pop()
 
         data = {}
@@ -58,7 +62,7 @@ class Command(BaseCommand):
                 menu = card_html.find("i", attrs={"alt": "menu"}).find_next().text.strip()
                 menu_href = card_html.find("i", attrs={"alt": "menu"}).find_next("a").get("href")
             else:
-                menu = "No menu provided"
+                menu = "No Menu PDF Provided"
                 menu_href = "#"
             if card_html.find("i", attrs={"alt": "dietary options:"}) is not None:
                 dietary_options = card_html.find("i", attrs={"alt": "dietary options:"}).find_next().text.strip()
@@ -70,7 +74,7 @@ class Command(BaseCommand):
                 opening_days = {}
 
             # Update dictionary with new info
-            new_data = {card_htmls.index(card_html): {
+            new_data = {card_htmls.index(card_html) + 1: {
                 "location_name" : location_name,
                 'location': location,
                 'location_link' : location_link,
@@ -81,7 +85,10 @@ class Command(BaseCommand):
                     'menu_href': menu_href
                 },
                 'dietary_options': dietary_options,
-                'opening_days': opening_days
+                'opening_days': opening_days,
+                # Updates address with existing data
+                # Prevents having to potentially perform another call to the google API for addresses
+                'address': existing_data.get(f'{card_htmls.index(card_html) + 1}').get('address'),
             }}
             data.update(new_data)
 

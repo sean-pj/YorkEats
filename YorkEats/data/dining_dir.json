@@ -1,70 +1,5 @@
 {
-    "0": {
-        "location_name": "416 Burger Co.",
-        "location": "Dahdaleh Building (DB)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
-        "menu_offering": "North American",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "416 Burger Co. Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
-        },
-        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "8 am - 8 pm",
-            "Tuesday": "8 am - 8 pm",
-            "Wednesday": "8 am - 8 pm",
-            "Thursday": "8 am - 8 pm",
-            "Friday": "8 am - 5 pm",
-            "Saturday": "Closed"
-        },
-        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada"
-    },
     "1": {
-        "location_name": "416 Burger Co.",
-        "location": "Osgoode Hall Law School (OSG)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
-        "menu_offering": "North American",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "416 Burger Co. Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
-        },
-        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "7:30 a.m. - 7:00 p.m.",
-            "Tuesday": "7:30 a.m. - 7:00 p.m.",
-            "Wednesday": "7:30 a.m. - 7:00 p.m.",
-            "Thursday": "7:30 a.m. - 7:00 p.m.",
-            "Friday": "7:30 a.m. - 5:00 p.m.",
-            "Saturday": "Closed"
-        },
-        "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
-    },
-    "2": {
-        "location_name": "416 Burger Co.",
-        "location": "Central Square (CSQ)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
-        "menu_offering": "North American",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "416 Burger Co. Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
-        },
-        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "8:00 a.m. - 8:00 p.m.",
-            "Tuesday": "8:00 a.m. - 8:00 p.m.",
-            "Wednesday": "8:00 a.m. - 8:00 p.m.",
-            "Thursday": "8:00 a.m. - 8:00 p.m.",
-            "Friday": "8:00 a.m. - 5:00 p.m.",
-            "Saturday": "Closed"
-        }
-    },
-    "3": {
         "location_name": "Al Dente",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pasta-Pop-Up-.pdf",
@@ -77,104 +12,126 @@
         "dietary_options": "Halal (H), No Gluten (NG), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "10:00 a.m. - 8:00 p.m.",
-            "Tuesday": "10:00 a.m. - 8:00 p.m.",
-            "Wednesday": "10:00 a.m. - 8:00 p.m.",
-            "Thursday": "10:00 a.m. - 8:00 p.m.",
-            "Friday": "10:00 a.m. - 5:00 p.m.",
+            "Monday": "10 a.m. - 8 p.m.",
+            "Tuesday": "10 a.m. - 8 p.m.",
+            "Wednesday": "10 a.m. - 8 p.m.",
+            "Thursday": "10 a.m. - 8 p.m.",
+            "Friday": "10 a.m. - 5 p.m.",
             "Saturday": "Closed"
         },
         "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "4": {
+    "2": {
         "location_name": "Amaya Express",
         "location": "The Quad",
         "location_link": "https://www.amayaexpress.com/menus/",
         "menu_offering": "Indian",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "12 pm - 9:45 pm",
-            "Monday": "12 pm - 9:45 pm",
-            "Tuesday": "12 pm - 9:45 pm",
-            "Wednesday": "12 pm - 9:45 pm",
-            "Thursday": "12 pm - 9:45 pm",
-            "Friday": "12 pm - 9:45 pm",
-            "Saturday": "12 pm - 9:45 pm"
+            "Sunday": "12 p.m. - 9:45 p.m.",
+            "Monday": "12 p.m. - 9:45 p.m.",
+            "Tuesday": "12 p.m. - 9:45 p.m.",
+            "Wednesday": "12 p.m. - 9:45 p.m.",
+            "Thursday": "12 p.m. - 9:45 p.m.",
+            "Friday": "12 p.m. - 9:45 p.m.",
+            "Saturday": "12 p.m. - 9:45 p.m."
         },
         "address": "95 The Pond Rd #20, North York, ON M3J 0L1, Canada"
     },
-    "5": {
+    "3": {
+        "location_name": "Aroma Espresso Bar",
+        "location": "The Quad",
+        "location_link": "https://www.aromacafe.ca/",
+        "menu_offering": "Mediterranean",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No Menu PDF Provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "7:30 a.m. - 10 p.m.",
+            "Monday": "7:30 a.m. - 10 p.m.",
+            "Tuesday": "7:30 a.m. - 10 p.m.",
+            "Wednesday": "7:30 a.m. - 10 p.m.",
+            "Thursday": "7:30 a.m. - 10 p.m.",
+            "Friday": "7:30 a.m. - 10 p.m.",
+            "Saturday": "7:30 a.m. - 10 p.m."
+        },
+        "address": "105 The Pond Rd, North York, ON M3J 0K9, Canada"
+    },
+    "4": {
         "location_name": "Aroma Espresso Bar",
         "location": "York Lanes Mall",
         "location_link": "https://www.aromacafe.ca/",
         "menu_offering": "Mediterranean",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "8:30 am - 5 pm",
-            "Monday": "7:30 am - 8 pm",
-            "Tuesday": "7:30 am - 8 pm",
-            "Wednesday": "7:30 am - 8 pm",
-            "Thursday": "7:30 am - 8 pm",
-            "Friday": "7:30 am - 8 pm",
-            "Saturday": "8:30 am - 5 pm"
+            "Sunday": "8:30 a.m. - 5 p.m.",
+            "Monday": "7:30 a.m. - 8 p.m.",
+            "Tuesday": "7:30 a.m. - 8 p.m.",
+            "Wednesday": "7:30 a.m. - 8 p.m.",
+            "Thursday": "7:30 a.m. - 8 p.m.",
+            "Friday": "7:30 a.m. - 8 p.m.",
+            "Saturday": "8:30 a.m. - 5 p.m."
         },
         "address": "York Lanes Mall, 80 York Blvd, ON M3J 1P3, Canada"
     },
-    "6": {
-        "location_name": "Aroma Espresso Bar",
-        "location": "The Quad",
-        "location_link": "https://www.aromacafe.ca/",
-        "menu_offering": "Mediterranean",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "No menu provided",
-            "menu_href": "#"
-        },
-        "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "7:30 am - 10 pm",
-            "Monday": "7:30 am - 10 pm",
-            "Tuesday": "7:30 am - 10 pm",
-            "Wednesday": "7:30 am - 10 pm",
-            "Thursday": "7:30 am - 10 pm",
-            "Friday": "7:30 am - 10 pm",
-            "Saturday": "7:30 am - 10 pm"
-        },
-        "address": "105 The Pond Rd, North York, ON M3J 0K9, Canada"
-    },
-    "7": {
+    "5": {
         "location_name": "Basil Box",
         "location": "The Quad",
         "location_link": "https://thebasilbox.com/",
         "menu_offering": "Thai",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "12pm - 7 pm",
-            "Monday": "11 am - 8 pm",
-            "Tuesday": "11 am - 8 pm",
-            "Wednesday": "11 am - 8 pm",
-            "Thursday": "11 am - 8 pm",
-            "Friday": "11 am - 8 pm",
-            "Saturday": "12pm - 7 pm"
+            "Sunday": "12 p.m. - 7 p.m.",
+            "Monday": "11 a.m. - 8 p.m.",
+            "Tuesday": "11 a.m. - 8 p.m.",
+            "Wednesday": "11 a.m. - 8 p.m.",
+            "Thursday": "11 a.m. - 8 p.m.",
+            "Friday": "11 a.m. - 8 p.m.",
+            "Saturday": "12 p.m. - 7 p.m."
         },
         "address": "105, 30 The Pond Rd #30, North York, ON M3J 0K9, Canada"
     },
-    "8": {
+    "6": {
+        "location_name": "Booster Juice",
+        "location": "The Quad",
+        "location_link": "https://www.boosterjuice.com/menu/smoothies/",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No Menu PDF Provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10 a.m. - 6 p.m.",
+            "Monday": "7 a.m. - 9 p.m.",
+            "Tuesday": "7 a.m. - 9 p.m.",
+            "Wednesday": "7 a.m. - 9 p.m.",
+            "Thursday": "7 a.m. - 9 p.m.",
+            "Friday": "7 a.m. - 9 p.m.",
+            "Saturday": "8 a.m. - 9 p.m."
+        },
+        "address": "105 The Pond Rd Unit #70, North York, ON M3J 0K9, Canada"
+    },
+    "7": {
         "location_name": "Booster Juice",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Booster.pdf",
@@ -187,82 +144,60 @@
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "8:30 a.m. - 8:00 p.m.",
-            "Tuesday": "8:30 a.m. - 8:00 p.m.",
-            "Wednesday": "8:30 a.m. - 8:00 p.m.",
-            "Thursday": "8:30 a.m. - 8:00 p.m.",
-            "Friday": "8:30 a.m. - 5:00 p.m.",
+            "Monday": "8:30 a.m. - 8 p.m.",
+            "Tuesday": "8:30 a.m. - 8 p.m.",
+            "Wednesday": "8:30 a.m. - 8 p.m.",
+            "Thursday": "8:30 a.m. - 8 p.m.",
+            "Friday": "8:30 a.m. - 5 p.m.",
             "Saturday": "Closed"
         },
         "address": "Ross, 4700 Keele Street York University Curtis, Toronto, ON M3J 1P3, Canada"
     },
-    "9": {
-        "location_name": "Booster Juice",
-        "location": "The Quad",
-        "location_link": "https://www.boosterjuice.com/menu/smoothies/",
-        "menu_offering": "North American",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "No menu provided",
-            "menu_href": "#"
-        },
-        "dietary_options": "Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "10 am - 6 pm",
-            "Monday": "7 am - 9 pm",
-            "Tuesday": "7 am - 9 pm",
-            "Wednesday": "7 am - 9 pm",
-            "Thursday": "7 am - 9 pm",
-            "Friday": "7 am - 9 pm",
-            "Saturday": "8 am - 9 pm"
-        },
-        "address": "105 The Pond Rd Unit #70, North York, ON M3J 0K9, Canada"
-    },
-    "10": {
+    "8": {
         "location_name": "Burger King",
         "location": "The Quad",
         "location_link": "https://www.burgerking.ca/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "7 am - 12 am",
-            "Monday": "7 am - 12 am",
-            "Tuesday": "7 am - 12 am",
-            "Wednesday": "7 am - 12 am",
-            "Thursday": "7 am - 12 am",
-            "Friday": "7 am - 12 am",
-            "Saturday": "7 am - 12 am"
+            "Sunday": "7 a.m. - 12 a.m.",
+            "Monday": "7 a.m. - 12 a.m.",
+            "Tuesday": "7 a.m. - 12 a.m.",
+            "Wednesday": "7 a.m. - 12 a.m.",
+            "Thursday": "7 a.m. - 12 a.m.",
+            "Friday": "7 a.m. - 12 a.m.",
+            "Saturday": "7 a.m. - 12 a.m."
         },
         "address": "115 Haynes Ave, North York, ON M3J 0L8, Canada"
     },
-    "11": {
+    "9": {
         "location_name": "Chaska Indian Street Food",
         "location": "York Lanes Mall",
         "location_link": "https://chaska.com/menu/",
         "menu_offering": "Indian",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 9 pm",
-            "Monday": "11 am - 9 pm",
-            "Tuesday": "11 am - 9 pm",
-            "Wednesday": "11 am - 9 pm",
-            "Thursday": "11 am - 9 pm",
-            "Friday": "11 am - 9 pm",
+            "Sunday": "11 a.m. - 9 p.m.",
+            "Monday": "11 a.m. - 9 p.m.",
+            "Tuesday": "11 a.m. - 9 p.m.",
+            "Wednesday": "11 a.m. - 9 p.m.",
+            "Thursday": "11 a.m. - 9 p.m.",
+            "Friday": "11 a.m. - 9 p.m.",
             "Saturday": "11 am - 9 pm"
         },
         "address": "80 York Blvd Unit 17, North York, ON M3J 1P3, Canada"
     },
-    "12": {
+    "10": {
         "location_name": "Chef\u2019s Table",
         "location": "Winters College (WC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Winters-March.pdf",
@@ -274,17 +209,17 @@
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Monday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Tuesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Wednesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
+            "Sunday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Monday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Tuesday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Wednesday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Thursday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Friday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Saturday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m."
         },
         "address": "001 Winters College McLaughlin Rd, North York, ON M7A 2C5, Canada"
     },
-    "13": {
+    "11": {
         "location_name": "Chef\u2019s Table",
         "location": "Stong College (SC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Stong-March.pdf",
@@ -296,38 +231,81 @@
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Monday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Tuesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Wednesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
+            "Sunday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m.",
+            "Monday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m.",
+            "Tuesday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m.",
+            "Wednesday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m.",
+            "Thursday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m.",
+            "Friday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m.",
+            "Saturday": "11 a.m. - 3:00 p.m. & 4:30 p.m. - 8 p.m."
         },
-        "address": "165 Campus Walk, North York, ON M3J, Canada",
-        "image_url": "#"
+        "address": "165 Campus Walk, North York, ON M3J, Canada"
     },
-    "14": {
+    "12": {
         "location_name": "Chipotle Mexican Grill",
         "location": "The Quad",
         "location_link": "https://www.chipotle.ca/",
         "menu_offering": "Mexican",
         "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:45 am - 10 pm",
-            "Monday": "10:45 am - 10 pm",
-            "Tuesday": "10:45 am - 10 pm",
-            "Wednesday": "10:45 am - 10 pm",
-            "Thursday": "10:45 am - 10 pm",
-            "Friday": "10:45 am - 10 pm",
-            "Saturday": "10:45 am - 10 pm"
+            "Sunday": "10:45 a.m. - 10 p.m.",
+            "Monday": "10:45 a.m. - 10 p.m.",
+            "Tuesday": "10:45 a.m. - 10 p.m.",
+            "Wednesday": "10:45 a.m. - 10 p.m.",
+            "Thursday": "10:45 a.m. - 10 p.m.",
+            "Friday": "10:45 a.m. - 10 p.m.",
+            "Saturday": "10:45 a.m. - 10 p.m."
         },
         "address": "85 The Pond Rd, North York, ON M3J 0L7, Canada"
+    },
+    "13": {
+        "location_name": "Chop\u2019d & Wrap\u2019d",
+        "location": "Winters College (WC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "Closed"
+        },
+        "address": "72 Winters Ln, North York, ON M7A 2C5, Canada"
+    },
+    "14": {
+        "location_name": "Chop\u2019d & Wrap\u2019d",
+        "location": "Dahdaleh Building (DB)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
+        "menu_offering": "Global Cuisines",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+)",
+        "menu": {
+            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "11 am - 7 pm",
+            "Tuesday": "11 am - 7 pm",
+            "Wednesday": "11 am - 7 pm",
+            "Thursday": "11 am - 7 pm",
+            "Friday": "10 am - 5 pm",
+            "Saturday": "Closed"
+        },
+        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada"
     },
     "15": {
         "location_name": "Chop\u2019d & Wrap\u2019d",
@@ -352,92 +330,92 @@
         "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
     },
     "16": {
-        "location_name": "Chop\u2019d & Wrap\u2019d",
-        "location": "Winters College (WC)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
-        "menu_offering": "Global Cuisines",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
-        },
-        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "Closed",
-            "Tuesday": "Closed",
-            "Wednesday": "Closed",
-            "Thursday": "Closed",
-            "Friday": "Closed",
-            "Saturday": "Closed"
-        },
-        "address": "72 Winters Ln, North York, ON M7A 2C5, Canada"
-    },
-    "17": {
-        "location_name": "Chop\u2019d & Wrap\u2019d",
-        "location": "Dahdaleh Building (DB)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg",
-        "menu_offering": "Global Cuisines",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+)",
-        "menu": {
-            "menu_name": "Chop\u2019d & Wrap\u2019d Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Chopd-Wrapd.jpg"
-        },
-        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "11 am - 7 pm",
-            "Tuesday": "11 am - 7 pm",
-            "Wednesday": "11 am - 7 pm",
-            "Thursday": "11 am - 7 pm",
-            "Friday": "10 am - 5 pm",
-            "Saturday": "Closed"
-        },
-        "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada"
-    },
-    "18": {
         "location_name": "Chungchun Rice Hot Dog",
         "location": "The Quad",
         "location_link": "https://chungchunricedog.ca/menu/",
         "menu_offering": "Korean",
         "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 11 pm",
-            "Monday": "11 am - 11 pm",
-            "Tuesday": "11 am - 11 pm",
-            "Wednesday": "11 am - 11 pm",
-            "Thursday": "11 am - 11 pm",
-            "Friday": "11 am - 11 pm",
-            "Saturday": "11 am - 11 pm"
+            "Sunday": "11 a.m. - 11 p.m.",
+            "Monday": "11 a.m. - 11 p.m.",
+            "Tuesday": "11 a.m. - 11 p.m.",
+            "Wednesday": "11 a.m. - 11 p.m.",
+            "Thursday": "11 a.m. - 11 p.m.",
+            "Friday": "11 a.m. - 11 p.m.",
+            "Saturday": "11 a.m. - 11 p.m."
         },
         "address": "95 The Pond Rd #20, North York, ON M3J 0L1, Canada"
     },
-    "19": {
+    "17": {
         "location_name": "Country Style (Kosher Deli)",
         "location": "Winters College (WC)",
         "location_link": "#",
         "menu_offering": "Mediterranean",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Kosher (K), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "7:00 a.m. \u2013 7:00 p.m.",
-            "Tuesday": "7:00 a.m. \u2013 7:00 p.m.",
-            "Wednesday": "7:00 a.m. \u2013 7:00 p.m.",
-            "Thursday": "7:00 a.m. \u2013 7:00 p.m.",
-            "Friday": "7:00 a.m. \u2013 7:00 p.m.",
+            "Monday": "7 a.m. \u2013 7 p.m.",
+            "Tuesday": "7 a.m. \u2013 7 p.m.",
+            "Wednesday": "7 a.m. \u2013 7 p.m.",
+            "Thursday": "7 a.m. \u2013 7 p.m.",
+            "Friday": "7 a.m. \u2013 7 p.m.",
             "Saturday": "Closed"
         },
         "address": "72 Winters Ln, North York, ON M3J 2N9, Canada"
+    },
+    "18": {
+        "location_name": "Create",
+        "location": "Osgoode Hall Law School (OSG)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf",
+        "menu_offering": "Italian, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Create Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "7:30 a.m. - 7 p.m.",
+            "Tuesday": "7:30 a.m. - 7 p.m.",
+            "Wednesday": "7:30 a.m. - 7 p.m.",
+            "Thursday": "7:30 a.m. - 7 p.m.",
+            "Friday": "7:30 a.m. - 5 p.m.",
+            "Saturday": "Closed"
+        },
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
+    },
+    "19": {
+        "location_name": "Create",
+        "location": "Stong College (SC)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
+        "menu_offering": "Italian, Southeast Asian",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Create Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf"
+        },
+        "dietary_options": "Halal (H), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "10 a.m. - 8 p.m.",
+            "Monday": "10 a.m. - 9 p.m.",
+            "Tuesday": "10 a.m. - 9 p.m.",
+            "Wednesday": "10 a.m. - 9 p.m.",
+            "Thursday": "10 a.m. - 9 p.m.",
+            "Friday": "10 a.m. - 9 p.m.",
+            "Saturday": "10 a.m. - 8 p.m."
+        },
+        "address": "165 Campus Walk, North York, ON M3J, Canada"
     },
     "20": {
         "location_name": "Create",
@@ -451,62 +429,17 @@
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "8:00 a.m. - 10:00 p.m.",
-            "Monday": "7:30 a.m. - 11:00 p.m.",
-            "Tuesday": "7:30 a.m. - 11:00 p.m.",
-            "Wednesday": "7:30 a.m. - 11:00 p.m.",
-            "Thursday": "7:30 a.m. - 11:00 p.m.",
-            "Friday": "7:30 a.m. - 10:00 p.m.",
-            "Saturday": "8:00 a.m. - 10:00 p.m."
+            "Sunday": "8 a.m. - 10 p.m.",
+            "Monday": "7:30 a.m. - 11 p.m.",
+            "Tuesday": "7:30 a.m. - 11 p.m.",
+            "Wednesday": "7:30 a.m. - 11 p.m.",
+            "Thursday": "7:30 a.m. - 11 p.m.",
+            "Friday": "7:30 a.m. - 10 p.m.",
+            "Saturday": "8 a.m. - 10 p.m."
         },
         "address": "72 Winters Ln, North York, ON M7A 2C5, Canada"
     },
     "21": {
-        "location_name": "Create",
-        "location": "Stong College (SC)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
-        "menu_offering": "Italian, Southeast Asian",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "Create Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf"
-        },
-        "dietary_options": "Halal (H), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "10:00 a.m. - 8:00 p.m.",
-            "Monday": "10:00 a.m. - 9:00 p.m.",
-            "Tuesday": "10:00 a.m. - 9:00 p.m.",
-            "Wednesday": "10:00 a.m. - 9:00 p.m.",
-            "Thursday": "10:00 a.m. - 9:00 p.m.",
-            "Friday": "10:00 a.m. - 8:00 p.m.",
-            "Saturday": "10:00 a.m. - 8:00 p.m."
-        },
-        "address": "165 Campus Walk, North York, ON M3J, Canada",
-        "image_url": "#"
-    },
-    "22": {
-        "location_name": "Create",
-        "location": "Osgoode Hall Law School (OSG)",
-        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf",
-        "menu_offering": "Italian, Southeast Asian",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "Create Menu (PDF)",
-            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/create-bistro.pdf"
-        },
-        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "7:30 a.m. - 7:00 p.m.",
-            "Tuesday": "7:30 a.m. - 7:00 p.m.",
-            "Wednesday": "7:30 a.m. - 7:00 p.m.",
-            "Thursday": "7:30 a.m. - 7:00 p.m.",
-            "Friday": "7:30 a.m. - 5:00 p.m.",
-            "Saturday": "Closed"
-        },
-        "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
-    },
-    "23": {
         "location_name": "Create Stir Fry",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Create-Stir-Fry.pdf",
@@ -519,192 +452,214 @@
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "10:00 a.m. - 8:00 p.m.",
-            "Tuesday": "10:00 a.m. - 8:00 p.m.",
-            "Wednesday": "10:00 a.m. - 8:00 p.m.",
-            "Thursday": "10:00 a.m. - 8:00 p.m.",
-            "Friday": "10:00 a.m. - 5:00 p.m.",
+            "Monday": "10 a.m. - 8 p.m.",
+            "Tuesday": "10 a.m. - 8 p.m.",
+            "Wednesday": "10 a.m. - 8 p.m.",
+            "Thursday": "10 a.m. - 8 p.m.",
+            "Friday": "10 a.m. - 5 p.m.",
             "Saturday": "Closed"
         },
         "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "24": {
+    "22": {
         "location_name": "Crepe Delicious",
         "location": "The Quad",
         "location_link": "https://www.crepedelicious.com/our-menu/",
         "menu_offering": "French",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 11 pm",
-            "Monday": "11 am - 11 pm",
-            "Tuesday": "11 am - 11 pm",
-            "Wednesday": "11 am - 11 pm",
-            "Thursday": "11 am - 11 pm",
-            "Friday": "11 am - 11 pm",
-            "Saturday": "11 am - 11 pm"
+            "Sunday": "11 a.m. - 11 p.m.",
+            "Monday": "11 a.m. - 11 p.m.",
+            "Tuesday": "11 a.m. - 11 p.m.",
+            "Wednesday": "11 a.m. - 11 p.m.",
+            "Thursday": "11 a.m. - 11 p.m.",
+            "Friday": "11 a.m. - 11 p.m.",
+            "Saturday": "11 a.m. - 11 p.m."
         },
         "address": "115 Haynes Ave, North York, ON M3J 0L8, Canada"
     },
-    "25": {
+    "23": {
         "location_name": "Cucina Italian Cafe",
         "location": "York Lanes Mall",
         "location_link": "#",
         "menu_offering": "Italian",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "3 pm - 11 pm",
-            "Monday": "8 am - 11 pm",
-            "Tuesday": "8 am - 11 pm",
-            "Wednesday": "8 am - 11 pm",
-            "Thursday": "8 am - 11 pm",
-            "Friday": "8 am - 11 pm",
-            "Saturday": "3 pm - 11 pm"
+            "Sunday": "3 p.m. - 11 p.m.",
+            "Monday": "8 a.m. - 11 p.m.",
+            "Tuesday": "8 a.m. - 11 p.m.",
+            "Wednesday": "8 a.m. - 11 p.m.",
+            "Thursday": "8 a.m. - 11 p.m.",
+            "Friday": "8 a.m. - 11 p.m.",
+            "Saturday": "3 p.m. - 11 p.m."
         },
         "address": "4700 Keele St #14, Toronto, ON M3K 1P3, Canada"
     },
-    "26": {
+    "24": {
         "location_name": "Executive Dining Room",
         "location": "Schulich Dining",
         "location_link": "#",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "7 am - 10 am",
-            "Monday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
-            "Tuesday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
-            "Wednesday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
-            "Thursday": "7:00am \u2013 2:00pm, 4:30pm \u2013 7:30pm",
-            "Friday": "7 am - 2:00 pm",
+            "Sunday": "7 a.m. - 10 a.m.",
+            "Monday": "7 a.m. \u2013 2 p.m., 4:30 p.m. \u2013 7:30 p.m.",
+            "Tuesday": "7 a.m. \u2013 2 p.m., 4:30 p.m. \u2013 7:30 p.m.",
+            "Wednesday": "7 a.m. \u2013 2 p.m., 4:30 p.m. \u2013 7:30 p.m.",
+            "Thursday": "7 a.m. \u2013 2 p.m., 4:30 p.m. \u2013 7:30 p.m.",
+            "Friday": "7 a.m. - 2 p.m.",
             "Saturday": "Closed"
         },
-        "address": "56 Fine Arts Rd, Toronto, ON M3J, Canada"
+        "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
     },
-    "27": {
+    "25": {
         "location_name": "Fat Bastard Burrito",
         "location": "The Quad",
         "location_link": "https://www.fatbastardburrito.ca/",
         "menu_offering": "Mexican",
-        "payment_options": "Cash, Credit Card, Debit Card",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 12 am",
-            "Monday": "11 am - 11 pm",
-            "Tuesday": "11 am - 11 pm",
-            "Wednesday": "11 am - 11 pm",
-            "Thursday": "11 am - 12 pm",
-            "Friday": "11 am - 12 am",
-            "Saturday": "11 am - 12 am"
+            "Sunday": "11 a.m. - 12 a.m.",
+            "Monday": "11 a.m. - 11 p.m.",
+            "Tuesday": "11 a.m. - 11 p.m.",
+            "Wednesday": "11 a.m. - 11 p.m.",
+            "Thursday": "11 a.m. - 12 a.m.",
+            "Friday": "11 a.m. - 12 a.m.",
+            "Saturday": "11 a.m. - 12 a.m."
         },
         "address": "95 The Pond Rd #80, Toronto, ON M3J 0L1, Canada"
     },
-    "28": {
+    "26": {
         "location_name": "Galito\u2019s Flamed Grilled Chicken",
         "location": "The Quad",
         "location_link": "https://galitoschicken.com/menu",
         "menu_offering": "South African",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V)",
         "opening_days": {
-            "Sunday": "11 am - 11 pm",
-            "Monday": "11 am - 11 pm",
-            "Tuesday": "11 am - 11 pm",
-            "Wednesday": "11 am - 11 pm",
-            "Thursday": "11 am - 11 pm11 am - 11 pm",
-            "Friday": "11 am - 11 pm",
-            "Saturday": "11 am - 11 pm"
+            "Sunday": "11 a.m. - 11 p.m.",
+            "Monday": "11 a.m. - 11 p.m.",
+            "Tuesday": "11 a.m. - 11 p.m.",
+            "Wednesday": "11 a.m. - 11 p.m.",
+            "Thursday": "11 a.m. - 11 p.m.",
+            "Friday": "11 a.m. - 11 p.m.",
+            "Saturday": "11 a.m. - 11 p.m."
         },
         "address": "95 The Pond Rd #50, North York, ON M3J 0L1, Canada"
     },
-    "29": {
+    "27": {
         "location_name": "Gateway",
         "location": "First Student Centre",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
         "payment_options": "No payment options provided",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "9 am - 9 pm",
-            "Tuesday": "9 am - 9 pm",
-            "Wednesday": "9 am - 9 pm",
-            "Thursday": "9 am - 9 pm",
-            "Friday": "9 am - 9 pm",
+            "Monday": "9 a.m. - 9 p.m.",
+            "Tuesday": "9 a.m. - 9 p.m.",
+            "Wednesday": "9 a.m. - 9 p.m.",
+            "Thursday": "9 a.m. - 9 p.m.",
+            "Friday": "9 a.m. - 9 p.m.",
             "Saturday": "Closed"
         },
         "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada"
     },
-    "30": {
+    "28": {
         "location_name": "Gino\u2019s Pizza",
         "location": "First Student Centre",
         "location_link": "https://ginospizza.ca/",
         "menu_offering": "Italian",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
         "opening_days": {
-            "Sunday": "11 am - 9:30 pm",
-            "Monday": "10 am - 9:30 pm",
-            "Tuesday": "10 am - 9:30 pm",
-            "Wednesday": "10 am - 9:30 pm",
-            "Thursday": "10 am - 9:30 pm",
-            "Friday": "10 am - 9:30 pm",
-            "Saturday": "11 am - 9:30 pm"
+            "Sunday": "11 a.m. - 9:30 p.m.",
+            "Monday": "10 a.m. - 9:30 p.m.",
+            "Tuesday": "10 a.m. - 9:30 p.m.",
+            "Wednesday": "10 a.m. - 9:30 p.m.",
+            "Thursday": "10 a.m. - 9:30 p.m.",
+            "Friday": "10 a.m. - 9:30 p.m.",
+            "Saturday": "11 a.m. - 9:30 p.m."
         },
         "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada"
     },
-    "31": {
+    "29": {
         "location_name": "Gong cha",
         "location": "The Quad",
         "location_link": "https://gong-cha.ca/",
         "menu_offering": "Thai",
         "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V)",
         "opening_days": {
-            "Sunday": "12 pm - 8 pm",
-            "Monday": "11 am -11 pm",
-            "Tuesday": "11 am -11 pm",
-            "Wednesday": "11 am -11 pm",
-            "Thursday": "11 am -11 pm",
-            "Friday": "11 am -11 pm",
-            "Saturday": "12 pm - 8 pm"
+            "Sunday": "12 p.m. - 8 p.m.",
+            "Monday": "11 a.m. - 11 p.m.",
+            "Tuesday": "11 a.m. - 11 p.m.",
+            "Wednesday": "11 a.m. - 11 p.m.",
+            "Thursday": "11 a.m. - 11 p.m.",
+            "Friday": "11 a.m. - 11 p.m.",
+            "Saturday": "12 p.m. - 8 p.m."
         },
         "address": "95 The Pond Rd Complex 2, Unit #30, North York, ON M3J 0K9, Canada"
     },
-    "32": {
+    "30": {
+        "location_name": "Good Vibes Grill",
+        "location": "Central Square (CSQ)",
+        "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "Good Vibes Grill Menu (PDF)",
+            "menu_href": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/416-CSQ.pdf"
+        },
+        "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8 a.m. - 8 p.m.",
+            "Tuesday": "8 a.m. - 8 p.m.",
+            "Wednesday": "8 a.m. - 8 p.m.",
+            "Thursday": "8 a.m. - 8 p.m.",
+            "Friday": "8 a.m. - 5 p.m.",
+            "Saturday": "Closed"
+        },
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
+    },
+    "31": {
         "location_name": "Grill House",
         "location": "Stong College (SC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
@@ -716,17 +671,17 @@
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "7:30 a.m. - 10:00 p.m.",
-            "Monday": "7:30 a.m. - 11:00 p.m.",
-            "Tuesday": "7:30 a.m. - 11:00 p.m.",
-            "Wednesday": "7:30 a.m. - 11:00 p.m.",
-            "Thursday": "7:30 a.m. - 11:00 p.m.",
-            "Friday": "7:30 a.m. - 10:00 p.m.",
-            "Saturday": "7:30 a.m. - 10:00 p.m."
+            "Sunday": "7:30 a.m. - 10 p.m.",
+            "Monday": "7:30 a.m. - 11 p.m.",
+            "Tuesday": "7:30 a.m. - 11 p.m.",
+            "Wednesday": "7:30 a.m. - 11 p.m.",
+            "Thursday": "7:30 a.m. - 11 p.m.",
+            "Friday": "7:30 a.m. - 10 p.m.",
+            "Saturday": "7:30 a.m. - 10 p.m."
         },
-        "address": "001 Winters College McLaughlin Rd, North York, ON M7A 2C5, Canada"
+        "address": "165 Campus Walk, North York, ON M3J, Canada"
     },
-    "33": {
+    "32": {
         "location_name": "Grill House",
         "location": "Winters College (WC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
@@ -738,112 +693,112 @@
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "8:00 a.m. - 10:00 p.m.",
-            "Monday": "7:30 a.m. - 11:00 p.m.",
-            "Tuesday": "7:30 a.m. - 11:00 p.m.",
-            "Wednesday": "7:30 a.m. - 11:00 p.m.",
-            "Thursday": "7:30 a.m. - 11:00 p.m.",
-            "Friday": "8:00 a.m. - 10:00 p.m.",
-            "Saturday": "8:00 a.m. - 10:00 p.m."
+            "Sunday": "8 a.m. - 10 p.m.",
+            "Monday": "7:30 a.m. - 11 p.m.",
+            "Tuesday": "7:30 a.m. - 11 p.m.",
+            "Wednesday": "7:30 a.m. - 11 p.m.",
+            "Thursday": "7:30 a.m. - 11 p.m.",
+            "Friday": "8 a.m. - 10 p.m.",
+            "Saturday": "8 a.m. - 10 p.m."
         },
         "address": "001 Winters College McLaughlin Rd, North York, ON M7A 2C5, Canada"
     },
-    "34": {
+    "33": {
         "location_name": "Hero Certified Burgers",
         "location": "York Lanes Mall",
         "location_link": "https://heroburgers.com/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 9 pm",
-            "Monday": "11 am - 9 pm",
-            "Tuesday": "11 am - 9 pm",
-            "Wednesday": "11 am - 9 pm",
-            "Thursday": "11 am - 9 pm",
-            "Friday": "11 am - 9 pm",
-            "Saturday": "11 am - 9 pm"
+            "Sunday": "11 a.m. - 9 p.m.",
+            "Monday": "11 a.m. - 9 p.m.",
+            "Tuesday": "11 a.m. - 9 p.m.",
+            "Wednesday": "11 a.m. - 9 p.m.",
+            "Thursday": "11 a.m. - 9 p.m.",
+            "Friday": "11 a.m. - 9 p.m.",
+            "Saturday": "11 a.m. - 9 p.m."
         },
         "address": "10 Vanier Ln, North York, ON M3J 1P3, Canada"
     },
-    "35": {
+    "34": {
         "location_name": "Insomnia Cookies",
         "location": "The Quad",
         "location_link": "https://insomniacookies.com/",
         "menu_offering": "Dessert, North American",
         "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V)",
         "opening_days": {
-            "Sunday": "12 pm - 3 am",
-            "Monday": "11 am - 1 am",
-            "Tuesday": "11 am - 1 am",
-            "Wednesday": "11 am - 1 am",
-            "Thursday": "12 pm - 3 am",
-            "Friday": "12 pm - 3 am",
-            "Saturday": "12 pm - 3 am"
+            "Sunday": "12 p.m. - 3 a.m.",
+            "Monday": "11 a.m. - 1 a.m.",
+            "Tuesday": "11 a.m. - 1 a.m.",
+            "Wednesday": "11 a.m. - 1 a.m.",
+            "Thursday": "12 a.m. - 3 a.m.",
+            "Friday": "12 a.m. - 3 a.m.",
+            "Saturday": "12 a.m. - 3 a.m."
         },
         "address": "85 The Pond Rd unit C4 130, North York, ON M3J 2S5, Canada"
     },
-    "36": {
+    "35": {
         "location_name": "Jimmy The Greek",
         "location": "First Student Centre",
         "location_link": "https://www.jimmythegreek.com/menu/",
         "menu_offering": "Greek",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "9 am - 9 pm",
-            "Tuesday": "9 am - 9 pm",
-            "Wednesday": "9 am - 9 pm",
-            "Thursday": "9 am - 9 pm",
-            "Friday": "9 am - 9 pm",
+            "Monday": "9 a.m. - 9 p.m.",
+            "Tuesday": "9 a.m. - 9 p.m.",
+            "Wednesday": "9 a.m. - 9 p.m.",
+            "Thursday": "9 a.m. - 9 p.m.",
+            "Friday": "9 a.m. - 9 p.m.",
             "Saturday": "Closed"
         },
         "address": "York University, 4700 Keele St, North York, ON M3J 1P3, Canada"
     },
-    "37": {
+    "36": {
         "location_name": "K-Bowl & K-Roll",
         "location": "",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
         "payment_options": "No payment options provided",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "11:00 a.m. - 7:00 p.m.",
-            "Tuesday": "11:00 a.m. - 7:00 p.m.",
-            "Wednesday": "11:00 a.m. - 7:00 p.m.",
-            "Thursday": "11:00 a.m. - 7:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Monday": "11 a.m. - 7 p.m.",
+            "Tuesday": "11 a.m. - 7 p.m.",
+            "Wednesday": "11 a.m. - 7 p.m.",
+            "Thursday": "11 a.m. - 7 p.m.",
+            "Friday": "11 a.m. - 3 p.m.",
             "Saturday": "Closed"
         },
         "address": "37 Kodiak Crescent Unit 4, North York, ON M3J 3E5, Canada"
     },
-    "38": {
+    "37": {
         "location_name": "KitchenMate",
         "location": "Glendon Campus",
         "location_link": "https://www.kitchenmate.com/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Kosher (K), No Gluten (NG), Vegan (V), Vegetarian (VG)",
@@ -858,14 +813,14 @@
         },
         "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada"
     },
-    "39": {
+    "38": {
         "location_name": "KitchenMate",
         "location": "School of Continuing Studies (SCS)",
         "location_link": "https://www.kitchenmate.com/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Kosher (K), No Gluten (NG), Vegan (V), Vegetarian (VG)",
@@ -880,73 +835,73 @@
         },
         "address": "68 The Pond Road, 4700 Keele St, Toronto, ON M3J 1P3, Canada"
     },
-    "40": {
+    "39": {
         "location_name": "La Prep",
         "location": "York Lanes Mall",
         "location_link": "https://laprep.com/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "7:30 am - 9 pm",
-            "Tuesday": "7:30 am - 9 pm",
-            "Wednesday": "7:30 am - 9 pm",
-            "Thursday": "7:30 am - 9 pm",
-            "Friday": "11 am - 6 pm",
+            "Monday": "7:30 a.m. - 9 p.m.",
+            "Tuesday": "7:30 a.m. - 9 p.m.",
+            "Wednesday": "7:30 a.m. - 9 p.m.",
+            "Thursday": "7:30 a.m. - 9 p.m.",
+            "Friday": "11 a.m. - 6 p.m.",
             "Saturday": "Closed"
         },
         "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
     },
-    "41": {
+    "40": {
         "location_name": "Mac\u2019s Sushi",
         "location": "First Student Centre",
         "location_link": "https://macssushi.com/",
         "menu_offering": "Japanese",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "9 am - 7 pm",
-            "Tuesday": "9 am - 7 pm",
-            "Wednesday": "9 am - 7 pm",
-            "Thursday": "9 am - 7 pm",
-            "Friday": "9 am - 7 pm",
+            "Monday": "9 a.m. - 7 p.m.",
+            "Tuesday": "9 a.m. - 7 p.m.",
+            "Wednesday": "9 a.m. - 7 p.m.",
+            "Thursday": "9 a.m. - 7 p.m.",
+            "Friday": "9 a.m. - 7 p.m.",
             "Saturday": "Closed"
         },
         "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada"
     },
-    "42": {
+    "41": {
         "location_name": "Mandarin 2 Go",
         "location": "The Quad",
         "location_link": "http://m2gobymandarin.com/menu/",
         "menu_offering": "Chinese",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V)",
         "opening_days": {
-            "Sunday": "11:30 am - 9 pm",
-            "Monday": "11 am - 9 pm",
-            "Tuesday": "11 am - 9 pm",
-            "Wednesday": "11 am - 9 pm",
-            "Thursday": "11 am - 9 pm",
-            "Friday": "11 am - 9 pm",
-            "Saturday": "11:30 am - 9 pm"
+            "Sunday": "11:30 a.m. - 9 p.m.",
+            "Monday": "11 a.m. - 9 p.m.",
+            "Tuesday": "11 a.m. - 9 p.m.",
+            "Wednesday": "11 a.m. - 9 p.m.",
+            "Thursday": "11 a.m. - 9 p.m.",
+            "Friday": "11 a.m. - 9 p.m.",
+            "Saturday": "11:30 a.m. - 9 p.m."
         },
         "address": "105 The Pond Rd, North York, ON M3J 2S5, Canada"
     },
-    "43": {
+    "42": {
         "location_name": "March\u00e9 \u2013 BokChoy",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Bok-Choy-Menu.pdf",
@@ -958,17 +913,17 @@
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:00 a.m. - 8:00 p.m.",
-            "Monday": "10:00 a.m. - 9:00 p.m.",
-            "Tuesday": "10:00 a.m. - 9:00 p.m.",
-            "Wednesday": "10:00 a.m. - 9:00 p.m.",
-            "Thursday": "10:00 a.m. - 9:00 p.m.",
-            "Friday": "10:00 a.m. - 8:00 p.m.",
-            "Saturday": "10:00 a.m. - 8:00 p.m."
+            "Sunday": "10 a.m. - 8 p.m.",
+            "Monday": "10 a.m. - 9 p.m.",
+            "Tuesday": "10 a.m. - 9 p.m.",
+            "Wednesday": "10 a.m. - 9 p.m.",
+            "Thursday": "10 a.m. - 9 p.m.",
+            "Friday": "10 a.m. - 8 p.m.",
+            "Saturday": "10 a.m. - 8 p.m."
         },
         "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada"
     },
-    "44": {
+    "43": {
         "location_name": "March\u00e9 \u2013 Chef\u2019s Table",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Glendon-March.pdf",
@@ -980,17 +935,17 @@
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Monday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Tuesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Wednesday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Thursday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m.",
-            "Saturday": "11:00 a.m. - 3:00 p.m. & 4:30 p.m. - 8:00 p.m."
+            "Sunday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Monday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Tuesday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Wednesday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Thursday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Friday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m.",
+            "Saturday": "11 a.m. - 3 p.m. & 4:30 p.m. - 8 p.m."
         },
         "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada"
     },
-    "45": {
+    "44": {
         "location_name": "March\u00e9 \u2013 Grill House",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2024/02/Grill-Menu-Winter-2024.pdf",
@@ -1002,17 +957,17 @@
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "8:00 a.m. - 10:00 p.m.",
-            "Monday": "7:30 a.m. - 11:00 p.m.",
-            "Tuesday": "7:30 a.m. - 11:00 p.m.",
-            "Wednesday": "7:30 a.m. - 11:00 p.m.",
-            "Thursday": "7:30 a.m. - 11:00 p.m.",
-            "Friday": "8:00 a.m. - 10:00 p.m.",
-            "Saturday": "8:00 a.m. - 10:00 p.m."
+            "Sunday": "8 a.m. - 10 p.m.",
+            "Monday": "7:30 a.m. - 11 p.m.",
+            "Tuesday": "7:30 a.m. - 11 p.m.",
+            "Wednesday": "7:30 a.m. - 11 p.m.",
+            "Thursday": "7:30 a.m. - 11 p.m.",
+            "Friday": "8 a.m. - 10 p.m.",
+            "Saturday": "8 a.m. - 10 p.m."
         },
         "address": "2275 Bayview Ave, Toronto, ON M4N 3M6, Canada"
     },
-    "46": {
+    "45": {
         "location_name": "March\u00e9 \u2013 Pizza Pizza",
         "location": "Glendon Campus",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
@@ -1024,61 +979,61 @@
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:00 a.m. - 9:00 p.m.",
-            "Monday": "10:00 a.m. - 10:00 p.m.",
-            "Tuesday": "10:00 a.m. - 10:00 p.m.",
-            "Wednesday": "10:00 a.m. - 10:00 p.m.",
-            "Thursday": "10:00 a.m. - 10:00 p.m.",
-            "Friday": "10:00 a.m. - 9:00 p.m.",
-            "Saturday": "10:00 a.m. - 9:00 p.m."
+            "Sunday": "10 a.m. - 9 p.m.",
+            "Monday": "10 a.m. - 10 p.m.",
+            "Tuesday": "10 a.m. - 10 p.m.",
+            "Wednesday": "10 a.m. - 10 p.m.",
+            "Thursday": "10 a.m. - 10 p.m.",
+            "Friday": "10 a.m. - 9 p.m.",
+            "Saturday": "10 a.m. - 9 p.m."
         },
-        "address": "123 Campus Walk, North York, ON M3J 2S5, Canada"
+        "address": "2075 Bayview Ave, Toronto, ON M4N 3M5, Canada"
     },
-    "47": {
+    "46": {
         "location_name": "March\u00e9 \u2013 Pop Up Kitchen",
         "location": "Glendon Campus",
         "location_link": "#",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:00 a.m. - 8:00 p.m.",
-            "Monday": "11:00 a.m. - 8:00 p.m.",
-            "Tuesday": "11:00 a.m. - 8:00 p.m.",
-            "Wednesday": "11:00 a.m. - 8:00 p.m.",
-            "Thursday": "11:00 a.m. - 8:00 p.m.",
-            "Friday": "11:00 a.m. - 8:00 p.m.",
-            "Saturday": "11:00 a.m. - 8:00 p.m."
+            "Sunday": "11 a.m. - 8 p.m.",
+            "Monday": "11 a.m. - 8 p.m.",
+            "Tuesday": "11 a.m. - 8 p.m.",
+            "Wednesday": "11 a.m. - 8 p.m.",
+            "Thursday": "11 a.m. - 8 p.m.",
+            "Friday": "11 a.m. - 8 p.m.",
+            "Saturday": "11 a.m. - 8 p.m."
         },
         "address": "2275 Bayview Ave, Toronto, ON M4N 3M6, Canada"
     },
-    "48": {
+    "47": {
         "location_name": "March\u00e9 \u2013 Stacks",
         "location": "Glendon Campus",
         "location_link": "#",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:00 a.m. - 7:00 p.m.",
-            "Monday": "11:00 a.m. - 7:00 p.m.",
-            "Tuesday": "11:00 a.m. - 7:00 p.m.",
-            "Wednesday": "11:00 a.m. - 7:00 p.m.",
-            "Thursday": "11:00 a.m. - 7:00 p.m.",
-            "Friday": "11:00 a.m. - 7:00 p.m.",
-            "Saturday": "11:00 a.m. - 7:00 p.m."
+            "Sunday": "11 a.m. - 7 p.m.",
+            "Monday": "11 a.m. - 7 p.m.",
+            "Tuesday": "11 a.m. - 7 p.m.",
+            "Wednesday": "11 a.m. - 7 p.m.",
+            "Thursday": "11 a.m. - 7 p.m.",
+            "Friday": "11 a.m. - 7 p.m.",
+            "Saturday": "11 a.m. - 7 p.m."
         },
         "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada"
     },
-    "49": {
+    "48": {
         "location_name": "Market (Certified Gluten Free Facility)",
         "location": "Bergeron Centre (BRG)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/bergeron-market.pdf",
@@ -1091,104 +1046,104 @@
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "8:00 a.m. - 5:00 p.m.",
-            "Tuesday": "8:00 a.m. - 5:00 p.m.",
-            "Wednesday": "8:00 a.m. - 5:00 p.m.",
-            "Thursday": "8:00 a.m. - 5:00 p.m.",
-            "Friday": "8:00 a.m. - 4:00 p.m.",
+            "Monday": "8 a.m. - 5 p.m.",
+            "Tuesday": "8 a.m. - 5 p.m.",
+            "Wednesday": "8 a.m. - 5 p.m.",
+            "Thursday": "8 a.m. - 5 p.m.",
+            "Friday": "8 a.m. - 4 p.m.",
             "Saturday": "Closed"
         },
         "address": "11 Arboretum Ln, North York, ON M3J 2S5, Canada"
     },
-    "50": {
+    "49": {
         "location_name": "Meltwich Food Co.",
         "location": "The Quad",
         "location_link": "https://meltwich.com/menu/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "12 pm - 2 am",
-            "Monday": "11 am - 2 am",
-            "Tuesday": "11 am - 2 am",
-            "Wednesday": "11 am - 2 am",
-            "Thursday": "11 am - 2 am",
-            "Friday": "11 am - 2 am",
-            "Saturday": "12 pm - 2 am"
+            "Sunday": "12 p.m. - 2 a.m.",
+            "Monday": "11 a.m. - 2 a.m.",
+            "Tuesday": "11 a.m. - 2 a.m.",
+            "Wednesday": "11 a.m. - 2 a.m.",
+            "Thursday": "11 a.m. - 2 a.m.",
+            "Friday": "11 a.m. - 2 a.m.",
+            "Saturday": "12 p.m. - 2 a.m."
         },
         "address": "105 The Pond Rd Unit 90 Building C1, North York, ON M3J 0K9, Canada"
     },
-    "51": {
+    "50": {
         "location_name": "Omni Noodle",
         "location": "The Quad",
         "location_link": "https://omninoodle.ca/",
         "menu_offering": "Chinese",
-        "payment_options": "Cash, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "payment_options": "Cash, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 10 pm",
-            "Monday": "11 am - 10 pm",
-            "Tuesday": "11 am - 10 pm",
-            "Wednesday": "11 am - 10 pm",
-            "Thursday": "11 am - 10 pm",
-            "Friday": "11 am - 10 pm",
-            "Saturday": "11 am - 10 pm"
+            "Sunday": "11 a.m. - 10 p.m.",
+            "Monday": "11 a.m. - 10 p.m.",
+            "Tuesday": "11 a.m. - 10 p.m.",
+            "Wednesday": "11 a.m. - 10 p.m.",
+            "Thursday": "11 a.m. - 10 p.m.",
+            "Friday": "11 a.m. - 10 p.m.",
+            "Saturday": "11 a.m. - 10 p.m."
         },
         "address": "115 Haynes Ave Unit 120, North York, ON M3J 0L8, Canada"
     },
-    "52": {
+    "51": {
         "location_name": "Osmow\u2019s Shawarma",
         "location": "The Quad",
         "location_link": "https://osmows.com/shawarma-north-york-quad-york-university/",
         "menu_offering": "Middle Eastern",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10 am - 5 am",
-            "Monday": "10 am - 5 am",
-            "Tuesday": "10 am - 5 am",
-            "Wednesday": "10 am - 5 am",
-            "Thursday": "10 am - 5 am",
-            "Friday": "10 am - 5 am",
-            "Saturday": "10 am - 5 am"
+            "Sunday": "10 a.m. - 5 a.m.",
+            "Monday": "10 a.m. - 5 a.m.",
+            "Tuesday": "10 a.m. - 5 a.m.",
+            "Wednesday": "10 a.m. - 5 a.m.",
+            "Thursday": "10 a.m. - 5 a.m.",
+            "Friday": "10 a.m. - 5 a.m.",
+            "Saturday": "10 a.m. - 5 a.m."
         },
         "address": "95 The Pond Rd Building C2, Unit 40, North York, ON M3J 0L1, Canada"
     },
-    "53": {
+    "52": {
         "location_name": "Pagoda Tree",
         "location": "First Student Centre",
         "location_link": "#",
         "menu_offering": "Korean",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "10:30 am - 9 pm",
-            "Tuesday": "10:30 am - 9 pm",
-            "Wednesday": "10:30 am - 9 pm",
-            "Thursday": "10:30 am - 9 pm",
-            "Friday": "10:30 am - 9 pm",
+            "Monday": "10:30 a.m. - 9 p.m.",
+            "Tuesday": "10:30 a.m. - 9 p.m.",
+            "Wednesday": "10:30 a.m. - 9 p.m.",
+            "Thursday": "10:30 a.m. - 9 p.m.",
+            "Friday": "10:30 a.m. - 9 p.m.",
             "Saturday": "Closed"
         },
         "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada"
     },
-    "54": {
+    "53": {
         "location_name": "Palgong Tea",
         "location": "Lassonde Building (LAS)",
         "location_link": "https://palgongtea.ca/",
@@ -1201,38 +1156,38 @@
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "8 am - 7 pm",
-            "Tuesday": "8 am - 7 pm",
-            "Wednesday": "8 am - 7 pm",
-            "Thursday": "8 am - 7 pm",
-            "Friday": "8 am - 4 pm",
+            "Monday": "8 a.m. - 7 p.m.",
+            "Tuesday": "8 a.m. - 7 p.m.",
+            "Wednesday": "8 a.m. - 7 p.m.",
+            "Thursday": "8 a.m. - 7 p.m.",
+            "Friday": "8 a.m. - 4 p.m.",
             "Saturday": "Closed"
         },
         "address": "Inside the Lassonde School of Engineering, 204 Bergeron Centre York University, North York, ON M3J 2S5, Canada"
     },
-    "55": {
+    "54": {
         "location_name": "Pita Land",
         "location": "York Lanes Mall",
         "location_link": "https://pitaland.ca/",
         "menu_offering": "Middle Eastern",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "9:00 am - 12 am",
-            "Monday": "7:30 am - 2 am",
-            "Tuesday": "7:30 am - 2 am",
-            "Wednesday": "7:30 am - 2 am",
-            "Thursday": "7:30 am - 2 am",
-            "Friday": "7:30 am - 2 am",
-            "Saturday": "9:00 am - 2 am"
+            "Sunday": "9:00 a.m. - 12 a.m.",
+            "Monday": "7:30 a.m. - 2 a.m.",
+            "Tuesday": "7:30 a.m. - 2 a.m.",
+            "Wednesday": "7:30 a.m. - 2 a.m.",
+            "Thursday": "7:30 a.m. - 2 a.m.",
+            "Friday": "7:30 a.m. - 2 a.m.",
+            "Saturday": "7:30 a.m. - 2 a.m."
         },
         "address": "York Lanes, 80 York Blvd, North York, ON M7A 2C5, Canada"
     },
-    "56": {
+    "55": {
         "location_name": "Pizza Pizza",
         "location": "Winters College (WC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
@@ -1244,17 +1199,17 @@
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:00 a.m. - 9:00 p.m.",
-            "Monday": "10:00 a.m. - 10:00 p.m.",
-            "Tuesday": "10:00 a.m. - 10:00 p.m.",
-            "Wednesday": "10:00 a.m. - 10:00 p.m.",
-            "Thursday": "10:00 a.m. - 10:00 p.m.",
-            "Friday": "10:00 a.m. - 9:00 p.m.",
-            "Saturday": "10:00 a.m. - 9:00 p.m."
+            "Sunday": "10 a.m. - 9 p.m.",
+            "Monday": "10 a.m. - 10 p.m.",
+            "Tuesday": "10 a.m. - 10 p.m.",
+            "Wednesday": "10 a.m. - 10 p.m.",
+            "Thursday": "10 a.m. - 10 p.m.",
+            "Friday": "10 a.m. - 9 p.m.",
+            "Saturday": "10 a.m. - 9 p.m."
         },
         "address": "York University, 72 Winters Ln, Winters College, Toronto, ON M7A 2C5, Canada"
     },
-    "57": {
+    "56": {
         "location_name": "Pizza Pizza",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu.pdf",
@@ -1267,16 +1222,16 @@
         "dietary_options": "Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "11:00 a.m. - 7:00 p.m.",
-            "Tuesday": "11:00 a.m. - 7:00 p.m.",
-            "Wednesday": "11:00 a.m. - 7:00 p.m.",
-            "Thursday": "11:00 a.m. - 7:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Monday": "11 a.m. - 7 p.m.",
+            "Tuesday": "11 a.m. - 7 p.m.",
+            "Wednesday": "11 a.m. - 7 p.m.",
+            "Thursday": "11 a.m. - 7 p.m.",
+            "Friday": "11 a.m. - 3 p.m.",
             "Saturday": "Closed"
         },
         "address": "123 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "58": {
+    "57": {
         "location_name": "Pizza Pizza",
         "location": "Stong College (SC)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/Pizza-Pizza-Menu-1.pdf",
@@ -1288,193 +1243,193 @@
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:00 a.m. - 9:00 p.m.",
-            "Monday": "10:00 a.m. - 10:00 p.m.",
-            "Tuesday": "10:00 a.m. - 10:00 p.m.",
-            "Wednesday": "10:00 a.m. - 10:00 p.m.",
-            "Thursday": "10:00 a.m. - 10:00 p.m.",
-            "Friday": "10:00 a.m. - 9:00 p.m.",
-            "Saturday": "10:00 a.m. - 9:00 p.m."
+            "Sunday": "10 a.m. - 9 p.m.",
+            "Monday": "10 a.m. - 10 p.m.",
+            "Tuesday": "10 a.m. - 10 p.m.",
+            "Wednesday": "10 a.m. - 10 p.m.",
+            "Thursday": "10 a.m. - 10 p.m.",
+            "Friday": "10 a.m. - 9 p.m.",
+            "Saturday": "10 a.m. - 9 p.m."
         },
         "address": "123 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "59": {
+    "58": {
         "location_name": "Pizza Studio",
         "location": "The Quad",
         "location_link": "http://pizzastudiocanada.com/home.html#menu",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:30 am - 3 am",
-            "Monday": "11: 30 am - 12 am",
-            "Tuesday": "11: 30 am - 12 am",
-            "Wednesday": "11: 30 am - 12 am",
-            "Thursday": "11: 30 am - 2 am",
-            "Friday": "11:30 am - 3 am",
-            "Saturday": "11:30 am - 3 am"
+            "Sunday": "11:30 a.m. - 3 a.m.",
+            "Monday": "11: 30 a.m. - 12 a.m.",
+            "Tuesday": "11: 30 a.m. - 12 a.m.",
+            "Wednesday": "11: 30 a.m. - 12 a.m.",
+            "Thursday": "11: 30 a.m. - 2 a.m.",
+            "Friday": "11:30 a.m. - 3 a.m.",
+            "Saturday": "11:30 a.m. - 3 a.m."
         },
         "address": "105 The Pond Rd Unit 100, North York, ON M3J 0K9, Canada"
     },
-    "60": {
+    "59": {
         "location_name": "Popeyes",
         "location": "York Lanes Mall",
         "location_link": "https://popeyeschicken.ca/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H)",
         "opening_days": {
-            "Sunday": "11:00 am - 10 pm",
-            "Monday": "10 am - 11 pm",
-            "Tuesday": "10 am - 11 pm",
-            "Wednesday": "10 am - 11 pm",
-            "Thursday": "10 am - 11 pm",
-            "Friday": "10 am - 11 pm",
-            "Saturday": "11:00 am - 10 pm"
+            "Sunday": "11:00 a.m. - 10 p.m.",
+            "Monday": "10 a.m. - 11 p.m.",
+            "Tuesday": "10 a.m. - 11 p.m.",
+            "Wednesday": "10 a.m. - 11 p.m.",
+            "Thursday": "10 a.m. - 11 p.m.",
+            "Friday": "10 a.m. - 11 p.m.",
+            "Saturday": "11:00 a.m. - 10 p.m."
         },
-        "address": "York Lanes, 9 Vanier Ln, Mall, North York, ON M3J 1P3, Canada"
+        "address": "3931 Keele St, North York, ON M3J 1N6, Canada"
     },
-    "61": {
+    "60": {
         "location_name": "Qoola FRESH",
         "location": "York Lanes Mall",
         "location_link": "https://www.instagram.com/qoola_yorklanes/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:30 am - 8:00 pm",
-            "Monday": "8:00 am - 9:00 pm",
-            "Tuesday": "8:00 am - 9:00 pm",
-            "Wednesday": "8:00 am - 9:00 pm",
-            "Thursday": "8:00 am - 9:00 pm",
-            "Friday": "8:00 am - 9:00 pm",
-            "Saturday": "10:30 am - 8:00 pm"
+            "Sunday": "8 a.m. - 8 p.m.",
+            "Monday": "8 a.m. - 9 p.m.",
+            "Tuesday": "8 a.m. - 9 p.m.",
+            "Wednesday": "8 a.m. - 9 p.m.",
+            "Thursday": "8 a.m. - 9 p.m.",
+            "Friday": "8 a.m. - 9 p.m.",
+            "Saturday": "8 a.m. - 8 p.m."
         },
         "address": "York Lanes Building, 4700 Keele Street, 80 Vanier Ln #16, North York, ON M3J 1P3, Canada"
     },
-    "62": {
+    "61": {
         "location_name": "Rasoi",
         "location": "Central Square (CSQ)",
         "location_link": "#",
         "menu_offering": "Indian",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "11:00 a.m. - 7:00 p.m.",
-            "Tuesday": "11:00 a.m. - 7:00 p.m.",
-            "Wednesday": "11:00 a.m. - 7:00 p.m.",
-            "Thursday": "11:00 a.m. - 7:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Monday": "11 a.m. - 7 p.m.",
+            "Tuesday": "11 a.m. - 7 p.m.",
+            "Wednesday": "11 a.m. - 7 p.m.",
+            "Thursday": "11 a.m. - 7 p.m.",
+            "Friday": "11 a.m. - 3 p.m.",
             "Saturday": "Closed"
         },
         "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "63": {
+    "62": {
         "location_name": "Revolution Noodles",
         "location": "Dahdaleh Building (DB)",
         "location_link": "#",
         "menu_offering": "North American, Southeast Asian",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "10 am - 8 pm",
-            "Tuesday": "10 am - 8 pm",
-            "Wednesday": "10 am - 8 pm",
-            "Thursday": "10 am - 8 pm",
-            "Friday": "10 am - 5 pm",
+            "Monday": "10 a.m. - 8 p.m.",
+            "Tuesday": "10 a.m. - 8 p.m.",
+            "Wednesday": "10 a.m. - 8 p.m.",
+            "Thursday": "10 a.m. - 8 p.m.",
+            "Friday": "10 a.m. - 5 p.m.",
             "Saturday": "Closed"
         },
         "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada"
     },
-    "64": {
+    "63": {
         "location_name": "Sakura",
         "location": "York Lanes Mall",
         "location_link": "#",
         "menu_offering": "Japanese, Korean",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 9 pm",
-            "Monday": "10:30 am - 11pm",
-            "Tuesday": "10:30 am - 11pm",
-            "Wednesday": "10:30 am - 11pm",
-            "Thursday": "10:30 am - 11pm",
-            "Friday": "10:30 am - 11pm",
-            "Saturday": "10:30 am - 10 pm"
+            "Sunday": "11 a.m. - 9 p.m.",
+            "Monday": "10:30 a.m. - 11p.m.",
+            "Tuesday": "10:30 a.m. - 11p.m.",
+            "Wednesday": "10:30 a.m. - 11p.m.",
+            "Thursday": "10:30 a.m. - 11p.m.",
+            "Friday": "10:30 a.m. - 11p.m.",
+            "Saturday": "10:30 a.m. - 11p.m."
         },
         "address": "York Lanes, 80 York Blvd Unit 12, North York, ON M3J 1P3, Canada"
     },
-    "65": {
+    "64": {
         "location_name": "Salus Fresh Food",
         "location": "The Quad",
         "location_link": "https://salusfreshfoods.com/our-menu/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "12 pm - 7 pm",
-            "Monday": "11 am - 8 pm",
-            "Tuesday": "11 am - 8 pm",
-            "Wednesday": "11 am - 8 pm",
-            "Thursday": "11 am - 8 pm",
-            "Friday": "11 am - 8 pm",
-            "Saturday": "12 pm - 7 pm"
+            "Sunday": "12 p.m. - 7 p.m.",
+            "Monday": "11 a.m. - 8 p.m.",
+            "Tuesday": "11 a.m. - 8 p.m.",
+            "Wednesday": "11 a.m. - 8 p.m.",
+            "Thursday": "11 a.m. - 8 p.m.",
+            "Friday": "11 a.m. - 8 p.m.",
+            "Saturday": "12 p.m. - 7 p.m."
         },
         "address": "115 Haynes Ave, North York, ON M3J 0L8, Canada"
     },
-    "66": {
+    "65": {
         "location_name": "Schulich Market Caf\u00e9",
         "location": "Schulich Dining",
         "location_link": "#",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "7 am - 9 pm",
-            "Tuesday": "7 am - 9 pm",
-            "Wednesday": "7 am - 9 pm",
-            "Thursday": "7 am - 9 pm",
-            "Friday": "7 am - 3 pm",
+            "Monday": "7 a.m. - 9 p.m.",
+            "Tuesday": "7 a.m. - 9 p.m.",
+            "Wednesday": "7 a.m. - 9 p.m.",
+            "Thursday": "7 a.m. - 9 p.m.",
+            "Friday": "7 a.m. - 3 p.m.",
             "Saturday": "Closed"
         },
         "address": "Toronto, ON M3J 1P3, Canada"
     },
-    "67": {
+    "66": {
         "location_name": "Smoke\u2019s Poutinerie",
         "location": "Dahdaleh Building (DB)",
         "location_link": "https://smokespoutinerie.com/",
@@ -1487,265 +1442,265 @@
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "8 am - 8 pm",
-            "Tuesday": "8 am - 8 pm",
-            "Wednesday": "8 am - 8 pm",
-            "Thursday": "8 am - 8 pm",
-            "Friday": "8 am - 5 pm",
+            "Monday": "8 a.m. - 8 p.m.",
+            "Tuesday": "8 a.m. - 8 p.m.",
+            "Wednesday": "8 a.m. - 8 p.m.",
+            "Thursday": "8 a.m. - 8 p.m.",
+            "Friday": "8 a.m. - 5 p.m.",
             "Saturday": "Closed"
         },
         "address": "Pick Up Inside O'Grady's, 518 B Church St, Toronto, ON M4Y 2C8, Canada"
     },
-    "68": {
+    "67": {
         "location_name": "Starbucks",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.starbucks.ca/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "8 am - 10 pm",
-            "Monday": "7 am - 11 pm",
-            "Tuesday": "7 am - 11 pm",
-            "Wednesday": "7 am - 11 pm",
-            "Thursday": "7 am - 11 pm",
-            "Friday": "7 am - 11 pm",
-            "Saturday": "8 am - 10 pm"
+            "Monday": "7 a.m. - 11 p.m.",
+            "Tuesday": "7 a.m. - 11 p.m.",
+            "Wednesday": "7 a.m. - 11 p.m.",
+            "Thursday": "7 a.m. - 11 p.m.",
+            "Friday": "7 a.m. - 11 p.m.",
+            "Saturday": "8 a.m. - 10 p.m."
         },
         "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada"
     },
-    "69": {
+    "68": {
         "location_name": "Subway",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.subway.com/en-CA/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:30 am - 9 pm",
-            "Monday": "9 am - 9 pm",
-            "Tuesday": "9 am - 9 pm",
-            "Wednesday": "9 am - 9 pm",
-            "Thursday": "9 am - 9 pm",
-            "Friday": "9 am - 9 pm",
-            "Saturday": "10:30 am - 9 pm"
+            "Sunday": "10:30 a.m. - 9 p.m.",
+            "Monday": "9 a.m. - 9 p.m.",
+            "Tuesday": "9 a.m. - 9 p.m.",
+            "Wednesday": "9 a.m. - 9 p.m.",
+            "Thursday": "9 a.m. - 9 p.m.",
+            "Friday": "9 a.m. - 9 p.m.",
+            "Saturday": "10:30 a.m. - 9 p.m."
         },
-        "address": "Central Square, 4700 Keele St Bldng, 2nd, North York, ON M3J 1P3, Canada"
+        "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "70": {
+    "69": {
         "location_name": "Subway",
         "location": "The Quad",
         "location_link": "https://www.subway.com/en-ca/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10 am - 10 pm",
-            "Monday": "8 am - 12 am",
-            "Tuesday": "8 am - 12 am",
-            "Wednesday": "8 am - 12 am",
-            "Thursday": "8 am - 12 am",
-            "Friday": "8 am - 12 am",
-            "Saturday": "9 am - 1 am"
+            "Sunday": "10 a.m. - 10 p.m.",
+            "Monday": "8 a.m. - 12 a.m.",
+            "Tuesday": "8 a.m. - 12 a.m.",
+            "Wednesday": "8 a.m. - 12 a.m.",
+            "Thursday": "8 a.m. - 12 a.m.",
+            "Friday": "8 a.m. - 12 a.m.",
+            "Saturday": "9 a.m. - 1 a.m."
         },
         "address": "105 The Pond Rd Bldg C1, Unit 20, North York, ON M3J 0K9, Canada"
     },
-    "71": {
+    "70": {
         "location_name": "Sushi Shop",
         "location": "York Lanes Mall",
         "location_link": "https://sushishop.com/",
         "menu_offering": "Japanese",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:30 am - 9 pm",
-            "Monday": "11 am - 10:30 pm",
-            "Tuesday": "11 am - 10:30 pm",
-            "Wednesday": "11 am - 10:30 pm",
-            "Thursday": "11 am - 10:30 pm",
-            "Friday": "11 am - 10:30 pm",
-            "Saturday": "11:30 am - 9 pm"
+            "Sunday": "11:30 a.m. - 9 p.m.",
+            "Monday": "11 a.m. - 10:30 p.m.",
+            "Tuesday": "11 a.m. - 10:30 p.m.",
+            "Wednesday": "11 a.m. - 10:30 p.m.",
+            "Thursday": "11 a.m. - 10:30 p.m.",
+            "Friday": "11 a.m. - 10:30 p.m.",
+            "Saturday": "11:30 a.m. - 9 p.m."
         },
         "address": "4700 Keele St #11, Toronto, ON M3J 1P3, Canada"
     },
-    "72": {
+    "71": {
         "location_name": "Sushi-Q",
         "location": "The Quad",
         "location_link": "https://www.sushiq.com/menu",
         "menu_offering": "Japanese, Korean",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10:30 am - 9 pm",
-            "Monday": "10:30 am - 9 pm",
-            "Tuesday": "10:30 am - 9 pm",
-            "Wednesday": "10:30 am - 9 pm",
-            "Thursday": "10:30 am - 9 pm",
-            "Friday": "10:30 am - 9 pm",
-            "Saturday": "10:30 am - 9 pm"
+            "Sunday": "10:30 a.m. - 9 p.m.",
+            "Monday": "10:30 a.m. - 9 p.m.",
+            "Tuesday": "10:30 a.m. - 9 p.m.",
+            "Wednesday": "10:30 a.m. - 9 p.m.",
+            "Thursday": "10:30 a.m. - 9 p.m.",
+            "Friday": "10:30 a.m. - 9 p.m.",
+            "Saturday": "10:30 a.m. - 9 p.m."
         },
         "address": "105 The Pond Rd #80, North York, ON M3J 2S5, Canada"
     },
-    "73": {
+    "72": {
         "location_name": "Thai Express",
         "location": "York Lanes Mall",
         "location_link": "https://thaiexpress.ca/",
         "menu_offering": "Thai",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11:00 am - 10 pm",
-            "Monday": "10 am - 11 pm",
-            "Tuesday": "10 am - 11 pm",
-            "Wednesday": "10 am - 11 pm",
-            "Thursday": "10 am - 11 pm",
-            "Friday": "10 am - 11 pm",
-            "Saturday": "11:00 am - 10 pm"
+            "Sunday": "11 a.m. - 10 p.m.",
+            "Monday": "10 a.m. - 11 p.m.",
+            "Tuesday": "10 a.m. - 11 p.m.",
+            "Wednesday": "10 a.m. - 11 p.m.",
+            "Thursday": "10 a.m. - 11 p.m.",
+            "Friday": "10 a.m. - 11 p.m.",
+            "Saturday": "11 a.m. - 10 p.m."
         },
         "address": "York Lanes, 4700 Keele St, Toronto, ON M3J 1P3, Canada"
     },
-    "74": {
+    "73": {
         "location_name": "The Break Caf\u00e9",
         "location": "Second Student Centre",
         "location_link": "https://mybreakroom.ca/break-cafe",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "8 am - 8 pm",
-            "Tuesday": "8 am - 8 pm",
-            "Wednesday": "8 am - 8 pm",
-            "Thursday": "8 am - 8 pm",
-            "Friday": "8 am - 8 pm",
+            "Monday": "8 a.m. - 8 p.m.",
+            "Tuesday": "8 a.m. - 8 p.m.",
+            "Wednesday": "8 a.m. - 8 p.m.",
+            "Thursday": "8 a.m. - 8 p.m.",
+            "Friday": "8 a.m. - 8 p.m.",
             "Saturday": "Closed"
         },
         "address": "15 Library Ln, North York, ON M3J 2S5, Canada"
     },
-    "75": {
+    "74": {
         "location_name": "The Break Room",
         "location": "First Student Centre",
         "location_link": "https://mybreakroom.ca/",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "10 am - 11 pm",
-            "Tuesday": "10 am - 11 pm",
-            "Wednesday": "10 am - 11 pm",
-            "Thursday": "10 am - 11 pm",
-            "Friday": "10 am - 12 am",
+            "Monday": "10 a.m. - 11 p.m.",
+            "Tuesday": "10 a.m. - 11 p.m.",
+            "Wednesday": "10 a.m. - 11 p.m.",
+            "Thursday": "10 a.m. - 11 p.m.",
+            "Friday": "10 a.m. - 12 a.m.",
             "Saturday": "Closed"
         },
         "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada"
     },
-    "76": {
+    "75": {
         "location_name": "The Campus Bubble Tea",
         "location": "York Lanes Mall",
         "location_link": "https://www.instagram.com/campusbubbletea/?hl=en",
         "menu_offering": "Chinese",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
         "opening_days": {
-            "Sunday": "1 pm - 8:30 pm",
-            "Monday": "10:30 am - 10:30 pm",
-            "Tuesday": "10:30 am - 10:30 pm",
-            "Wednesday": "10:30 am - 10:30 pm",
-            "Thursday": "10:30 am - 10:30 pm",
-            "Friday": "10:30 am - 10:30 pm",
-            "Saturday": "1 pm - 8:30 pm"
+            "Sunday": "1 p.m. - 8:30 p.m.",
+            "Monday": "10:30 a.m. - 10:30 p.m.",
+            "Tuesday": "10:30 a.m. - 10:30 p.m.",
+            "Wednesday": "10:30 a.m. - 10:30 p.m.",
+            "Thursday": "10:30 a.m. - 10:30 p.m.",
+            "Friday": "10:30 a.m. - 10:30 p.m.",
+            "Saturday": "1 p.m. - 8:30 p.m."
         },
         "address": "Mall inside YorkU, York Lanes, 1 Vanier Ln, Toronto, ON M3J 2S5, Canada"
     },
-    "77": {
+    "76": {
         "location_name": "The Great Canadian Bagel",
         "location": "York Lanes Mall",
         "location_link": "https://greatcanadianbagel.com/",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "10 am - 3 pm",
-            "Monday": "8 am - 7 pm",
-            "Tuesday": "8 am - 7 pm",
-            "Wednesday": "8 am - 7 pm",
-            "Thursday": "8 am - 7 pm",
-            "Friday": "8 am - 7 pm",
-            "Saturday": "10 am - 3 pm"
+            "Sunday": "10 a.m. - 3 p.m.",
+            "Monday": "8 a.m. - 7 p.m.",
+            "Tuesday": "8 a.m. - 7 p.m.",
+            "Wednesday": "8 a.m. - 7 p.m.",
+            "Thursday": "8 a.m. - 7 p.m.",
+            "Friday": "8 a.m. - 7 p.m.",
+            "Saturday": "10 a.m. - 3 p.m."
         },
         "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
     },
-    "78": {
+    "77": {
         "location_name": "The Islands Caribbean Cookshop",
         "location": "First Student Centre",
         "location_link": "https://www.theislandscaribbean.com/pages/menu",
         "menu_offering": "Caribbean",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "12 pm - 8 pm",
-            "Monday": "11 am to 9 pm",
-            "Tuesday": "11 am to 9 pm",
-            "Wednesday": "11 am to 9 pm",
-            "Thursday": "11 am to 9 pm",
-            "Friday": "11 am to 9 pm",
-            "Saturday": "12 pm - 8 pm"
+            "Sunday": "12 p.m. - 8 p.m.",
+            "Monday": "11 a.m. to 9 p.m.",
+            "Tuesday": "11 a.m. to 9 p.m.",
+            "Wednesday": "11 a.m. to 9 p.m.",
+            "Thursday": "11 a.m. to 9 p.m.",
+            "Friday": "11 a.m. to 9 p.m.",
+            "Saturday": "12 p.m. - 8 p.m."
         },
         "address": "Student Centre, York University, 4700 Keele St #107D, North York, ON M3J 1P3, Canada"
     },
-    "79": {
+    "78": {
         "location_name": "The Orange Snail",
         "location": "Stong College (SC)",
         "location_link": "#",
         "menu_offering": "Global Cuisines",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
@@ -1760,6 +1715,28 @@
         },
         "address": "Stong College, 163-165 Campus Walk #106, North York, ON, Canada"
     },
+    "79": {
+        "location_name": "Tim Hortons",
+        "location": "Glendon Campus",
+        "location_link": "#",
+        "menu_offering": "North American",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No Menu PDF Provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "Closed",
+            "Monday": "8 a.m. - 6 p.m.",
+            "Tuesday": "8 a.m. - 6 p.m.",
+            "Wednesday": "8 a.m. - 6 p.m.",
+            "Thursday": "8 a.m. - 6 p.m.",
+            "Friday": "8 a.m. - 5 p.m.",
+            "Saturday": "Closed"
+        },
+        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada"
+    },
     "80": {
         "location_name": "Tim Hortons",
         "location": "William Small Centre (WSC)",
@@ -1767,117 +1744,95 @@
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "9 am - 7 pm",
-            "Monday": "7 am - 9:30 pm",
-            "Tuesday": "7 am - 9:30 pm",
-            "Wednesday": "7 am - 9:30 pm",
-            "Thursday": "7 am - 9:30 pm",
-            "Friday": "7 am - 7 pm",
-            "Saturday": "9 am - 7 pm"
+            "Sunday": "9 a.m. - 7 p.m.",
+            "Monday": "7 am. - 9:30 p.m.",
+            "Tuesday": "7 am. - 9:30 p.m.",
+            "Wednesday": "7 am. - 9:30 p.m.",
+            "Thursday": "7 am. - 9:30 p.m.",
+            "Friday": "7 am. - 7 p.m.",
+            "Saturday": "9 a.m. - 7 p.m."
         },
         "address": "William Small Centre, 155 Campus Walk, North York, ON M3J 1P3, Canada"
     },
     "81": {
-        "location_name": "Tim Hortons",
-        "location": "Glendon Campus",
-        "location_link": "#",
-        "menu_offering": "North American",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
-        "menu": {
-            "menu_name": "No menu provided",
-            "menu_href": "#"
-        },
-        "dietary_options": "Vegetarian (VG)",
-        "opening_days": {
-            "Sunday": "Closed",
-            "Monday": "8:00 a.m. - 6:00 p.m.",
-            "Tuesday": "8:00 a.m. - 6:00 p.m.",
-            "Wednesday": "8:00 a.m. - 6:00 p.m.",
-            "Thursday": "8:00 a.m. - 6:00 p.m.",
-            "Friday": "8:00 a.m. - 5:00 p.m.",
-            "Saturday": "Closed"
-        },
-        "address": "2275 Bayview Ave, North York, ON M4N 3M6, Canada"
-    },
-    "82": {
         "location_name": "Tim Hortons",
         "location": "Dahdaleh Building (DB)",
         "location_link": "#",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan (MP), Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "9 am - 4 pm",
-            "Monday": "7 am - 10 pm",
-            "Tuesday": "7 am - 10 pm",
-            "Wednesday": "7 am - 10 pm",
-            "Thursday": "7 am - 10 pm",
-            "Friday": "7 am - 6 pm",
-            "Saturday": "9 am - 4 pm"
+            "Sunday": "9 a.m. - 4 p.m.",
+            "Monday": "7 a.m. - 10 p.m.",
+            "Tuesday": "7 a.m. - 10 p.m.",
+            "Wednesday": "7 a.m. - 10 p.m.",
+            "Thursday": "7 a.m. - 10 p.m.",
+            "Friday": "7 a.m. - 6 p.m.",
+            "Saturday": "9 a.m. - 4 p.m."
         },
         "address": "88 The Pond Rd, North York, ON M3J 2S5, Canada"
     },
-    "83": {
+    "82": {
         "location_name": "Timbers Lodge",
         "location": "York Lanes Mall",
         "location_link": "https://www.timberslodge.ca/",
         "menu_offering": "Global Cuisines",
-        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "payment_options": "Cash, Credit Card, Debit Card",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Halal (H), No Gluten (NG), Vegan (V), Vegetarian (VG)",
         "opening_days": {
-            "Sunday": "11 am - 2 am",
-            "Monday": "11 am - 2 am",
-            "Tuesday": "11 am - 2 am",
-            "Wednesday": "11 am - 2 am",
-            "Thursday": "11 am - 2 am",
-            "Friday": "11 am - 2 am",
-            "Saturday": "11 am - 2 am"
+            "Sunday": "11 a.m. - 2 a.m.",
+            "Monday": "11 a.m. - 2 a.m.",
+            "Tuesday": "11 a.m. - 2 a.m.",
+            "Wednesday": "11 a.m. - 2 a.m.",
+            "Thursday": "11 a.m. - 2 a.m.",
+            "Friday": "11 a.m. - 2 a.m.",
+            "Saturday": "11 a.m. - 2 a.m."
         },
-        "address": "York Lanes, Toronto, ON M7A 2C5, Canada"
+        "address": "80 York Blvd, North York, ON M3J, Canada"
     },
-    "84": {
+    "83": {
         "location_name": "Treats",
         "location": "First Student Centre",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
         "opening_days": {
-            "Sunday": "10 am - 5 pm",
-            "Monday": "7 am - 10 pm",
-            "Tuesday": "7 am - 10 pm",
-            "Wednesday": "7 am - 10 pm",
-            "Thursday": "7 am - 10 pm",
-            "Friday": "7 am - 10 pm",
-            "Saturday": "10 am - 5 pm"
+            "Sunday": "10 a.m. - 5 p.m.",
+            "Monday": "7 a.m. - 10 p.m.",
+            "Tuesday": "7 a.m. - 10 p.m.",
+            "Wednesday": "7 a.m. - 10 p.m.",
+            "Thursday": "7 a.m. - 10 p.m.",
+            "Friday": "7 a.m. - 10 p.m.",
+            "Saturday": "10 a.m. - 5 p.m."
         },
         "address": "4700 Keele St #335, North York, ON M3J 1P3, Canada"
     },
-    "85": {
+    "84": {
         "location_name": "Tuchner\u2019s Pub",
         "location": "Schulich Dining",
         "location_link": "#",
         "menu_offering": "No genre of cuisine provided",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+)",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
@@ -1892,29 +1847,29 @@
         },
         "address": "56 Fine Arts Rd, North York, ON M3J 3M6, Canada"
     },
-    "86": {
+    "85": {
         "location_name": "Wendy\u2019s",
         "location": "First Student Centre",
         "location_link": "https://www.wendys.com/en-ca",
         "menu_offering": "North American",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "No dietary options provided",
         "opening_days": {
-            "Sunday": "7 am - 12 am",
-            "Monday": "7 am - 12 am",
-            "Tuesday": "7 am - 12 am",
-            "Wednesday": "7 am - 12 am",
-            "Thursday": "7 am - 12 am",
-            "Friday": "7 am - 12 am",
-            "Saturday": "7 am - 12 am"
+            "Sunday": "7 a.m. - 12 a.m.",
+            "Monday": "7 a.m. - 12 a.m.",
+            "Tuesday": "7 a.m. - 12 a.m.",
+            "Wednesday": "7 a.m. - 12 a.m.",
+            "Thursday": "7 a.m. - 12 a.m.",
+            "Friday": "7 a.m. - 12 a.m.",
+            "Saturday": "7 a.m. - 12 a.m."
         },
-        "address": "4700 Keele St, Toronto, ON M3J 1P3, Canada"
+        "address": "94 York Blvd, North York, ON M7A 2C5, Canada"
     },
-    "87": {
+    "86": {
         "location_name": "World Kitchen",
         "location": "Central Square (CSQ)",
         "location_link": "https://www.yorku.ca/foodservices/wp-content/uploads/sites/50/2023/11/World-Kitchen-CSQ.pdf",
@@ -1927,35 +1882,57 @@
         "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "11:00 a.m. - 7:00 p.m.",
-            "Tuesday": "11:00 a.m. - 7:00 p.m.",
-            "Wednesday": "11:00 a.m. - 7:00 p.m.",
-            "Thursday": "11:00 a.m. - 7:00 p.m.",
-            "Friday": "11:00 a.m. - 3:00 p.m.",
+            "Monday": "11 a.m. - 7 p.m.",
+            "Tuesday": "11 a.m. - 7 p.m.",
+            "Wednesday": "11 a.m. - 7 p.m.",
+            "Thursday": "11 a.m. - 7 p.m.",
+            "Friday": "11 a.m. - 3 p.m.",
             "Saturday": "Closed"
         },
         "address": "1970 Campus Walk, North York, ON M3J 2S5, Canada"
     },
-    "88": {
+    "87": {
         "location_name": "Yogen Fruz",
         "location": "First Student Centre",
         "location_link": "https://yogenfruz.com/",
         "menu_offering": "Dessert",
         "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Taxable",
         "menu": {
-            "menu_name": "No menu provided",
+            "menu_name": "No Menu PDF Provided",
             "menu_href": "#"
         },
         "dietary_options": "Vegan (V), Vegetarian (VG)",
         "opening_days": {
             "Sunday": "Closed",
-            "Monday": "10 am - 6 pm",
-            "Tuesday": "10 am - 6 pm",
-            "Wednesday": "10 am - 6 pm",
-            "Thursday": "10 am - 6 pm",
-            "Friday": "10 am - 6 pm",
+            "Monday": "10 a.m. - 6 p.m.",
+            "Tuesday": "10 a.m. - 6 p.m.",
+            "Wednesday": "10 a.m. - 6 p.m.",
+            "Thursday": "10 a.m. - 6 p.m.",
+            "Friday": "10 a.m. - 6 p.m.",
             "Saturday": "Closed"
         },
         "address": "4700 Keele St, North York, ON M3J 1P3, Canada"
+    },
+    "88": {
+        "location_name": "z-teca Mexican Eatery",
+        "location": "York Lanes Mall",
+        "location_link": "https://www.z-teca.com/",
+        "menu_offering": "Mexican",
+        "payment_options": "Cash, Credit Card, Debit Card, Meal Plan Plus (MP+), Meal Plan Taxable",
+        "menu": {
+            "menu_name": "No Menu PDF Provided",
+            "menu_href": "#"
+        },
+        "dietary_options": "Halal (H), Vegan (V), Vegetarian (VG)",
+        "opening_days": {
+            "Sunday": "12 p.m. - 7 p.m.",
+            "Monday": "12 p.m. - 9 p.m.",
+            "Tuesday": "12 p.m. - 9 p.m.",
+            "Wednesday": "12 p.m. - 9 p.m.",
+            "Thursday": "12 p.m. - 9 p.m.",
+            "Friday": "12 p.m. - 7 p.m.",
+            "Saturday": "12 p.m. - 7 p.m."
+        },
+        "address": "80 York Blvd, North York, ON M3J 1P3, Canada"
     }
 }

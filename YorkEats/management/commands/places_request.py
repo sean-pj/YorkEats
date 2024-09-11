@@ -64,6 +64,8 @@ class Command(BaseCommand):
         for i in data:
             # Get place from JSON data
             place_json = data.get(i)
+            print(place_json.get("location_name"))
+            print(place_json.get("location"))
 
             # Use JSON data to make requests to google api
             if get_place_data(place_json.get("location_name"), place_json.get("location"), GOOGLE_API_KEY) != None:
@@ -72,15 +74,13 @@ class Command(BaseCommand):
                 place_json.update({
                     "address" : address,
                 })
-            else:
-                return "API key is invalid or not returning data"
-            
-            # Update models with images from API
-            if (image_url != "#"):
-                place = Place.objects.get(id=(int(i) +1))
-                place.save_image(image_url)
-                place.address = address
-                place.save()
+                # Update models with images from API
+                if (image_url != "#"):
+                    place = Place.objects.get(id=i)
+                    place.save_image(image_url)
+                    place.address = address
+                    place.save()
+        
 
         # Learned to save JSON from https://www.javatpoint.com/save-json-file-in-python
         # Update JSON data
