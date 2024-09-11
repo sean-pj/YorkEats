@@ -5,7 +5,6 @@
     {{ view|json_script:"view" }}
     <script src="{% static 'home.js' %}"></script>
     <link rel="stylesheet" href="{% static 'home_styles.css' %}">
-    
     <h4 style="text-align: center;">{{title}}</h4>
     <!-- Filters -->
     <div class="container-sm border border-4">
@@ -67,8 +66,8 @@
     <!-- Clear Filters -->
     <div class="w-100" style="margin-top: 20px;">
       <!-- On focus: https://www.w3schools.com/howto/howto_html_clear_input.asp -->
-      <input onfocus="this.value=''" style="margin:auto; margin-bottom: 20px;" type="text" class="form-control w-50" id="search-bar" placeholder="Search by name">
-      <button style="margin:auto; display: block;" id="clear-filters" class="btn btn-primary">Clear Filters</button>
+      <input style="margin:auto; margin-bottom: 20px;" type="text" class="form-control w-50" id="search-bar" placeholder="Search by name">
+      <button style="margin:auto; display: block;" id="clear-filters" class="btn btn-primary">Clear Filters/Search</button>
     </div>
     <!-- Alert -->
     <div class="alert alert-warning w-50" style="margin:auto; margin-top: 20px;">Note: Addresses may be incorrect if the restaurant is not on Google Maps</div>

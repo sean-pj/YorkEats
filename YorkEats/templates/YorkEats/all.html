@@ -66,7 +66,8 @@
     </div>
     <!-- Clear Filters -->
     <div class="w-100" style="margin-top: 20px;">
-      <button style="margin:auto; display: block;" id="clear-filters" class="btn btn-primary">Clear Filters</button>
+      <input style="margin:auto; margin-bottom: 20px;" type="text" class="form-control w-50" id="search-bar" placeholder="Search by name">
+      <button style="margin:auto; display: block;" id="clear-filters" class="btn btn-primary">Clear Filters/Search</button>
     </div>
     <!-- Alert -->
     <div class="alert alert-warning w-50" style="margin:auto; margin-top: 20px;">Note: Addresses may be incorrect if the restaurant is not on Google Maps</div>
@@ -94,7 +95,8 @@
             {% endif %}
             <!-- Body -->
             <div class="card-body" id="card-body">
-              <h5 class="card-title" style="display: inline;">{{Place.name}}
+              <h5 class="card-title" style="display: inline;">
+                <p style="display: inline;" id="place-name">{{Place.name}}</p>
                 <!-- Public star rating -->
                 <form style="display: inline;" id="public-rating" autocomplete="off">                  
                   <!-- Comments remove whitespace -->

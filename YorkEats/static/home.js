@@ -139,31 +139,13 @@ document.addEventListener('DOMContentLoaded', () => {
             form.querySelector("input").dispatchEvent(changeEvent)
         })
     })
-
-    //Search bar
-    document.querySelector("#search-bar").addEventListener('focusout', () => {
-        //Check if search bar is empty
-        if (document.querySelector("#search-bar").value != "") {
-            //Remove posts that don't match the search
-            document.querySelectorAll("#place-name").forEach(name => {
-                if (name.innerHTML.toLowerCase().includes(document.querySelector("#search-bar").value.toLowerCase())) {
-                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
-                } else {
-                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
-                }
-                })
-        } else {
-            //Unhide all places
-            document.querySelectorAll("#place-name").forEach(name => {
-                    name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
-            })
+    
+    //Learned keydown from https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
+    //Enter key search
+    document.querySelector("#search-bar").addEventListener('keydown', event => {
+        if (event.code == "Enter") {
+            search()
         }
-
-        //Hide cards based on checkbox filters
-        //Removes the places that don't match any filter.
-        update_cards_or()
-        //Remove the places that don't match all the filters from each column.
-        update_cards_and()
     })
     
     //Checkbox behavior
@@ -293,4 +275,29 @@ function update_cards_and() {
             }
         }
     })
+}
+
+function search() {
+     //Check if search bar is empty
+     if (document.querySelector("#search-bar").value != "") {
+        //Remove posts that don't match the search
+        document.querySelectorAll("#place-name").forEach(name => {
+            if (name.innerHTML.toLowerCase().includes(document.querySelector("#search-bar").value.toLowerCase())) {
+                name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
+            } else {
+                name.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+            }
+            })
+    } else {
+        //Unhide all places
+        document.querySelectorAll("#place-name").forEach(name => {
+                name.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
+        })
+    }
+
+    //Hide cards based on checkbox filters
+    //Removes the places that don't match any filter.
+    update_cards_or()
+    //Remove the places that don't match all the filters from each column.
+    update_cards_and()
 }
