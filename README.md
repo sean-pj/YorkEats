@@ -1,6 +1,9 @@
 # YorkEats
 A website designed to help students, visitors and more find open locations to eat at York University. Created by Sean Murphy.
 
+![image](https://github.com/user-attachments/assets/88ff3537-49f8-4395-b4f9-5b499343d8f5)
+![image](https://github.com/user-attachments/assets/0f18a34a-c2fb-437e-9c7e-ffb8ed1930ce)
+
 ## User Guide
 ### Find places to eat at York
 1. Navigate to All Locations using the navbar
