@@ -4,6 +4,17 @@ A website designed to help students, visitors and more find open locations to ea
 ![image](https://github.com/user-attachments/assets/88ff3537-49f8-4395-b4f9-5b499343d8f5)
 ![image](https://github.com/user-attachments/assets/0f18a34a-c2fb-437e-9c7e-ffb8ed1930ce)
 
+## Summary
+### Purpose
+The purpose/goal of this project is to help my university's community by providing a quick and easy way to find, locate and filter through open restaurants on campus. 
+
+### Features
+A number of features required external research as referenced in the code. Some of these features are listed below
+* Restaurant Filters using JavaScript
+* Google API requests
+* Web scraping with Beautiful Soup
+* Various Boostrap Components (collapse, dropdown, etc)
+
 ## User Guide
 ### Find places to eat at York
 1. Navigate to All Locations using the navbar
@@ -33,20 +44,6 @@ A website designed to help students, visitors and more find open locations to ea
 2. Run the scrape_dir command (Updates JSON data)
 3. Run the update_db command (Updates models)
 4. Run the places_request command (Uploads google maps addresses and images to the website, requires an API key)
-
-## Distinctiveness and Complexity
-### Purpose
-The purpose/goal of this project is to provide information on the restaurants at York University. This goal is distinct from previous projects and unique to my community as a student at York University.
-
-### Features
-A number of features required external research as referenced in the code. Some of these features are listed below
-* Restaurant Filters using JavaScript
-* Google API requests
-* Web scraping with Beautiful Soup
-* Various Boostrap Components (collapse, dropdown, etc)
-
-### Summary
-My project aims to help my university's community by providing a quick and easy way to find, locate and filter through open restaurants on campus.  As a result of this tailored problem and solution, my project is distinct from other course projects. The many features required added complexity to the project as they involve applications of the course material in combination with external learning. Functions, and libraries unrelated to the material taught in the course needed to be researched and learned to implement these features. Which makes the project distinct from the previous projects which rely almost soley on the course material.
 
 ## File Descriptions
 ### dining_dir.json
