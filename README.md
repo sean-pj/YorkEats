@@ -6,7 +6,7 @@ A website designed to help students, visitors and more find open locations to ea
 
 ## Summary
 ### Purpose
-The purpose/goal of this project is to help my university's community by providing a quick and easy way to find, locate and filter through open restaurants on campus. 
+Help my university's community by providing a quick and easy way to find, locate and filter through open restaurants and eateries on campus. 
 
 ### Features
 A number of features required external research as referenced in the code. Some of these features are listed below
